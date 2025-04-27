@@ -31,7 +31,13 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   },
   {
@@ -117,6 +123,52 @@
       "우등"
     ],
     "departureTime": {
+      "hour": 12,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        10300
+      ],
+      "초등생": [
+        5200
+      ],
+      "중고생": [
+        8200
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "238",
+    "arrivalTerminalId": "201",
+    "durationInMinutes": [
+      75
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
       "hour": 13,
       "minute": 45
     },
@@ -136,7 +188,13 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3
+      ]
     }
   }
 ]

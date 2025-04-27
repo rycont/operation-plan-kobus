@@ -6,7 +6,8 @@
       330
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)삼화고속"
     ],
     "busClass": [
       "심야프리미엄"
@@ -32,6 +33,51 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "105",
+    "durationInMinutes": [
+      330
+    ],
+    "operator": [
+      "(주)삼화고속",
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "심야프리미엄",
+      "심야우등"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        76800,
+        59100
+      ],
+      "초등생": [
+        38400,
+        29600
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        6
+      ]
     }
   },
   {
@@ -111,7 +157,8 @@
       330
     ],
     "operator": [
-      "(주)삼화고속"
+      "(주)삼화고속",
+      "(주)동양고속"
     ],
     "busClass": [
       "심야프리미엄"
@@ -137,6 +184,81 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "105",
+    "durationInMinutes": [
+      330
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        64000
+      ],
+      "초등생": [
+        32000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "105",
+    "durationInMinutes": [
+      330
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        64000
+      ],
+      "초등생": [
+        32000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   }
 ]
