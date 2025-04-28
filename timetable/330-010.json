@@ -47,6 +47,46 @@
       "우등"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        20400
+      ],
+      "초등생": [
+        10200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "330",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      150
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
       "hour": 10,
       "minute": 0
     },
@@ -114,6 +154,46 @@
       "(주)삼화고속"
     ],
     "busClass": [
+      "고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        14000
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11200
+      ]
+    },
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "330",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      150
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
       "고속",
       "우등"
     ],
@@ -123,8 +203,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      45,
-      28
+      28,
+      45
     ],
     "fare": {
       "어른": [
@@ -212,86 +292,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "330",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        20400
-      ],
-      "초등생": [
-        10200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "330",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        14000
-      ],
-      "초등생": [
-        7000
-      ],
-      "중고생": [
-        11200
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
     }
   }
 ]
