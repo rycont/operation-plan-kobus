@@ -21,13 +21,16 @@
     ],
     "fare": {
       "어른": [
-        29700
+        29700,
+        28700
       ],
       "초등생": [
-        14900
+        14900,
+        14400
       ],
       "중고생": [
-        0
+        0,
+        23000
       ]
     },
     "pattern": {
@@ -66,7 +69,58 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "700",
+    "arrivalTerminalId": "380",
+    "durationInMinutes": [
+      185
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        28700
+      ],
+      "초등생": [
+        14400
+      ],
+      "중고생": [
+        23000
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3
+      ]
     }
   }
 ]
