@@ -66,7 +66,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   },
   {
@@ -311,7 +322,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   },
   {
@@ -556,7 +578,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   },
   {
@@ -696,7 +729,14 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
     }
   },
   {
@@ -976,7 +1016,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   },
   {
@@ -1221,7 +1272,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   },
   {
@@ -1291,7 +1353,14 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        7
+      ]
     }
   },
   {
@@ -1466,417 +1535,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
       "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
+      "fixedDays": [
+        1,
+        2,
+        3,
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
       ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
       "irregularDays": [
-        6,
-        7
+        4
       ]
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   }
 ]
