@@ -604,6 +604,47 @@
       "(주)동부고속"
     ],
     "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        27200
+      ],
+      "초등생": [
+        13600
+      ],
+      "중고생": [
+        21800
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        2,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "210",
+    "durationInMinutes": [
+      185
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "busClass": [
       "심야프리미엄"
     ],
     "departureTime": {
@@ -627,41 +668,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "210",
-    "durationInMinutes": [
-      185
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        27200
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21800
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   }
 ]
