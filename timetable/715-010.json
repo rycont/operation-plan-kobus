@@ -41,13 +41,13 @@
       "fixedDays": [
         1,
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        3
+        4
       ]
     }
   },
@@ -87,13 +87,13 @@
       "fixedDays": [
         1,
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        3
+        4
       ]
     }
   },
@@ -199,7 +199,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   },
   {
@@ -497,7 +508,8 @@
       250
     ],
     "operator": [
-      "(주)삼화고속"
+      "(주)삼화고속",
+      "(주)천일고속"
     ],
     "busClass": [
       "우등"
@@ -522,7 +534,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -810,18 +827,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "everyday"
     }
   },
   {
