@@ -136,12 +136,17 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
       ]
     }
   },
@@ -283,6 +288,52 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "840",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        24400
+      ],
+      "초등생": [
+        12200
+      ],
+      "중고생": [
+        17100
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
     }
   },
   {
@@ -527,12 +578,17 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3
       ]
     }
   },
@@ -604,47 +660,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "840",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      160
-    ],
-    "operator": [
-      "(주)경기고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        24400
-      ],
-      "초등생": [
-        12200
-      ],
-      "중고생": [
-        17100
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6,
-        7,
-        1
-      ]
     }
   }
 ]
