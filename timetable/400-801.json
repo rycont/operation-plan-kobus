@@ -76,59 +76,13 @@
       145
     ],
     "operator": [
-      "(주)삼화고속"
+      "속리산고속(주)"
     ],
     "busClass": [
       "우등"
     ],
     "departureTime": {
-      "hour": 10,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        19700
-      ],
-      "초등생": [
-        9900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
-      "irregularDays": [
-        6,
-        7,
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "400",
-    "arrivalTerminalId": "801",
-    "durationInMinutes": [
-      145
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 12,
+      "hour": 11,
       "minute": 0
     },
     "isTemporaryRoute": false,
@@ -147,17 +101,46 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "400",
+    "arrivalTerminalId": "801",
+    "durationInMinutes": [
+      145
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 1
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        19700
       ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
       "irregularDays": [
-        6,
-        7,
-        1,
-        2,
-        3
+        5,
+        6
       ]
     }
   },
@@ -238,60 +221,14 @@
       145
     ],
     "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        19700
-      ],
-      "초등생": [
-        9900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
-      "irregularDays": [
-        6,
-        7,
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "400",
-    "arrivalTerminalId": "801",
-    "durationInMinutes": [
-      145
-    ],
-    "operator": [
-      "(주)삼화고속"
+      "속리산고속(주)"
     ],
     "busClass": [
       "우등"
     ],
     "departureTime": {
       "hour": 19,
-      "minute": 30
+      "minute": 31
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -309,18 +246,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
-      "irregularDays": [
-        6,
-        7,
-        1,
-        2,
-        3
-      ]
+      "type": "even-odd"
     }
   }
 ]
