@@ -32,7 +32,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {
@@ -42,8 +53,8 @@
       30
     ],
     "operator": [
-      "(주)중앙고속",
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "busClass": [
       "우등"
