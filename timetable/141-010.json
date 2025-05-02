@@ -47,6 +47,49 @@
       "고속"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        6400
+      ],
+      "초등생": [
+        3200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "141",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      70
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "busClass": [
+      "고속"
+    ],
+    "departureTime": {
       "hour": 12,
       "minute": 0
     },
@@ -257,45 +300,6 @@
       "고속"
     ],
     "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        6400
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "141",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      70
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
       "hour": 20,
       "minute": 0
     },
@@ -315,10 +319,14 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2
       ]
     }
   },
@@ -354,10 +362,14 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2
       ]
     }
   }
