@@ -32,18 +32,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -115,6 +104,41 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "고려여객자동차(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -307,6 +331,41 @@
     ],
     "departureTime": {
       "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "천일여객(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 10,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -360,7 +419,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -482,6 +546,41 @@
       "우등"
     ],
     "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "천일여객(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
       "hour": 14,
       "minute": 0
     },
@@ -498,6 +597,41 @@
       ],
       "중고생": [
         0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "천일여객(주)"
+    ],
+    "busClass": [
+      "고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      44
+    ],
+    "fare": {
+      "어른": [
+        26400
+      ],
+      "초등생": [
+        13200
+      ],
+      "중고생": [
+        21100
       ]
     },
     "pattern": {
@@ -621,7 +755,6 @@
       280
     ],
     "operator": [
-      "고려여객자동차(주)",
       "천일여객(주)"
     ],
     "busClass": [
@@ -647,12 +780,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        2,
-        5
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -710,6 +838,41 @@
     "departureTime": {
       "hour": 16,
       "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "천일여객(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
