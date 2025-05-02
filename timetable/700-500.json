@@ -31,7 +31,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
     }
   },
   {
@@ -372,10 +383,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         5,
         6,
-        7,
-        1
+        7
       ]
     }
   },
@@ -386,7 +397,8 @@
       190
     ],
     "operator": [
-      "(주)삼화고속"
+      "(주)삼화고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등",
@@ -415,11 +427,14 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -637,6 +652,41 @@
       "우등"
     ],
     "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        28600
+      ],
+      "초등생": [
+        14300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "700",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      190
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
       "hour": 17,
       "minute": 10
     },
@@ -701,42 +751,8 @@
       190
     ],
     "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        28600
-      ],
-      "초등생": [
-        14300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "500",
-    "durationInMinutes": [
-      190
-    ],
-    "operator": [
-      "(주)삼화고속"
+      "(주)삼화고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등",
@@ -765,11 +781,14 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -893,11 +912,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6,
         1,
         2,
         3,
-        4
+        4,
+        6
       ]
     }
   },
