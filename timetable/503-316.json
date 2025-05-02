@@ -33,10 +33,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -192,6 +192,7 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         3,
         4,
         5,
@@ -199,8 +200,7 @@
         7
       ],
       "irregularDays": [
-        1,
-        2
+        1
       ]
     }
   },
@@ -615,7 +615,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -762,11 +767,11 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
-        5,
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -904,10 +909,12 @@
       100
     ],
     "operator": [
+      "(주)삼화고속",
       "(주)중앙고속"
     ],
     "busClass": [
-      "고속"
+      "고속",
+      "우등"
     ],
     "departureTime": {
       "hour": 16,
@@ -915,16 +922,20 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
+      28,
       45
     ],
     "fare": {
       "어른": [
-        12500
+        12500,
+        18700
       ],
       "초등생": [
-        6300
+        6300,
+        9400
       ],
       "중고생": [
+        0,
         10000
       ]
     },
