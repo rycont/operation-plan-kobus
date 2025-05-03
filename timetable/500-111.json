@@ -6,12 +6,12 @@
       185
     ],
     "operator": [
-      "(주)대원고속",
-      "(주)경기고속"
+      "(주)경기고속",
+      "(주)대원고속"
     ],
     "busClass": [
-      "프리미엄",
-      "우등"
+      "우등",
+      "프리미엄"
     ],
     "departureTime": {
       "hour": 7,
@@ -24,12 +24,12 @@
     ],
     "fare": {
       "어른": [
-        37800,
-        29100
+        29100,
+        37800
       ],
       "초등생": [
-        18900,
-        14600
+        14600,
+        18900
       ],
       "중고생": [
         0
@@ -37,6 +37,49 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "111",
+    "durationInMinutes": [
+      185
+    ],
+    "operator": [
+      "(주)경기고속",
+      "(주)대원고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        29100
+      ],
+      "초등생": [
+        14600
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        7
+      ],
+      "irregularDays": [
+        2
+      ]
     }
   },
   {
@@ -94,8 +137,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -230,12 +273,12 @@
       185
     ],
     "operator": [
-      "(주)대원고속",
-      "(주)경기고속"
+      "(주)경기고속",
+      "(주)대원고속"
     ],
     "busClass": [
-      "프리미엄",
-      "우등"
+      "우등",
+      "프리미엄"
     ],
     "departureTime": {
       "hour": 18,
@@ -248,12 +291,12 @@
     ],
     "fare": {
       "어른": [
-        37800,
-        29100
+        29100,
+        37800
       ],
       "초등생": [
-        18900,
-        14600
+        14600,
+        18900
       ],
       "중고생": [
         0
@@ -261,45 +304,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "111",
-    "durationInMinutes": [
-      185
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        29100
-      ],
-      "초등생": [
-        14600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
-      ]
     }
   },
   {
