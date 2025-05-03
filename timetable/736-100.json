@@ -6,7 +6,7 @@
       265
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)삼화고속"
     ],
     "busClass": [
       "심야프리미엄"
@@ -31,7 +31,53 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "736",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      265
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "심야우등"
+    ],
+    "departureTime": {
+      "hour": 0,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        49600
+      ],
+      "초등생": [
+        24800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -82,6 +128,41 @@
       "프리미엄"
     ],
     "departureTime": {
+      "hour": 15,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        53800
+      ],
+      "초등생": [
+        26900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "736",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      265
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
       "hour": 16,
       "minute": 35
     },
@@ -112,6 +193,41 @@
     ],
     "operator": [
       "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        53800
+      ],
+      "초등생": [
+        26900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "736",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      265
+    ],
+    "operator": [
+      "(주)동양고속"
     ],
     "busClass": [
       "심야프리미엄"
