@@ -6,9 +6,9 @@
       240
     ],
     "operator": [
-      "금호익스프레스(주)",
+      "(주)중앙고속",
       "(주)한일고속",
-      "(주)중앙고속"
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -43,8 +43,8 @@
       240
     ],
     "operator": [
-      "(주)한일고속",
       "(주)중앙고속",
+      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "busClass": [
@@ -70,18 +70,77 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6,
-        7,
-        1,
-        3
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "195",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        32700
       ],
-      "irregularDays": [
-        2
+      "초등생": [
+        16400
+      ],
+      "중고생": [
+        26200
       ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "195",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        32700
+      ],
+      "초등생": [
+        16400
+      ],
+      "중고생": [
+        26200
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -92,8 +151,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "금호익스프레스(주)",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -128,9 +187,9 @@
       240
     ],
     "operator": [
-      "금호익스프레스(주)",
+      "(주)중앙고속",
       "(주)한일고속",
-      "(주)중앙고속"
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -165,8 +224,8 @@
       240
     ],
     "operator": [
-      "(주)한일고속",
       "(주)중앙고속",
+      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "busClass": [
@@ -203,8 +262,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "금호익스프레스(주)",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -239,9 +298,9 @@
       240
     ],
     "operator": [
-      "금호익스프레스(주)",
+      "(주)중앙고속",
       "(주)한일고속",
-      "(주)중앙고속"
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
