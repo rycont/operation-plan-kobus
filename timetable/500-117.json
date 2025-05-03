@@ -38,10 +38,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -79,15 +79,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
-        7
+        4
       ],
       "irregularDays": [
         1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -130,10 +130,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -219,10 +219,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -265,10 +265,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -311,10 +311,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -357,10 +357,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -438,10 +438,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -491,8 +491,7 @@
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -535,10 +534,10 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -616,46 +615,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "117",
-    "durationInMinutes": [
-      260
-    ],
-    "operator": [
-      "광신고속"
-    ],
-    "busClass": [
-      "심야우등"
-    ],
-    "departureTime": {
-      "hour": 1,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        47800
-      ],
-      "초등생": [
-        23900
-      ],
-      "중고생": [
-        38200
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -690,7 +654,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -728,14 +703,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
-        6
+        2
       ],
       "irregularDays": [
         3,
         4,
         5,
-        7
+        6
       ]
     }
   },
@@ -771,7 +745,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -807,13 +792,12 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
         3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -849,7 +833,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -886,13 +881,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        7
+        3
       ],
       "irregularDays": [
         4,
         5,
-        6
+        7
       ]
     }
   },
@@ -928,7 +922,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -941,7 +946,6 @@
       "광신고속"
     ],
     "busClass": [
-      "심야우등",
       "심야프리미엄"
     ],
     "departureTime": {
@@ -950,21 +954,17 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      21,
-      28
+      21
     ],
     "fare": {
       "어른": [
-        47800,
         59800
       ],
       "초등생": [
-        23900,
         29900
       ],
       "중고생": [
-        0,
-        38200
+        0
       ]
     },
     "pattern": {
@@ -973,8 +973,7 @@
       "irregularDays": [
         3,
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -1049,8 +1048,7 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2,
-        6
+        2
       ]
     }
   },
@@ -1122,13 +1120,12 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
         3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -1199,12 +1196,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        2,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1344,12 +1336,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        2,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1385,41 +1372,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "117",
-    "durationInMinutes": [
-      260
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        39900
-      ],
-      "초등생": [
-        20000
-      ],
-      "중고생": [
-        31900
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1493,8 +1445,7 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2,
-        6
+        2
       ]
     }
   },
@@ -2489,8 +2440,7 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2,
-        6
+        2
       ]
     }
   },
