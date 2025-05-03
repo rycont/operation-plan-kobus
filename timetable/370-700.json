@@ -12,41 +12,6 @@
       "우등"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        30500
-      ],
-      "초등생": [
-        15300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "370",
-    "arrivalTerminalId": "700",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
-      "(주)충남고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
       "hour": 9,
       "minute": 20
     },
@@ -66,18 +31,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -102,15 +56,12 @@
     ],
     "fare": {
       "어른": [
-        30300,
-        30500
+        30300
       ],
       "초등생": [
-        15200,
-        15300
+        15200
       ],
       "중고생": [
-        0,
         24200
       ]
     },
