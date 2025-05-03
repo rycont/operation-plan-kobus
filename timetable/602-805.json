@@ -32,18 +32,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -138,7 +127,8 @@
       170
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)삼화고속"
     ],
     "busClass": [
       "우등"
@@ -164,9 +154,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        6
+      ],
       "irregularDays": [
-        6,
         7
       ]
     }
@@ -327,14 +318,49 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        5
+        5,
+        6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "805",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        21200
+      ],
+      "초등생": [
+        10600
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -375,12 +401,12 @@
         1,
         3,
         4,
-        6,
         7
       ],
       "irregularDays": [
         2,
-        5
+        5,
+        6
       ]
     }
   },
@@ -476,7 +502,8 @@
       170
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)삼화고속"
     ],
     "busClass": [
       "우등"
@@ -502,9 +529,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        6
+      ],
       "irregularDays": [
-        6,
         7
       ]
     }
