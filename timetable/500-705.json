@@ -31,18 +31,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -93,41 +82,6 @@
       "우등"
     ],
     "departureTime": {
-      "hour": 9,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        21900
-      ],
-      "초등생": [
-        11000
-      ],
-      "중고생": [
-        17500
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "705",
-    "durationInMinutes": [
-      155
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
       "hour": 10,
       "minute": 55
     },
@@ -148,41 +102,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "705",
-    "durationInMinutes": [
-      155
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 33
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        21900
-      ],
-      "초등생": [
-        11000
-      ],
-      "중고생": [
-        17500
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -502,6 +421,41 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "705",
+    "durationInMinutes": [
+      155
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 33
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        21900
+      ],
+      "초등생": [
+        11000
+      ],
+      "중고생": [
+        17500
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
