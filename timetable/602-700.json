@@ -233,41 +233,6 @@
       "(주)동양고속"
     ],
     "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        37500
-      ],
-      "초등생": [
-        18800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "700",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
       "우등",
       "프리미엄"
     ],
@@ -339,12 +304,9 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -525,6 +487,41 @@
       "days": [
         5
       ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "700",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        28900
+      ],
+      "초등생": [
+        14500
+      ],
+      "중고생": [
+        23100
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -795,6 +792,41 @@
       "(주)동양고속"
     ],
     "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        28900
+      ],
+      "초등생": [
+        14500
+      ],
+      "중고생": [
+        23100
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "700",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
       "우등",
       "프리미엄"
     ],
@@ -911,41 +943,6 @@
         6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "700",
-    "durationInMinutes": [
-      180
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        28900
-      ],
-      "초등생": [
-        14500
-      ],
-      "중고생": [
-        23100
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1131,8 +1128,7 @@
       "(주)동양고속"
     ],
     "busClass": [
-      "우등",
-      "프리미엄"
+      "우등"
     ],
     "departureTime": {
       "hour": 17,
@@ -1140,20 +1136,16 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      21,
       28
     ],
     "fare": {
       "어른": [
-        28900,
-        37500
+        28900
       ],
       "초등생": [
-        14500,
-        18800
+        14500
       ],
       "중고생": [
-        0,
         23100
       ]
     },
