@@ -47,6 +47,41 @@
       "우등"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        24300
+      ],
+      "초등생": [
+        12200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "630",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 20
     },
@@ -82,6 +117,41 @@
       "고속"
     ],
     "departureTime": {
+      "hour": 9,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      44
+    ],
+    "fare": {
+      "어른": [
+        18700
+      ],
+      "초등생": [
+        9400
+      ],
+      "중고생": [
+        15000
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "630",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "고속"
+    ],
+    "departureTime": {
       "hour": 12,
       "minute": 10
     },
@@ -102,6 +172,41 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "630",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        24300
+      ],
+      "초등생": [
+        12200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -224,6 +329,51 @@
       "(주)중앙고속"
     ],
     "busClass": [
+      "고속",
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28,
+      44
+    ],
+    "fare": {
+      "어른": [
+        18700,
+        24300
+      ],
+      "초등생": [
+        9400,
+        12200
+      ],
+      "중고생": [
+        0,
+        15000
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "630",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
       "우등"
     ],
     "departureTime": {
@@ -259,6 +409,7 @@
       "(주)중앙고속"
     ],
     "busClass": [
+      "고속",
       "우등"
     ],
     "departureTime": {
@@ -267,21 +418,30 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28
+      28,
+      44
     ],
     "fare": {
       "어른": [
+        18700,
         24300
       ],
       "초등생": [
+        9400,
         12200
       ],
       "중고생": [
-        0
+        0,
+        15000
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -431,6 +591,51 @@
       "irregularDays": [
         1,
         2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "630",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "고속",
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28,
+      44
+    ],
+    "fare": {
+      "어른": [
+        18700,
+        24300
+      ],
+      "초등생": [
+        9400,
+        12200
+      ],
+      "중고생": [
+        0,
+        15000
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
