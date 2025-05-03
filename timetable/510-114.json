@@ -68,15 +68,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        6,
         7
       ],
       "irregularDays": [
         1,
-        3,
-        4,
-        5
+        2,
+        6
       ]
     }
   },
@@ -113,14 +110,12 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         3,
-        6,
+        4,
+        5,
         7
       ]
     }
@@ -157,13 +152,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "even-odd"
     }
   }
 ]
