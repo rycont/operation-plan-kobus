@@ -9,8 +9,8 @@
       "(주)동양고속"
     ],
     "busClass": [
-      "프리미엄",
-      "우등"
+      "우등",
+      "프리미엄"
     ],
     "departureTime": {
       "hour": 6,
@@ -23,12 +23,12 @@
     ],
     "fare": {
       "어른": [
-        41700,
-        31600
+        31600,
+        41700
       ],
       "초등생": [
-        20500,
-        15800
+        15800,
+        20500
       ],
       "중고생": [
         0
@@ -36,96 +36,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "724",
-    "arrivalTerminalId": "110",
-    "durationInMinutes": [
-      215
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "프리미엄",
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21,
-      28
-    ],
-    "fare": {
-      "어른": [
-        41700,
-        31600
-      ],
-      "초등생": [
-        20500,
-        15800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        4,
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "724",
-    "arrivalTerminalId": "110",
-    "durationInMinutes": [
-      215
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "프리미엄",
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21,
-      28
-    ],
-    "fare": {
-      "어른": [
-        41700,
-        31600
-      ],
-      "초등생": [
-        20500,
-        15800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        4,
-        1,
-        2,
-        3
-      ]
     }
   },
   {
@@ -147,8 +57,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -168,6 +78,93 @@
       "days": [
         5,
         7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "724",
+    "arrivalTerminalId": "110",
+    "durationInMinutes": [
+      215
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        31600,
+        41700
+      ],
+      "초등생": [
+        15800,
+        20500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "724",
+    "arrivalTerminalId": "110",
+    "durationInMinutes": [
+      215
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        31600,
+        41700
+      ],
+      "초등생": [
+        15800,
+        20500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
       ]
     }
   },
@@ -190,8 +187,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -228,13 +225,13 @@
       "프리미엄"
     ],
     "departureTime": {
-      "hour": 12,
-      "minute": 30
+      "hour": 18,
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -270,13 +267,13 @@
       "프리미엄"
     ],
     "departureTime": {
-      "hour": 18,
-      "minute": 0
+      "hour": 19,
+      "minute": 20
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -294,7 +291,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        6
+        1,
+        2,
+        3,
+        4
       ]
     }
   }
