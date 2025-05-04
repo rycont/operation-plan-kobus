@@ -67,11 +67,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -108,41 +107,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "505",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      270
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        34700
-      ],
-      "초등생": [
-        17400
-      ],
-      "중고생": [
-        27800
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
