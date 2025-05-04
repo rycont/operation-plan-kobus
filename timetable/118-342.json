@@ -66,13 +66,15 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        4,
-        5,
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
-        3
+        3,
+        4,
+        5
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
