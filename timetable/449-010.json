@@ -340,12 +340,9 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6
-      ],
-      "irregularDays": [
-        7
       ]
     }
   },
@@ -497,41 +494,6 @@
         5,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "449",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      115
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        16900
-      ],
-      "초등생": [
-        8500
-      ],
-      "중고생": [
-        13500
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
