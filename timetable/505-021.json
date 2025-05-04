@@ -66,12 +66,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -387,15 +382,14 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -576,7 +570,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -611,7 +610,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -794,8 +798,7 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2,
-        7
+        2
       ]
     }
   },
@@ -950,9 +953,43 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2,
-        7
+        2
       ]
+    }
+  },
+  {
+    "departureTerminalId": "505",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        36000
+      ],
+      "초등생": [
+        18000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1035,8 +1072,7 @@
       "금호익스프레스(주)"
     ],
     "busClass": [
-      "고속",
-      "우등"
+      "고속"
     ],
     "departureTime": {
       "hour": 15,
@@ -1044,20 +1080,16 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
       45
     ],
     "fare": {
       "어른": [
-        25900,
-        36000
+        25900
       ],
       "초등생": [
-        13000,
-        18000
+        13000
       ],
       "중고생": [
-        0,
         20700
       ]
     },
@@ -1066,8 +1098,7 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2,
-        7
+        2
       ]
     }
   },
@@ -1117,7 +1148,7 @@
     ],
     "busClass": [
       "고속",
-      "프리미엄"
+      "우등"
     ],
     "departureTime": {
       "hour": 16,
@@ -1125,17 +1156,17 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      21,
+      28,
       45
     ],
     "fare": {
       "어른": [
         25900,
-        46800
+        36000
       ],
       "초등생": [
         13000,
-        23400
+        18000
       ],
       "중고생": [
         0,
@@ -1143,7 +1174,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
