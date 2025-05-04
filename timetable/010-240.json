@@ -4789,41 +4789,6 @@
       90
     ],
     "operator": [
-      "(주)중앙고속"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      44
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6800
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "240",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
       "(주)동부고속"
     ],
     "busClass": [
@@ -5026,41 +4991,6 @@
       90
     ],
     "operator": [
-      "(주)중앙고속"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      44
-    ],
-    "fare": {
-      "어른": [
-        8500
-      ],
-      "초등생": [
-        4300
-      ],
-      "중고생": [
-        6800
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "240",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
       "(주)동부고속"
     ],
     "busClass": [
@@ -5140,11 +5070,9 @@
       90
     ],
     "operator": [
-      "(주)동부고속",
-      "(주)중앙고속"
+      "(주)동부고속"
     ],
     "busClass": [
-      "심야우등",
       "심야프리미엄"
     ],
     "departureTime": {
@@ -5153,16 +5081,13 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      21,
-      28
+      21
     ],
     "fare": {
       "어른": [
-        14800,
         19300
       ],
       "초등생": [
-        7400,
         9700
       ],
       "중고생": [
@@ -5170,15 +5095,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        7
       ]
     }
   },
@@ -5378,41 +5300,6 @@
     },
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "240",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "busClass": [
-      "심야우등"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        14800
-      ],
-      "초등생": [
-        7400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
