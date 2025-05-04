@@ -67,14 +67,13 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        6,
+        7
       ]
     }
   },
@@ -201,6 +200,41 @@
       "우등"
     ],
     "departureTime": {
+      "hour": 10,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        42300
+      ],
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "595",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      290
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
       "hour": 11,
       "minute": 30
     },
@@ -268,6 +302,41 @@
       "금호익스프레스(주)"
     ],
     "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        42300
+      ],
+      "초등생": [
+        21200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "595",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      290
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
       "프리미엄"
     ],
     "departureTime": {
@@ -338,46 +407,11 @@
       "금호익스프레스(주)"
     ],
     "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42300
-      ],
-      "초등생": [
-        21200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "595",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      290
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
       "프리미엄"
     ],
     "departureTime": {
       "hour": 15,
-      "minute": 20
+      "minute": 50
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
@@ -395,112 +429,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "595",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      290
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42300
-      ],
-      "초등생": [
-        21200
-      ],
-      "중고생": [
-        0
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
       ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "595",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      290
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        55000
-      ],
-      "초등생": [
-        27500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "595",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      290
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        42300
-      ],
-      "초등생": [
-        21200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
