@@ -19,8 +19,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -59,8 +59,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -86,8 +86,8 @@
       220
     ],
     "operator": [
-      "(주)삼화고속",
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)삼화고속"
     ],
     "busClass": [
       "우등",
@@ -99,8 +99,8 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
@@ -139,137 +139,17 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      21
-    ],
-    "fare": {
-      "어른": [
-        32100,
-        41700
-      ],
-      "초등생": [
-        16100,
-        20900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "805",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "프리미엄",
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
       21,
       28
     ],
     "fare": {
       "어른": [
-        41700,
-        32100
-      ],
-      "초등생": [
-        20900,
-        16100
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "805",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)삼화고속",
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "우등",
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28,
-      21
-    ],
-    "fare": {
-      "어른": [
         32100,
         41700
       ],
       "초등생": [
         16100,
         20900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "805",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "심야우등",
-      "심야프리미엄"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28,
-      21
-    ],
-    "fare": {
-      "어른": [
-        38500,
-        50000
-      ],
-      "초등생": [
-        19300,
-        25000
       ],
       "중고생": [
         0
@@ -316,6 +196,231 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        21700
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      45
+    ],
+    "fare": {
+      "어른": [
+        21700
+      ],
+      "초등생": [
+        10900
+      ],
+      "중고생": [
+        17400
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        32100,
+        41700
+      ],
+      "초등생": [
+        16100,
+        20900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        32100
+      ],
+      "초등생": [
+        16100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        32100,
+        41700
+      ],
+      "초등생": [
+        16100,
+        20900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "심야우등",
+      "심야프리미엄"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        38500,
+        50000
+      ],
+      "초등생": [
+        19300,
+        25000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
