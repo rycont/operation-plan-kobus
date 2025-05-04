@@ -48,41 +48,6 @@
     ],
     "departureTime": {
       "hour": 8,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        30500
-      ],
-      "초등생": [
-        15300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "582",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      230
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -114,7 +79,8 @@
       "(주)중앙고속"
     ],
     "busClass": [
-      "고속"
+      "고속",
+      "우등"
     ],
     "departureTime": {
       "hour": 9,
@@ -122,17 +88,61 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
+      28,
       44
     ],
     "fare": {
       "어른": [
-        23400
+        23400,
+        30500
       ],
       "초등생": [
-        11700
+        11700,
+        15300
       ],
       "중고생": [
+        0,
         18700
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "582",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        30500
+      ],
+      "초등생": [
+        15300
+      ],
+      "중고생": [
+        0
       ]
     },
     "pattern": {
@@ -604,8 +614,7 @@
       "(주)중앙고속"
     ],
     "busClass": [
-      "고속",
-      "우등"
+      "고속"
     ],
     "departureTime": {
       "hour": 16,
@@ -613,30 +622,21 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
       44
     ],
     "fare": {
       "어른": [
-        23400,
-        30500
+        23400
       ],
       "초등생": [
-        11700,
-        15300
+        11700
       ],
       "중고생": [
-        0,
         18700
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
