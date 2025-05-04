@@ -108,10 +108,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -152,41 +152,6 @@
         5,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "450",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        17100
-      ],
-      "초등생": [
-        8600
-      ],
-      "중고생": [
-        13700
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -291,8 +256,8 @@
         8600
       ],
       "중고생": [
-        13700,
-        9400
+        9400,
+        13700
       ]
     },
     "pattern": {
@@ -331,8 +296,8 @@
         8600
       ],
       "중고생": [
-        13700,
-        9400
+        9400,
+        13700
       ]
     },
     "pattern": {
@@ -413,10 +378,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -567,12 +532,12 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
-        5,
-        7,
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        7
       ]
     }
   },
@@ -610,10 +575,10 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -654,46 +619,6 @@
         5,
         6,
         7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "450",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        17100
-      ],
-      "초등생": [
-        8600
-      ],
-      "중고생": [
-        13700
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
       ]
     }
   },
@@ -799,8 +724,8 @@
         8600
       ],
       "중고생": [
-        13700,
-        9400
+        9400,
+        13700
       ]
     },
     "pattern": {
@@ -839,8 +764,8 @@
         8600
       ],
       "중고생": [
-        13700,
-        9400
+        9400,
+        13700
       ]
     },
     "pattern": {
@@ -991,12 +916,12 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        4,
-        5,
-        7,
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        7
       ]
     }
   },
@@ -1032,16 +957,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        5,
-        6
       ]
     }
   },
