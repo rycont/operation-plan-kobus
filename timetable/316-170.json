@@ -12,41 +12,6 @@
       "우등"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        15600
-      ],
-      "초등생": [
-        7800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "316",
-    "arrivalTerminalId": "170",
-    "durationInMinutes": [
-      115
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
       "hour": 11,
       "minute": 35
     },
@@ -66,11 +31,15 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2
       ]
     }
   },
@@ -111,6 +80,81 @@
         5,
         6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "316",
+    "arrivalTerminalId": "170",
+    "durationInMinutes": [
+      115
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        15600
+      ],
+      "초등생": [
+        7800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "316",
+    "arrivalTerminalId": "170",
+    "durationInMinutes": [
+      115
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        15600
+      ],
+      "초등생": [
+        7800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "everyday"
     }
   }
 ]
