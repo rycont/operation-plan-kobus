@@ -144,6 +144,7 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
+        1,
         2,
         3
       ]
@@ -332,12 +333,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -709,7 +705,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -1013,7 +1014,12 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
