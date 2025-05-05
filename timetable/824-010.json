@@ -228,11 +228,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         4,
         7
       ],
       "irregularDays": [
+        1,
         2,
         3,
         5,
@@ -1151,10 +1151,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4
       ],
       "irregularDays": [
-        1,
         7
       ]
     }
@@ -1369,6 +1369,7 @@
         4
       ],
       "irregularDays": [
+        1,
         5,
         6,
         7
@@ -1668,10 +1669,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3
       ],
       "irregularDays": [
+        1,
         4,
         5,
         6,
@@ -1755,6 +1756,7 @@
         2
       ],
       "irregularDays": [
+        1,
         3,
         4,
         5,
@@ -1874,18 +1876,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1933,8 +1924,7 @@
     ],
     "operator": [
       "(주)천일고속",
-      "(주)한일고속",
-      "금호익스프레스(주)"
+      "(주)한일고속"
     ],
     "busClass": [
       "우등"
@@ -1959,18 +1949,7 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -2082,7 +2061,18 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -2207,10 +2197,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4
       ],
       "irregularDays": [
-        1,
         7
       ]
     }
@@ -2251,10 +2241,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         6
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
