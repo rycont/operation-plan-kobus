@@ -7,7 +7,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -33,9 +34,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        1
+      ],
       "irregularDays": [
-        1,
         3
       ]
     }
@@ -84,7 +86,6 @@
         7
       ],
       "irregularDays": [
-        1,
         3,
         4,
         5
@@ -98,7 +99,8 @@
       89
     ],
     "operator": [
-      "(주)동부고속"
+      "(주)동부고속",
+      "(주)한일고속"
     ],
     "busClass": [
       "우등"
@@ -123,7 +125,10 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -171,7 +176,6 @@
         7
       ],
       "irregularDays": [
-        1,
         3,
         4
       ]
@@ -184,6 +188,7 @@
       89
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속",
       "(주)천일고속"
     ],
@@ -211,9 +216,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        1
+      ],
       "irregularDays": [
-        1,
         3
       ]
     }
@@ -227,6 +233,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)한일고속",
       "금호익스프레스(주)",
@@ -255,16 +262,13 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        2,
         4,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        1,
-        2
       ]
     }
   },
@@ -276,6 +280,7 @@
     ],
     "operator": [
       "(주)중앙고속",
+      "(주)천일고속",
       "속리산고속(주)"
     ],
     "busClass": [
@@ -302,9 +307,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        1
+      ],
       "irregularDays": [
-        1,
         3
       ]
     }
@@ -318,7 +324,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)",
@@ -355,7 +360,6 @@
         7
       ],
       "irregularDays": [
-        1,
         2,
         3
       ]
@@ -453,7 +457,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
@@ -461,6 +464,7 @@
         6
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -682,6 +686,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -714,13 +719,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -734,7 +739,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -870,7 +874,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
@@ -878,6 +881,7 @@
         6
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
