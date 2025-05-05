@@ -390,13 +390,15 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
-        4,
         5
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -546,8 +548,7 @@
       "속리산고속(주)"
     ],
     "busClass": [
-      "우등",
-      "프리미엄"
+      "우등"
     ],
     "departureTime": {
       "hour": 16,
@@ -555,24 +556,32 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      21,
       28
     ],
     "fare": {
       "어른": [
-        4100,
-        5300
+        4100
       ],
       "초등생": [
-        2100,
-        2700
+        2100
       ],
       "중고생": [
         0
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -741,13 +750,15 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
-        3,
         4,
         5
+      ],
+      "irregularDays": [
+        2,
+        3
       ]
     }
   },
