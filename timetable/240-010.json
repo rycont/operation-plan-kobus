@@ -31,7 +31,10 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -101,7 +104,10 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -136,13 +142,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -178,15 +182,13 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
         5
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -348,15 +350,13 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
         5
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -551,7 +551,10 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        1
+      ]
     }
   },
   {
@@ -694,9 +697,10 @@
     },
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        1
+      ],
       "irregularDays": [
-        1,
         3
       ]
     }
@@ -733,13 +737,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -776,15 +778,13 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
         5
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1138,13 +1138,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1181,16 +1179,14 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4,
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1204,7 +1200,6 @@
       "(주)중앙고속"
     ],
     "busClass": [
-      "고속",
       "우등"
     ],
     "departureTime": {
@@ -1213,32 +1208,25 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      44
+      28
     ],
     "fare": {
       "어른": [
-        8500,
         12400
       ],
       "초등생": [
-        4300,
         6200
       ],
       "중고생": [
-        0,
-        6800
+        0
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        2
       ]
     }
   },
@@ -1274,14 +1262,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1358,14 +1344,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1552,14 +1536,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1635,14 +1617,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -1799,14 +1779,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -2166,12 +2144,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         3,
         4
       ],
       "irregularDays": [
-        1,
         6
       ]
     }
@@ -2364,14 +2342,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -2529,14 +2505,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -2612,14 +2586,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -2695,14 +2667,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -2854,14 +2824,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3267,7 +3235,6 @@
       "(주)중앙고속"
     ],
     "busClass": [
-      "고속",
       "우등"
     ],
     "departureTime": {
@@ -3276,32 +3243,25 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      28,
-      44
+      28
     ],
     "fare": {
       "어른": [
-        8500,
         12400
       ],
       "초등생": [
-        4300,
         6200
       ],
       "중고생": [
-        0,
-        6800
+        0
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        2
       ]
     }
   },
@@ -3337,14 +3297,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3421,14 +3379,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3620,14 +3576,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3703,14 +3657,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3786,14 +3738,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3869,14 +3819,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -3952,14 +3900,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -4156,14 +4102,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -4436,14 +4380,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -4595,14 +4537,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -4759,14 +4699,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -4917,14 +4855,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -5080,14 +5016,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -5244,14 +5178,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
