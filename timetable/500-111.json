@@ -46,7 +46,6 @@
       185
     ],
     "operator": [
-      "(주)경기고속",
       "(주)대원고속"
     ],
     "busClass": [
@@ -72,13 +71,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
         7
-      ],
-      "irregularDays": [
-        2
       ]
     }
   },
