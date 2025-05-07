@@ -6,41 +6,6 @@
       200
     ],
     "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "심야우등"
-    ],
-    "departureTime": {
-      "hour": 0,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        36900
-      ],
-      "초등생": [
-        18500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "500",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
       "(주)중앙고속"
     ],
     "busClass": [
@@ -68,11 +33,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -144,14 +109,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -187,14 +149,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -307,12 +266,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -390,12 +349,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -433,11 +392,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -591,12 +550,9 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -632,12 +588,9 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -748,11 +701,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -829,12 +782,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5,
         6
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -878,11 +831,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -957,13 +910,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         6
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1241,14 +1191,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         6
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1293,12 +1240,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -1337,13 +1284,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -1382,11 +1329,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -1464,12 +1411,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -1513,12 +1460,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
-        4,
+        2,
         7
       ],
       "irregularDays": [
-        2
+        3,
+        4
       ]
     }
   },
@@ -1900,15 +1847,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1991,12 +1935,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2154,12 +2098,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2236,11 +2180,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2284,13 +2228,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2407,13 +2351,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2534,11 +2478,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         6
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -2616,14 +2560,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -2737,11 +2678,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -2778,7 +2719,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4
+      ]
     }
   },
   {
@@ -2894,11 +2846,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2943,13 +2895,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -3107,13 +3059,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -3222,13 +3174,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3312,13 +3261,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -3354,13 +3303,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3396,13 +3342,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3440,11 +3383,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -3523,11 +3466,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         6
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -3720,12 +3663,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -3954,13 +3897,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -4192,12 +4135,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -4234,14 +4177,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4279,11 +4219,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -4512,12 +4452,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         6
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -4784,15 +4724,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4831,11 +4768,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -4876,13 +4813,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         6,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -4920,10 +4857,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -4960,7 +4897,18 @@
       ]
     },
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4
+      ]
     }
   },
   {
@@ -5077,11 +5025,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -5161,13 +5109,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5329,11 +5274,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -5372,10 +5317,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -5412,13 +5357,10 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5454,15 +5396,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5499,15 +5438,12 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5549,14 +5485,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5679,13 +5612,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -5724,13 +5657,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -5771,13 +5704,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -5860,14 +5793,11 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5911,13 +5841,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -6037,13 +5967,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -6427,11 +6357,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -6505,13 +6435,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -6548,12 +6478,9 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -6711,11 +6638,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -6945,11 +6872,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -7357,12 +7284,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        3,
+        2,
         4,
         5
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
