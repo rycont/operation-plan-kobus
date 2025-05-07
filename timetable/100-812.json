@@ -139,6 +139,46 @@
       140
     ],
     "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        24800
+      ],
+      "초등생": [
+        12400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "812",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
       "(주)동양고속",
       "(주)삼화고속"
     ],
@@ -216,11 +256,11 @@
       "fixedDays": [
         1,
         2,
-        3,
         6,
         7
       ],
       "irregularDays": [
+        3,
         4,
         5
       ]
