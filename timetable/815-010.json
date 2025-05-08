@@ -338,7 +338,8 @@
     ],
     "operator": [
       "(주)천일고속",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -363,7 +364,18 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
     }
   },
   {
@@ -374,7 +386,8 @@
     ],
     "operator": [
       "(주)천일고속",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "busClass": [
       "우등"
@@ -399,7 +412,18 @@
       ]
     },
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
