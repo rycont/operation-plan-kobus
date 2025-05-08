@@ -106,10 +106,7 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        4
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -153,6 +150,41 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "503",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        42600
+      ],
+      "초등생": [
+        21300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
