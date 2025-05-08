@@ -363,8 +363,7 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        5,
-        6
+        5
       ]
     }
   },
@@ -471,6 +470,41 @@
     },
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "117",
+    "durationInMinutes": [
+      260
+    ],
+    "operator": [
+      "광신고속"
+    ],
+    "busClass": [
+      "심야우등"
+    ],
+    "departureTime": {
+      "hour": 1,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        47800
+      ],
+      "초등생": [
+        23900
+      ],
+      "중고생": [
+        38200
+      ]
+    },
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
