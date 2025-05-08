@@ -2307,6 +2307,7 @@
       "(주)중앙고속"
     ],
     "busClass": [
+      "우등",
       "프리미엄"
     ],
     "departureTime": {
@@ -2315,25 +2316,32 @@
     },
     "isTemporaryRoute": false,
     "seatsAmount": [
-      21
+      21,
+      28
     ],
     "fare": {
       "어른": [
+        34500,
         44800
       ],
       "초등생": [
+        17300,
         22400
       ],
       "중고생": [
-        0
+        0,
+        27600
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
