@@ -480,15 +480,13 @@
       ]
     },
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -573,14 +571,14 @@
       "type": "irregular",
       "fixedDays": [
         3,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        4
       ]
     }
   },
@@ -622,13 +620,15 @@
       ]
     },
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4,
         5
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -720,7 +720,6 @@
     ],
     "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
       "속리산고속(주)"
     ],
     "busClass": [
