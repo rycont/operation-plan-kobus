@@ -1,82 +1,46 @@
 [
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "370",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
-      "(주)충남고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 30
+    {
+        "departureTerminalId": "700",
+        "arrivalTerminalId": "370",
+        "durationInMinutes": [200],
+        "operator": ["(주)충남고속"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [30300],
+            "초등생": [15200],
+            "중고생": [24200]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        30300
-      ],
-      "초등생": [
-        15200
-      ],
-      "중고생": [
-        24200
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "700",
+        "arrivalTerminalId": "370",
+        "durationInMinutes": [200],
+        "operator": ["(주)충남고속"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [30300],
+            "초등생": [15200],
+            "중고생": [24200]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "370",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
-      "(주)충남고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        30300
-      ],
-      "초등생": [
-        15200
-      ],
-      "중고생": [
-        24200
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]

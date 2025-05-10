@@ -1,808 +1,426 @@
 [
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 6,
-      "minute": 10
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 6,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 7,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
     },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속"],
+        "busClass": ["고속"],
+        "departureTime": {
+            "hour": 8,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [22800],
+            "초등생": [11400],
+            "중고생": [18200]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 9,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "even-odd"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 10,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [1, 2, 3, 4, 6, 7],
+            "irregularDays": [5]
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 11,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [5, 7],
+            "irregularDays": [1, 2, 3, 4, 6]
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 12,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 13,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "even-odd"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 14,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["금호익스프레스(주)"],
+        "busClass": ["고속"],
+        "departureTime": {
+            "hour": 15,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [45],
+        "fare": {
+            "어른": [22800],
+            "초등생": [11400],
+            "중고생": [18200]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 16,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 17,
+            "minute": 20
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "even-odd"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "irregular",
+            "fixedDays": [7],
+            "irregularDays": [1, 2, 3, 4, 5, 6]
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 18,
+            "minute": 50
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["우등"],
+        "departureTime": {
+            "hour": 19,
+            "minute": 40
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [33800],
+            "초등생": [16900],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["금호익스프레스(주)"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 10
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "even-odd"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["프리미엄"],
+        "departureTime": {
+            "hour": 20,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [43900],
+            "초등생": [22000],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["심야우등"],
+        "departureTime": {
+            "hour": 22,
+            "minute": 0
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [28],
+        "fare": {
+            "어른": [40500],
+            "초등생": [20300],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
+    },
+    {
+        "departureTerminalId": "021",
+        "arrivalTerminalId": "515",
+        "durationInMinutes": [220],
+        "operator": ["(주)천일고속", "금호익스프레스(주)"],
+        "busClass": ["심야프리미엄"],
+        "departureTime": {
+            "hour": 23,
+            "minute": 30
+        },
+        "isTemporaryRoute": false,
+        "seatsAmount": [21],
+        "fare": {
+            "어른": [52600],
+            "초등생": [26300],
+            "중고생": [0]
+        },
+        "stops": [[""]],
+        "pattern": {
+            "type": "everyday"
+        }
     }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        22800
-      ],
-      "초등생": [
-        11400
-      ],
-      "중고생": [
-        18200
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "irregularDays": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        22800
-      ],
-      "초등생": [
-        11400
-      ],
-      "중고생": [
-        18200
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "심야우등"
-    ],
-    "departureTime": {
-      "hour": 22,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        40500
-      ],
-      "초등생": [
-        20300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "심야프리미엄"
-    ],
-    "departureTime": {
-      "hour": 23,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        52600
-      ],
-      "초등생": [
-        26300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "everyday"
-    }
-  }
 ]
