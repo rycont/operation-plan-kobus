@@ -30,6 +30,11 @@
         26500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,54 +70,13 @@
         26500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "509",
-    "arrivalTerminalId": "112",
-    "durationInMinutes": [
-      265
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        33100
-      ],
-      "초등생": [
-        16600
-      ],
-      "중고생": [
-        26500
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        3,
-        4,
-        5
-      ]
+      "type": "even-odd"
     }
   }
 ]
