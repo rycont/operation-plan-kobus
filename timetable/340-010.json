@@ -30,6 +30,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,6 +70,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -100,6 +110,11 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -135,6 +150,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -170,6 +190,11 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "even-odd"
     }
@@ -205,11 +230,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -243,6 +270,11 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -283,11 +315,18 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -322,6 +361,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -357,11 +401,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -395,13 +441,13 @@
         8500
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -435,6 +481,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -470,11 +521,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -508,6 +561,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "specific-day",
       "days": [
@@ -546,6 +604,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -581,11 +644,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -619,11 +684,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -657,6 +724,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -697,11 +769,18 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -736,6 +815,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -771,11 +855,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -809,8 +895,53 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "340",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        10600
+      ],
+      "초등생": [
+        5300
+      ],
+      "중고생": [
+        8500
+      ]
+    },
+    "via": [
+      [
+        ""
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -844,11 +975,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -882,6 +1015,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -917,11 +1055,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -955,6 +1095,11 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -990,13 +1135,13 @@
         8500
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1030,6 +1175,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1065,6 +1215,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1100,6 +1255,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1135,6 +1295,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1170,6 +1335,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1205,11 +1375,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1243,6 +1415,11 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1278,11 +1455,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1316,6 +1495,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1351,11 +1535,13 @@
         6500
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1389,6 +1575,11 @@
         8500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1424,6 +1615,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1459,6 +1655,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -1494,6 +1695,11 @@
         6500
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
