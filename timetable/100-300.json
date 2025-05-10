@@ -30,6 +30,13 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,9 +72,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6
       ]
@@ -104,11 +119,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -142,307 +161,386 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등",
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21,
-      28
-    ],
-    "fare": {
-      "어른": [
-        18900,
-        24500
-      ],
-      "초등생": [
-        9500,
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        24500
-      ],
-      "초등생": [
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등",
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21,
-      28
-    ],
-    "fare": {
-      "어른": [
-        18900,
-        24500
-      ],
-      "초등생": [
-        9500,
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        18900
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        18900
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        24500
-      ],
-      "초등생": [
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "busClass": [
-      "우등",
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21,
-      28
-    ],
-    "fare": {
-      "어른": [
-        18900,
-        24500
-      ],
-      "초등생": [
-        9500,
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
         3,
+        4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        18900,
+        24500
+      ],
+      "초등생": [
+        9500,
+        12300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        24500
+      ],
+      "초등생": [
+        12300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        18900,
+        24500
+      ],
+      "초등생": [
+        9500,
+        12300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        18900
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        18900
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        18900
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        24500
+      ],
+      "초등생": [
+        12300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21
+    ],
+    "fare": {
+      "어른": [
+        24500
+      ],
+      "초등생": [
+        12300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4
       ]
     }
   },
@@ -477,11 +575,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -515,11 +617,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -553,10 +659,19 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6
       ]
     }
   },
@@ -591,11 +706,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -629,16 +748,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        6
       ]
     }
   },
@@ -673,11 +798,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -711,9 +840,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         6,
         7
       ]
@@ -750,16 +887,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -794,9 +937,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         6,
         7
       ]
@@ -838,16 +989,22 @@
         10300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -882,11 +1039,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -920,11 +1081,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -963,17 +1128,23 @@
         10300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        6
       ]
     }
   },
@@ -1008,11 +1179,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1046,11 +1221,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1084,11 +1263,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1127,16 +1310,22 @@
         10300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        7
       ]
     }
   },
@@ -1171,11 +1360,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1213,12 +1406,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1252,11 +1448,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1294,16 +1494,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        7
       ]
     }
   },
@@ -1338,9 +1544,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6
       ]
@@ -1377,9 +1591,18 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
         7
       ]
     }
@@ -1415,15 +1638,21 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -1458,9 +1687,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6
       ]
@@ -1497,11 +1734,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1535,15 +1776,21 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -1578,9 +1825,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6,
         7
@@ -1597,6 +1852,48 @@
       "(주)삼화고속"
     ],
     "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        18900
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "busClass": [
       "우등",
       "프리미엄"
     ],
@@ -1622,16 +1919,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        7
       ]
     }
   },
@@ -1666,9 +1969,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6
       ]
@@ -1705,11 +2016,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1743,11 +2058,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1785,16 +2104,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        5
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     }
   },
@@ -1829,11 +2154,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1867,11 +2196,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1905,11 +2238,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1943,16 +2280,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        7
       ]
     }
   },
@@ -1987,11 +2330,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2025,12 +2372,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2064,16 +2414,22 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        6
       ]
     }
   },
@@ -2108,11 +2464,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2146,11 +2506,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2184,9 +2548,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6
       ]
@@ -2223,15 +2595,21 @@
         10300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -2266,11 +2644,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2304,11 +2686,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2342,11 +2728,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2385,17 +2775,23 @@
         10300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        4,
-        6,
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4,
+        6,
+        7
       ]
     }
   },
@@ -2430,11 +2826,15 @@
         10300
       ]
     },
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2473,9 +2873,17 @@
         10300
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         6,
         7
       ]
@@ -2516,6 +2924,13 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -2555,6 +2970,13 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -2590,9 +3012,17 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         5,
         6,
         7
