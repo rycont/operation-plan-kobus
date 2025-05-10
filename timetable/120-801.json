@@ -1,114 +1,232 @@
 [
-    {
-        "departureTerminalId": "120",
-        "arrivalTerminalId": "801",
-        "durationInMinutes": [205],
-        "operator": ["속리산고속(주)"],
-        "busClass": ["우등", "프리미엄"],
-        "departureTime": {
-            "hour": 8,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21, 28],
-        "fare": {
-            "어른": [29500, 38300],
-            "초등생": [14800, 19200],
-            "중고생": [0]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "120",
+    "arrivalTerminalId": "801",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 0
     },
-    {
-        "departureTerminalId": "120",
-        "arrivalTerminalId": "801",
-        "durationInMinutes": [205],
-        "operator": ["속리산고속(주)"],
-        "busClass": ["우등"],
-        "departureTime": {
-            "hour": 9,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29500],
-            "초등생": [14800],
-            "중고생": [0]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "specific-day",
-            "days": [6, 7]
-        }
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        29500,
+        38300
+      ],
+      "초등생": [
+        14800,
+        19200
+      ],
+      "중고생": [
+        0
+      ]
     },
-    {
-        "departureTerminalId": "120",
-        "arrivalTerminalId": "801",
-        "durationInMinutes": [205],
-        "operator": ["속리산고속(주)"],
-        "busClass": ["우등"],
-        "departureTime": {
-            "hour": 11,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [28],
-        "fare": {
-            "어른": [29500],
-            "초등생": [14800],
-            "중고생": [0]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "specific-day",
-            "days": [6, 7]
+    "stops": [
+      [
+        {
+          "name": ""
         }
-    },
-    {
-        "departureTerminalId": "120",
-        "arrivalTerminalId": "801",
-        "durationInMinutes": [205],
-        "operator": ["속리산고속(주)"],
-        "busClass": ["우등", "프리미엄"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21, 28],
-        "fare": {
-            "어른": [29500, 38300],
-            "초등생": [14800, 19200],
-            "중고생": [0]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "everyday"
-        }
-    },
-    {
-        "departureTerminalId": "120",
-        "arrivalTerminalId": "801",
-        "durationInMinutes": [205],
-        "operator": ["속리산고속(주)"],
-        "busClass": ["우등", "프리미엄"],
-        "departureTime": {
-            "hour": 19,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [21, 28],
-        "fare": {
-            "어른": [29500, 38300],
-            "초등생": [14800, 19200],
-            "중고생": [0]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "everyday"
-        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "120",
+    "arrivalTerminalId": "801",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "120",
+    "arrivalTerminalId": "801",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "120",
+    "arrivalTerminalId": "801",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        29500,
+        38300
+      ],
+      "초등생": [
+        14800,
+        19200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "120",
+    "arrivalTerminalId": "801",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "busClass": [
+      "우등",
+      "프리미엄"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      21,
+      28
+    ],
+    "fare": {
+      "어른": [
+        29500,
+        38300
+      ],
+      "초등생": [
+        14800,
+        19200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
