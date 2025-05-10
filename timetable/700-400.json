@@ -6,6 +6,7 @@
       175
     ],
     "operator": [
+      "(주)한일고속",
       "속리산고속(주)"
     ],
     "busClass": [
@@ -30,8 +31,24 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -66,6 +83,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -102,9 +124,15 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        6,
         7
       ],
       "irregularDays": [
@@ -112,8 +140,7 @@
         2,
         3,
         4,
-        5,
-        6
+        5
       ]
     }
   },
@@ -149,6 +176,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -185,10 +217,15 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        7
       ],
       "irregularDays": [
         1,
@@ -196,7 +233,7 @@
         3,
         4,
         5,
-        7
+        6
       ]
     }
   },
@@ -232,6 +269,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
