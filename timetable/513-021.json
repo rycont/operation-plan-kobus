@@ -31,6 +31,13 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -42,8 +49,7 @@
       220
     ],
     "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "busClass": [
       "우등"
@@ -67,19 +73,15 @@
         0
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   }
 ]
