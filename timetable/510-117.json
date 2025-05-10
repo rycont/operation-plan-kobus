@@ -30,6 +30,11 @@
         48000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,8 +70,18 @@
         48000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        5
+      ]
     }
   },
   {
@@ -100,13 +115,16 @@
         48000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
         1,
-        5,
-        6,
         7
       ]
     }
@@ -142,6 +160,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -177,6 +200,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
