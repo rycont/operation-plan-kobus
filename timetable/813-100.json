@@ -31,6 +31,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
@@ -78,6 +83,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
@@ -125,17 +135,22 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         2,
         3,
         4,
-        5,
-        6
+        5
       ],
       "irregularDays": [
         1,
+        6,
         7
       ]
     }
@@ -171,6 +186,11 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "specific-day",
       "days": [
@@ -211,16 +231,21 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         1,
         2,
         3,
-        4,
-        5
+        4
       ],
       "irregularDays": [
+        5,
         6,
         7
       ]
@@ -257,13 +282,13 @@
         0
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
+    "via": [
+      [
+        ""
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -298,18 +323,23 @@
         0
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         1,
         2,
         3,
+        6,
         7
       ],
       "irregularDays": [
         4,
-        5,
-        6
+        5
       ]
     }
   }
