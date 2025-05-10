@@ -31,6 +31,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -67,6 +72,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "specific-day",
       "days": [
@@ -107,16 +117,21 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         2,
-        3,
-        5
+        3
       ],
       "irregularDays": [
         1,
-        4
+        4,
+        5
       ]
     }
   },
@@ -152,6 +167,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
@@ -194,6 +214,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -230,6 +255,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "specific-day",
       "days": [
@@ -270,16 +300,21 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         1,
-        4
+        4,
+        5
       ],
       "irregularDays": [
         2,
-        3,
-        5
+        3
       ]
     }
   },
@@ -315,6 +350,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
@@ -323,7 +363,6 @@
       "irregularDays": [
         2,
         3,
-        5,
         6
       ]
     }
@@ -359,6 +398,51 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "805",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "busClass": [
+      "우등"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "seatsAmount": [
+      28
+    ],
+    "fare": {
+      "어른": [
+        21200
+      ],
+      "초등생": [
+        10600
+      ],
+      "중고생": [
+        17000
+      ]
+    },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "even-odd"
     }
@@ -395,17 +479,22 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         1,
         4,
+        5,
         7
       ],
       "irregularDays": [
         2,
         3,
-        5,
         6
       ]
     }
@@ -442,6 +531,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "specific-day",
       "days": [
@@ -482,16 +576,21 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         2,
-        3,
-        5
+        3
       ],
       "irregularDays": [
         1,
-        4
+        4,
+        5
       ]
     }
   },
@@ -527,6 +626,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
@@ -568,6 +672,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "even-odd"
     }
@@ -604,6 +713,11 @@
         17000
       ]
     },
+    "via": [
+      [
+        ""
+      ]
+    ],
     "pattern": {
       "type": "even-odd"
     }
