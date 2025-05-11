@@ -30,9 +30,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -70,9 +72,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -110,9 +114,11 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -150,9 +156,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -190,9 +198,11 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -230,13 +240,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -270,9 +285,11 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -315,18 +332,18 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -361,9 +378,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -401,53 +420,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "340",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
+      "type": "specific-day",
+      "days": [
+        6
       ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -481,9 +465,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -521,13 +507,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -561,9 +552,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -604,9 +597,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -644,13 +639,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -684,13 +684,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -724,9 +729,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -769,18 +776,18 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -815,9 +822,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -855,13 +864,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -895,53 +909,15 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "340",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -975,13 +951,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1015,9 +996,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1055,13 +1038,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1095,53 +1083,15 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "340",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "via": [
-      [
-        ""
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1175,9 +1125,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1215,9 +1167,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1255,9 +1209,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1295,9 +1251,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1335,9 +1293,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1375,13 +1335,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1415,9 +1380,11 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1455,13 +1422,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1495,9 +1467,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1535,13 +1509,18 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1575,9 +1554,11 @@
         8500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1615,9 +1596,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1655,9 +1638,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
@@ -1695,9 +1680,11 @@
         6500
       ]
     },
-    "via": [
+    "stops": [
       [
-        ""
+        {
+          "name": ""
+        }
       ]
     ],
     "pattern": {
