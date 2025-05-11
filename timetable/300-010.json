@@ -1162,11 +1162,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        6
+        7
       ]
     }
   },
@@ -1395,11 +1395,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        6
+        7
       ]
     }
   },
@@ -1540,11 +1540,11 @@
         2,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         3,
-        6
+        7
       ]
     }
   },
@@ -1599,48 +1599,6 @@
       120
     ],
     "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        16600
-      ],
-      "초등생": [
-        8300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
       "(주)동양고속",
       "(주)중앙고속",
       "금호익스프레스(주)"
@@ -1819,48 +1777,6 @@
       120
     ],
     "operator": [
-      "(주)천일고속"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        16600
-      ],
-      "초등생": [
-        8300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
       "(주)동양고속",
       "(주)중앙고속",
       "금호익스프레스(주)"
@@ -1901,11 +1817,11 @@
         2,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         4,
-        6
+        7
       ]
     }
   },
@@ -2002,11 +1918,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        6
+        7
       ]
     }
   },
@@ -2549,11 +2465,11 @@
         2,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         3,
-        6
+        7
       ]
     }
   },
@@ -2600,7 +2516,18 @@
       ]
     ],
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -2784,11 +2711,11 @@
         2,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         3,
-        6
+        7
       ]
     }
   },
@@ -2878,17 +2805,14 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
-        5
-      ],
-      "irregularDays": [
-        6,
-        7
+        5,
+        6
       ]
     }
   },

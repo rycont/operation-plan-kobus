@@ -215,11 +215,11 @@
         2,
         3,
         4,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        5
+        5,
+        7
       ]
     }
   },
@@ -539,8 +539,7 @@
       220
     ],
     "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "busClass": [
       "우등"
@@ -572,18 +571,7 @@
       ]
     ],
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -670,48 +658,6 @@
     ],
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        43900
-      ],
-      "초등생": [
-        22000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
