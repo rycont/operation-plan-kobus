@@ -8,17 +8,11 @@
     "operator": [
       "(주)중앙고속"
     ],
-    "busClass": [
-      "우등"
-    ],
     "departureTime": {
       "hour": 15,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         40700
@@ -37,6 +31,16 @@
         }
       ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "032-703",
     "pattern": {
       "type": "everyday"
     }
