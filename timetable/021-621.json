@@ -30,6 +30,13 @@
         16800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "everyday"
     }
@@ -65,14 +72,15 @@
         16800
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        6,
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
+    ],
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -106,18 +114,25 @@
         16800
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
     "pattern": {
       "type": "irregular",
       "fixedDays": [
         2,
         3,
         4,
-        5
-      ],
-      "irregularDays": [
-        1,
+        5,
         6,
         7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   }
