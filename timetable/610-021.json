@@ -6,7 +6,7 @@
       145
     ],
     "operator": [
-      "(주)중앙고속",
+      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -56,8 +56,7 @@
       145
     ],
     "operator": [
-      "(주)중앙고속",
-      "금호익스프레스(주)"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 5,
@@ -251,8 +250,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 6,
@@ -444,13 +442,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         2,
-        3,
         7
       ]
     }
@@ -557,7 +555,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 7,
@@ -595,13 +594,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        3,
         4,
         7
       ],
       "irregularDays": [
+        1,
         2,
-        3,
         5,
         6
       ]
@@ -701,12 +700,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         4,
         5,
         6
       ],
       "irregularDays": [
-        2,
         3,
         7
       ]
@@ -965,7 +964,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 9,
@@ -1003,12 +1003,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         3,
         6
       ],
       "irregularDays": [
         1,
-        2,
         4,
         5,
         7
@@ -1202,13 +1202,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         6,
         7
       ],
       "irregularDays": [
+        1,
         4,
         5
       ]
@@ -1316,69 +1316,69 @@
     ],
     "operator": [
       "(주)중앙고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        15000
+      ],
+      "초등생": [
+        7500
+      ],
+      "중고생": [
+        12000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "021-610",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5
+      ],
+      "irregularDays": [
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "610",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      145
+    ],
+    "operator": [
+      "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        15000
-      ],
-      "초등생": [
-        7500
-      ],
-      "중고생": [
-        12000
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "021-610",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        5
-      ],
-      "irregularDays": [
-        3,
-        4,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "610",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      145
-    ],
-    "operator": [
-      "(주)중앙고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 10,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -1414,11 +1414,11 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        3,
         6
       ],
       "irregularDays": [
         1,
-        3,
         4,
         5,
         7
@@ -1529,8 +1529,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 11,
@@ -1568,11 +1567,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         6
       ],
       "irregularDays": [
+        1,
         2,
         4,
         5,
@@ -1636,7 +1635,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 12,
@@ -1674,12 +1674,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         3,
         7
       ],
       "irregularDays": [
         1,
-        2,
         4,
         5,
         6
@@ -1694,7 +1694,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 12,
@@ -1732,13 +1733,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        3,
         4,
         7
       ],
       "irregularDays": [
+        1,
         2,
-        3,
         5,
         6
       ]
@@ -1800,8 +1801,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -1839,11 +1839,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         7
       ],
       "irregularDays": [
+        1,
         2,
         4,
         5,
@@ -1966,7 +1966,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 14,
@@ -2004,12 +2005,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         3,
         6
       ],
       "irregularDays": [
         1,
-        2,
         4,
         5,
         7
@@ -2208,13 +2209,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4,
         5,
         7
       ],
       "irregularDays": [
-        2,
         6
       ]
     }
@@ -2227,8 +2228,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 16,
@@ -2334,7 +2334,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 16,
@@ -2373,11 +2374,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         5
       ],
       "irregularDays": [
         2,
-        3,
         4,
         6,
         7
@@ -2440,7 +2441,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 17,
@@ -2478,13 +2480,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        3,
         4,
         7
       ],
       "irregularDays": [
+        1,
         2,
-        3,
         5,
         6
       ]
@@ -2498,7 +2500,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 17,
@@ -2536,11 +2539,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        2,
         5
       ],
       "irregularDays": [
-        2,
+        1,
         3,
         4,
         6,
@@ -2604,7 +2607,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -2643,11 +2647,11 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        3,
         5
       ],
       "irregularDays": [
         1,
-        3,
         4,
         6,
         7
@@ -2662,7 +2666,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -2700,12 +2705,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         3,
         6
       ],
       "irregularDays": [
         1,
-        2,
         4,
         5,
         7
@@ -2768,8 +2773,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -2807,11 +2811,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         6
       ],
       "irregularDays": [
+        1,
         3,
         4,
         5,
@@ -2923,8 +2927,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 20,
@@ -2982,7 +2985,8 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 20,
@@ -3021,11 +3025,11 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        3,
         6
       ],
       "irregularDays": [
         1,
-        3,
         4,
         5,
         7
@@ -3088,8 +3092,7 @@
     ],
     "operator": [
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 21,
@@ -3127,11 +3130,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         6
       ],
       "irregularDays": [
+        1,
         2,
         4,
         5,
