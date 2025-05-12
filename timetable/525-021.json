@@ -151,6 +151,52 @@
     ],
     "departureTime": {
       "hour": 8,
+      "minute": 1
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34700
+      ],
+      "초등생": [
+        17400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-525",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "525",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 25
     },
     "isTemporaryRoute": false,
