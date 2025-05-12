@@ -90,10 +90,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         4
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -431,52 +431,6 @@
     ],
     "departureTime": {
       "hour": 1,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        47800
-      ],
-      "초등생": [
-        23900
-      ],
-      "중고생": [
-        38200
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등"
-      ]
-    },
-    "routeId": "117-500",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "117",
-    "durationInMinutes": [
-      260
-    ],
-    "operator": [
-      "광신고속"
-    ],
-    "departureTime": {
-      "hour": 1,
       "minute": 15
     },
     "isTemporaryRoute": false,
@@ -739,12 +693,7 @@
     },
     "routeId": "117-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
+      "type": "even-odd"
     }
   },
   {

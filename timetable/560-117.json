@@ -8,17 +8,11 @@
     "operator": [
       "금호익스프레스(주)"
     ],
-    "busClass": [
-      "심야프리미엄"
-    ],
     "departureTime": {
       "hour": 1,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         61300
@@ -30,6 +24,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "심야프리미엄"
+      ]
+    },
+    "routeId": "117-560",
     "pattern": {
       "type": "everyday"
     }
@@ -43,17 +54,11 @@
     "operator": [
       "금호익스프레스(주)"
     ],
-    "busClass": [
-      "심야우등"
-    ],
     "departureTime": {
-      "hour": 2,
+      "hour": 1,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         47100
@@ -65,6 +70,79 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "117-560",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "560",
+    "arrivalTerminalId": "117",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 2,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        47100
+      ],
+      "초등생": [
+        23600
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "117-560",
     "pattern": {
       "type": "everyday"
     }
