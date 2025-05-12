@@ -55,6 +55,56 @@
       "(주)삼화고속"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34700
+      ],
+      "초등생": [
+        17400
+      ],
+      "중고생": [
+        27800
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "100-505",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "505",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      270
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 40
     },
