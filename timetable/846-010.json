@@ -1,91 +1,191 @@
 [
-    {
-        "departureTerminalId": "846",
-        "arrivalTerminalId": "010",
-        "durationInMinutes": [205],
-        "operator": ["(주)천일고속"],
-        "busClass": ["고속"],
-        "departureTime": {
-            "hour": 7,
-            "minute": 30
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [20600],
-            "초등생": [10300],
-            "중고생": [16500]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "everyday"
-        }
+  {
+    "departureTerminalId": "846",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 30
     },
-    {
-        "departureTerminalId": "846",
-        "arrivalTerminalId": "010",
-        "durationInMinutes": [205],
-        "operator": ["(주)천일고속"],
-        "busClass": ["고속"],
-        "departureTime": {
-            "hour": 10,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [20600],
-            "초등생": [10300],
-            "중고생": [16500]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "specific-day",
-            "days": [5, 6, 7]
-        }
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
     },
-    {
-        "departureTerminalId": "846",
-        "arrivalTerminalId": "010",
-        "durationInMinutes": [205],
-        "operator": ["(주)천일고속"],
-        "busClass": ["고속"],
-        "departureTime": {
-            "hour": 13,
-            "minute": 0
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [20600],
-            "초등생": [10300],
-            "중고생": [16500]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "everyday"
+    "stops": [
+      [
+        {
+          "name": ""
         }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
     },
-    {
-        "departureTerminalId": "846",
-        "arrivalTerminalId": "010",
-        "durationInMinutes": [205],
-        "operator": ["(주)천일고속"],
-        "busClass": ["고속"],
-        "departureTime": {
-            "hour": 18,
-            "minute": 50
-        },
-        "isTemporaryRoute": false,
-        "seatsAmount": [45],
-        "fare": {
-            "어른": [20600],
-            "초등생": [10300],
-            "중고생": [16500]
-        },
-        "stops": [[""]],
-        "pattern": {
-            "type": "everyday"
-        }
+    "routeId": "010-846",
+    "pattern": {
+      "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "846",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-846",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "846",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-846",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "846",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      205
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-846",
+    "pattern": {
+      "type": "everyday"
+    }
+  }
 ]
