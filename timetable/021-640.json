@@ -148,6 +148,63 @@
     ],
     "departureTime": {
       "hour": 10,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23100
+      ],
+      "초등생": [
+        11600
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "640-021",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "irregularDays": [
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "640",
+    "durationInMinutes": [
+      170
+    ],
+    "operator": [
+      "호남고속"
+    ],
+    "departureTime": {
+      "hour": 10,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -183,8 +240,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        2,
-        3,
         4,
         5,
         7
@@ -345,10 +400,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        17000
+        17000,
+        23100
       ],
       "초등생": [
-        8500
+        8500,
+        11600
       ],
       "중고생": [
         0
@@ -364,21 +421,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         41
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "640-021",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        2,
-        3,
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
