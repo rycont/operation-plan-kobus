@@ -1461,11 +1461,10 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         6
       ],
       "irregularDays": [
-        2,
-        3,
         4,
         5
       ]
@@ -1518,13 +1517,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         6,
         7
       ],
       "irregularDays": [
         1,
+        2,
         4,
         5
       ]
@@ -1861,7 +1860,8 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "(주)한일고속"
     ],
     "departureTime": {
       "hour": 16,
@@ -1899,12 +1899,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         5,
         7
       ],
       "irregularDays": [
-        2,
-        3,
         4
       ]
     }
@@ -2000,15 +1999,12 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
+        3,
         4,
         6
-      ],
-      "irregularDays": [
-        2,
-        3
       ]
     }
   },
@@ -2062,13 +2058,13 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3,
         4
       ]
     }
@@ -2120,12 +2116,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
+        2,
         5,
         7
       ],
       "irregularDays": [
-        2
+        3
       ]
     }
   },
@@ -2231,12 +2227,15 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
         4,
         6
+      ],
+      "irregularDays": [
+        2,
+        3
       ]
     }
   },
@@ -2391,12 +2390,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         5,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        2,
+        3
       ]
     }
   },
@@ -2544,11 +2544,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         5
       ],
       "irregularDays": [
         1,
+        2,
+        3,
         6,
         7
       ]
