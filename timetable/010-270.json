@@ -507,7 +507,8 @@
         6
       ],
       "irregularDays": [
-        5
+        5,
+        7
       ]
     }
   },
@@ -701,6 +702,52 @@
     "routeId": "270-010",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "270",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19900
+      ],
+      "초등생": [
+        10000
+      ],
+      "중고생": [
+        13900
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "270-010",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
