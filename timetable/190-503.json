@@ -102,6 +102,52 @@
       200
     ],
     "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28700
+      ],
+      "초등생": [
+        14400
+      ],
+      "중고생": [
+        23000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "503-190",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "190",
+    "arrivalTerminalId": "503",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
       "(주)중앙고속",
       "(주)한일고속",
       "금호익스프레스(주)"
@@ -333,6 +379,52 @@
     "routeId": "503-190",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "190",
+    "arrivalTerminalId": "503",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        28700
+      ],
+      "초등생": [
+        14400
+      ],
+      "중고생": [
+        23000
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "503-190",
+    "pattern": {
+      "type": "even-odd"
     }
   }
 ]

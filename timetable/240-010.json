@@ -237,13 +237,15 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4,
         5
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -449,13 +451,15 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4,
         5
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -765,6 +769,52 @@
       90
     ],
     "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -921,12 +971,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        8500
+        8500,
+        12400
       ],
       "초등생": [
-        4300
+        4300,
+        6200
       ],
       "중고생": [
+        0,
         6800
       ]
     },
@@ -940,21 +993,26 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4,
         5
+      ],
+      "irregularDays": [
+        3,
+        6
       ]
     }
   },
@@ -1006,6 +1064,52 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1117,6 +1221,52 @@
       90
     ],
     "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
       "(주)동부고속",
       "(주)중앙고속"
     ],
@@ -1260,12 +1410,65 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
-        3,
         4,
         5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
         6,
         7
       ]
@@ -1367,14 +1570,16 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4,
         6,
         7
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -1472,12 +1677,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -1576,12 +1783,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -1681,6 +1890,52 @@
     "routeId": "010-240",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1823,12 +2078,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -1926,12 +2183,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -2132,12 +2391,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -2594,12 +2855,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -2810,6 +3073,7 @@
       90
     ],
     "operator": [
+      "(주)동부고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -2819,12 +3083,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        8500
+        8500,
+        12400
       ],
       "초등생": [
-        4300
+        4300,
+        6200
       ],
       "중고생": [
+        0,
         6800
       ]
     },
@@ -2838,20 +3105,25 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3,
+        6
       ]
     }
   },
@@ -3053,12 +3325,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -3156,12 +3430,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -3259,12 +3535,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -3460,12 +3738,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4065,12 +4345,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4169,12 +4451,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4421,12 +4705,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4524,12 +4810,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4627,12 +4915,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4730,12 +5020,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -4833,12 +5125,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -5090,12 +5384,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -5445,12 +5741,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -5646,12 +5944,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -5852,12 +6152,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -6052,12 +6354,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -6257,12 +6561,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -6463,12 +6769,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
