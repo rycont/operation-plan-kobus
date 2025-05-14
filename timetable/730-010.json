@@ -8,17 +8,11 @@
     "operator": [
       "천일여객(주)"
     ],
-    "busClass": [
-      "프리미엄"
-    ],
     "departureTime": {
       "hour": 5,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         45200,
@@ -31,15 +25,32 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
+        2,
         3,
         4,
         5,
-        6,
-        1,
-        2
+        6
       ]
     }
   },
@@ -51,18 +62,12 @@
     ],
     "operator": [
       "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "프리미엄"
     ],
     "departureTime": {
       "hour": 6,
       "minute": 10
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         45200,
@@ -75,6 +80,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -87,18 +109,12 @@
     ],
     "operator": [
       "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 7,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -110,6 +126,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -122,18 +155,12 @@
     ],
     "operator": [
       "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 7,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -145,6 +172,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -157,18 +201,12 @@
     ],
     "operator": [
       "천일여객(주)"
-    ],
-    "busClass": [
-      "프리미엄"
     ],
     "departureTime": {
       "hour": 8,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         45200,
@@ -181,6 +219,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -193,18 +248,12 @@
     ],
     "operator": [
       "천일여객(주)"
-    ],
-    "busClass": [
-      "프리미엄"
     ],
     "departureTime": {
       "hour": 9,
       "minute": 50
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         45200,
@@ -217,6 +266,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -229,53 +295,12 @@
     ],
     "operator": [
       "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 10,
       "minute": 40
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -287,43 +312,25 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -334,18 +341,12 @@
     ],
     "operator": [
       "천일여객(주)"
-    ],
-    "busClass": [
-      "프리미엄"
     ],
     "departureTime": {
       "hour": 11,
       "minute": 30
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         45200,
@@ -358,6 +359,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -370,58 +388,12 @@
     ],
     "operator": [
       "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 12,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -433,48 +405,25 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
     }
   },
   {
@@ -486,17 +435,11 @@
     "operator": [
       "고려여객자동차(주)"
     ],
-    "busClass": [
-      "프리미엄"
-    ],
     "departureTime": {
       "hour": 13,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
     "fare": {
       "어른": [
         45200,
@@ -509,6 +452,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -520,54 +480,13 @@
       250
     ],
     "operator": [
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 55
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      45
-    ],
-    "fare": {
-      "어른": [
-        25900
-      ],
-      "초등생": [
-        13000
-      ],
-      "중고생": [
-        20700
-      ]
-    },
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
       "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 14,
       "minute": 0
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -579,6 +498,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -591,145 +527,12 @@
     ],
     "operator": [
       "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)",
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)",
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "고속",
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28,
-      44
-    ],
-    "fare": {
-      "어른": [
-        38600,
-        25900
-      ],
-      "초등생": [
-        19300,
-        13000
-      ],
-      "중고생": [
-        0,
-        20700
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 15,
       "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -741,6 +544,23 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
@@ -752,20 +572,13 @@
       250
     ],
     "operator": [
-      "고려여객자동차(주)",
       "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
     ],
     "departureTime": {
       "hour": 16,
       "minute": 5
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
     "fare": {
       "어른": [
         38600
@@ -777,199 +590,23 @@
         0
       ]
     },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2,
-        7
+    "stops": [
+      [
+        {
+          "name": ""
+        }
       ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
     ],
-    "operator": [
-      "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        45200,
-        50200
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
       ],
-      "초등생": [
-        25100
-      ],
-      "중고생": [
-        0
+      "busClass": [
+        "우등"
       ]
     },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        50200
-      ],
-      "초등생": [
-        25100
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)",
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "고려여객자동차(주)"
-    ],
-    "busClass": [
-      "우등"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
-    ],
-    "fare": {
-      "어른": [
-        38600
-      ],
-      "초등생": [
-        19300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "730",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "천일여객(주)"
-    ],
-    "busClass": [
-      "프리미엄"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "seatsAmount": [
-      21
-    ],
-    "fare": {
-      "어른": [
-        50200
-      ],
-      "초등생": [
-        25100
-      ],
-      "중고생": [
-        0
-      ]
-    },
+    "routeId": "010-730",
     "pattern": {
       "type": "even-odd"
     }
@@ -983,17 +620,58 @@
     "operator": [
       "고려여객자동차(주)"
     ],
-    "busClass": [
-      "우등"
-    ],
     "departureTime": {
-      "hour": 18,
-      "minute": 40
+      "hour": 16,
+      "minute": 20
     },
     "isTemporaryRoute": false,
-    "seatsAmount": [
-      28
+    "fare": {
+      "어른": [
+        45200,
+        50200
+      ],
+      "초등생": [
+        25100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
     ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-730",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "730",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
+      "고려여객자동차(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
     "fare": {
       "어른": [
         38600
@@ -1005,6 +683,69 @@
         0
       ]
     },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "730",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      250
+    ],
+    "operator": [
+      "고려여객자동차(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        38600
+      ],
+      "초등생": [
+        19300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-730",
     "pattern": {
       "type": "everyday"
     }
