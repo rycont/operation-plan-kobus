@@ -56,6 +56,52 @@
     ],
     "departureTime": {
       "hour": 8,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        30100
+      ],
+      "초등생": [
+        15100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-120",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "120",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      195
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 20
     },
     "isTemporaryRoute": false,
