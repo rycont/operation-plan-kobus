@@ -48,18 +48,7 @@
     },
     "routeId": "715-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -213,18 +202,7 @@
     },
     "routeId": "715-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -394,12 +372,12 @@
       "fixedDays": [
         1,
         2,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        3,
         4
       ]
     }
@@ -545,64 +523,7 @@
     },
     "routeId": "715-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "715",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 36
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38300
-      ],
-      "초등생": [
-        19200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "715-010",
-    "pattern": {
-      "type": "even-odd"
+      "type": "everyday"
     }
   },
   {
