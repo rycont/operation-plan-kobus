@@ -48,64 +48,7 @@
     },
     "routeId": "010-716",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "716",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 0,
-      "minute": 31
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        45900
-      ],
-      "초등생": [
-        23000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등"
-      ]
-    },
-    "routeId": "010-716",
-    "pattern": {
-      "type": "even-odd"
+      "type": "everyday"
     }
   },
   {
@@ -648,18 +591,7 @@
     },
     "routeId": "010-716",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -711,64 +643,7 @@
     },
     "routeId": "010-716",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "716",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      250
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 1
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38300
-      ],
-      "초등생": [
-        19200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-716",
-    "pattern": {
-      "type": "even-odd"
+      "type": "everyday"
     }
   }
 ]

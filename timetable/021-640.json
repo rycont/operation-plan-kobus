@@ -185,10 +185,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         5,
         7
       ]
@@ -237,13 +237,7 @@
     },
     "routeId": "640-021",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        4,
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -400,11 +394,9 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        17000,
         23100
       ],
       "초등생": [
-        8500,
         11600
       ],
       "중고생": [
@@ -421,11 +413,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        41
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
