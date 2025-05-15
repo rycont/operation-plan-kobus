@@ -2305,6 +2305,52 @@
       215
     ],
     "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34500
+      ],
+      "초등생": [
+        17300
+      ],
+      "중고생": [
+        27600
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "723-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "723",
+    "durationInMinutes": [
+      215
+    ],
+    "operator": [
       "(주)동양고속",
       "(주)중앙고속"
     ],
@@ -2991,11 +3037,14 @@
     },
     "routeId": "723-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },

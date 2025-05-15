@@ -92,13 +92,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        5,
+        6,
         7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        5,
-        6
+        4
       ]
     }
   },
@@ -195,15 +196,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        1,
+        6,
+        7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -253,12 +254,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4
+        4,
+        5,
+        6
       ],
       "irregularDays": [
+        1,
         3,
-        5,
-        6,
         7
       ]
     }
@@ -309,12 +311,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
-      ],
-      "irregularDays": [
-        4,
+        1,
         6,
         7
+      ],
+      "irregularDays": [
+        2,
+        4
       ]
     }
   },
@@ -411,13 +414,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
-      ],
-      "irregularDays": [
-        3,
-        4,
+        5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        3,
+        4
       ]
     }
   },
@@ -512,11 +516,9 @@
     },
     "routeId": "805-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        2,
         5,
         6,
         7
@@ -616,15 +618,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
+        2,
+        4,
         5,
+        6,
         7
       ],
       "irregularDays": [
         1,
-        2,
-        4,
-        6
+        3
       ]
     }
   },
@@ -674,12 +676,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        5,
+        6,
+        7
       ],
       "irregularDays": [
         3,
-        5,
-        7
+        4
       ]
     }
   },
@@ -729,13 +732,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        4,
+        3,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4
       ]
     }
   },
@@ -832,12 +837,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        5,
+        6,
         7
       ],
       "irregularDays": [
-        3,
-        5,
-        6
+        3
       ]
     }
   },
@@ -934,15 +939,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
-        6
+        3,
+        5,
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        5,
-        7
+        4
       ]
     }
   },
@@ -992,13 +997,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4
-      ],
-      "irregularDays": [
-        3,
-        5,
+        4,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        5
       ]
     }
   },
@@ -1048,12 +1055,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        5,
+        7
       ],
       "irregularDays": [
-        5,
-        6,
-        7
+        4,
+        6
       ]
     }
   },
@@ -1148,11 +1156,9 @@
     },
     "routeId": "805-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6,
         7
       ]
@@ -1251,14 +1257,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
-      ],
-      "irregularDays": [
-        3,
-        4,
+        2,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1,
+        3,
+        4
       ]
     }
   }

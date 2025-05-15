@@ -9,6 +9,52 @@
       "속리산고속(주)"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 31
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "400-801",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "801",
+    "arrivalTerminalId": "400",
+    "durationInMinutes": [
+      145
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "departureTime": {
       "hour": 10,
       "minute": 40
     },
@@ -89,6 +135,57 @@
     "routeId": "400-801",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "801",
+    "arrivalTerminalId": "400",
+    "durationInMinutes": [
+      145
+    ],
+    "operator": [
+      "속리산고속(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        19700
+      ],
+      "초등생": [
+        9900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "400-801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
