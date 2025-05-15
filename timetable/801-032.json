@@ -150,6 +150,52 @@
       210
     ],
     "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20500
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16400
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "032-801",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "801",
+    "arrivalTerminalId": "032",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
       "(주)천일고속"
     ],
     "departureTime": {
@@ -331,6 +377,52 @@
     "routeId": "032-801",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "801",
+    "arrivalTerminalId": "032",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        30200
+      ],
+      "초등생": [
+        15100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [
+      [
+        {
+          "name": ""
+        }
+      ]
+    ],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "032-801",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
