@@ -9,62 +9,6 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
-      "hour": 8,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        38300
-      ],
-      "초등생": [
-        19200
-      ],
-      "중고생": [
-        30600
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "509-190",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "190",
-    "arrivalTerminalId": "509",
-    "durationInMinutes": [
-      270
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
       "hour": 11,
       "minute": 35
     },
@@ -80,13 +24,7 @@
         30600
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -98,17 +36,7 @@
     },
     "routeId": "509-190",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -136,13 +64,7 @@
         30600
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -182,13 +104,7 @@
         30600
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -200,13 +116,7 @@
     },
     "routeId": "509-190",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   }
 ]
