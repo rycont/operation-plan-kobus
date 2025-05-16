@@ -24,13 +24,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -73,13 +67,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -119,13 +107,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -168,13 +150,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -219,13 +195,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -237,15 +207,13 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -274,13 +242,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -328,13 +290,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -368,37 +324,38 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        12400,
         16100
       ],
       "초등생": [
+        6200,
         8100
       ],
       "중고생": [
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -431,13 +388,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -451,15 +402,13 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4,
         5
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -488,13 +437,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -541,13 +484,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -592,13 +529,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -613,6 +544,46 @@
     "routeId": "010-240",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -643,13 +614,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -691,13 +656,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -741,13 +700,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -787,13 +740,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -833,13 +780,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -879,13 +820,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -928,13 +863,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -983,13 +912,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1007,11 +930,11 @@
       "fixedDays": [
         1,
         2,
+        3,
         4,
         5
       ],
       "irregularDays": [
-        3,
         6
       ]
     }
@@ -1041,13 +964,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1091,13 +1008,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1140,13 +1051,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1191,13 +1096,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1239,13 +1138,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1289,13 +1182,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1310,6 +1197,51 @@
     "routeId": "010-240",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -1337,13 +1269,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1360,6 +1286,46 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1390,13 +1356,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1410,16 +1370,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
+        3,
         4,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1448,13 +1406,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1500,13 +1452,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1524,6 +1470,46 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1552,13 +1538,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1570,16 +1550,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1608,13 +1586,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1659,13 +1631,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1677,14 +1643,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1713,13 +1677,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1765,13 +1723,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1783,14 +1735,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1820,13 +1770,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1871,13 +1815,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1917,13 +1855,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1963,13 +1895,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2009,13 +1935,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2060,13 +1980,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2078,14 +1992,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -2114,13 +2026,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2165,13 +2071,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2183,14 +2083,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -2219,13 +2117,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2274,13 +2166,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2322,13 +2208,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2373,13 +2253,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2391,14 +2265,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -2427,13 +2299,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2482,13 +2348,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2533,13 +2393,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2581,13 +2435,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2636,13 +2484,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2684,13 +2526,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2738,13 +2574,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2786,13 +2616,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2837,13 +2661,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2855,14 +2673,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -2891,13 +2707,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2943,13 +2753,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2989,13 +2793,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3040,13 +2838,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3095,13 +2887,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3119,10 +2905,10 @@
       "fixedDays": [
         1,
         2,
+        3,
         4
       ],
       "irregularDays": [
-        3,
         6
       ]
     }
@@ -3152,13 +2938,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3207,13 +2987,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3256,13 +3030,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3307,13 +3075,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3325,14 +3087,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3361,13 +3121,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3412,13 +3166,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3430,14 +3178,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3466,13 +3212,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3517,13 +3257,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3535,14 +3269,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3571,13 +3303,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3625,13 +3351,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3646,6 +3366,46 @@
     "routeId": "010-240",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "240",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        12400
+      ],
+      "초등생": [
+        6200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-240",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -3674,13 +3434,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3720,13 +3474,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3738,14 +3486,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -3774,13 +3520,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3826,13 +3566,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3872,13 +3606,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3926,13 +3654,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3977,13 +3699,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4028,13 +3744,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4076,13 +3786,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4130,13 +3834,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4178,13 +3876,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4230,13 +3922,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4276,13 +3962,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4327,13 +4007,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4345,14 +4019,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4381,13 +4053,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4433,13 +4099,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4451,14 +4111,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4488,13 +4146,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4539,13 +4191,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4585,13 +4231,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4636,13 +4276,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4687,13 +4321,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4705,14 +4333,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4741,13 +4367,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4792,13 +4412,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4810,14 +4424,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4846,13 +4458,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4897,13 +4503,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4915,14 +4515,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -4951,13 +4549,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5002,13 +4594,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5020,14 +4606,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5056,13 +4640,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5107,13 +4685,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5125,14 +4697,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5161,13 +4731,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5216,13 +4780,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5267,13 +4825,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5315,13 +4867,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5366,13 +4912,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5384,14 +4924,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5420,13 +4958,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5472,13 +5004,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5521,13 +5047,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5572,13 +5092,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5623,13 +5137,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5671,13 +5179,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5723,13 +5225,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5741,14 +5237,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5777,13 +5271,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5829,13 +5317,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5875,13 +5357,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5926,13 +5402,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -5944,14 +5414,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -5980,13 +5448,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6035,13 +5497,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6083,13 +5539,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6134,13 +5584,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6152,14 +5596,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -6188,13 +5630,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6239,13 +5675,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6285,13 +5715,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6336,13 +5760,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6354,14 +5772,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -6390,13 +5806,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6444,13 +5854,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6492,13 +5896,7 @@
         6800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6543,13 +5941,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6561,14 +5953,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -6597,13 +5987,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6652,13 +6036,7 @@
         8200
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6700,13 +6078,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6751,13 +6123,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6769,14 +6135,12 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
+        3,
         4
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -6805,13 +6169,7 @@
         8200
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6856,13 +6214,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6902,13 +6254,7 @@
         8200
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -6953,13 +6299,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -7004,13 +6344,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
