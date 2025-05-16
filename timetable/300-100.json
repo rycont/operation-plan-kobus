@@ -24,13 +24,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -70,13 +64,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -116,13 +104,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -169,13 +151,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -193,10 +169,10 @@
       "fixedDays": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "irregularDays": [
-        4,
         7
       ]
     }
@@ -226,13 +202,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -244,12 +214,7 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        4,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -277,13 +242,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -327,13 +286,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -376,13 +329,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -394,13 +341,11 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4
       ]
     }
@@ -433,13 +378,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -459,7 +398,6 @@
         6
       ],
       "irregularDays": [
-        4,
         7
       ]
     }
@@ -489,13 +427,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -535,13 +467,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -553,13 +479,11 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4
       ]
     }
@@ -589,13 +513,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -644,13 +562,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -684,52 +596,6 @@
     ],
     "departureTime": {
       "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24500
-      ],
-      "초등생": [
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄"
-      ]
-    },
-    "routeId": "100-300",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 9,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -744,13 +610,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -796,13 +656,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -818,10 +672,10 @@
       "fixedDays": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "irregularDays": [
-        4,
         7
       ]
     }
@@ -851,13 +705,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -902,13 +750,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -922,13 +764,10 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -957,13 +796,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1006,13 +839,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1029,10 +856,10 @@
         1,
         2,
         3,
+        4,
         6
       ],
       "irregularDays": [
-        4,
         7
       ]
     }
@@ -1062,13 +889,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1108,13 +929,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1131,7 +946,6 @@
         5
       ],
       "irregularDays": [
-        4,
         6,
         7
       ]
@@ -1162,13 +976,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1208,13 +1016,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1250,32 +1052,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18900,
         24500
       ],
       "초등생": [
-        9500,
         12300
       ],
       "중고생": [
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
@@ -1314,13 +1106,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1374,13 +1160,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1418,33 +1198,23 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18900,
-        24500
+        18900
       ],
       "초등생": [
-        9500,
-        12300
+        9500
       ],
       "중고생": [
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "우등",
-        "프리미엄"
+        "우등"
       ]
     },
     "routeId": "100-300",
@@ -1480,13 +1250,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1528,13 +1292,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1553,7 +1311,6 @@
         7
       ],
       "irregularDays": [
-        4,
         6
       ]
     }
@@ -1585,13 +1342,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1605,15 +1356,13 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
+        4,
         5
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -1642,13 +1391,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1684,85 +1427,38 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18900
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "100-300",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
+        18900,
         24500
       ],
       "초등생": [
+        9500,
         12300
       ],
       "중고생": [
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -1790,13 +1486,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1839,13 +1529,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1890,13 +1574,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1941,13 +1619,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1959,13 +1631,11 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
-        3
-      ],
-      "irregularDays": [
+        3,
         4
       ]
     }
@@ -1995,13 +1665,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2044,13 +1708,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2065,7 +1723,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        4,
         6,
         7
       ]
@@ -2096,13 +1753,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2110,6 +1761,55 @@
       ],
       "busClass": [
         "우등"
+      ]
+    },
+    "routeId": "100-300",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "300",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18900,
+        24500
+      ],
+      "초등생": [
+        9500,
+        12300
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21,
+        28
+      ],
+      "busClass": [
+        "우등",
+        "프리미엄"
       ]
     },
     "routeId": "100-300",
@@ -2147,13 +1847,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2165,15 +1859,13 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
+        4,
         5
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -2202,13 +1894,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2220,13 +1906,10 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -2255,13 +1938,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2306,13 +1983,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2358,13 +2029,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2408,13 +2073,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2426,56 +2085,13 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18900
       ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        0
+      "irregularDays": [
+        7
       ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "100-300",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -2506,13 +2122,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2531,10 +2141,10 @@
         1,
         2,
         3,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         6
       ]
     }
@@ -2564,13 +2174,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2610,13 +2214,7 @@
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2659,13 +2257,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2701,44 +2293,28 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900,
-        24500
+        12900
       ],
       "초등생": [
-        6500,
-        12300
+        6500
       ],
       "중고생": [
-        0,
         10300
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         45
       ],
       "busClass": [
-        "고속",
-        "프리미엄"
+        "고속"
       ]
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        4,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -2766,13 +2342,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2814,13 +2384,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2839,10 +2403,10 @@
         1,
         2,
         3,
+        4,
         5
       ],
       "irregularDays": [
-        4,
         6,
         7
       ]
@@ -2873,13 +2437,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2921,13 +2479,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2966,32 +2518,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18900,
         24500
       ],
       "초등생": [
-        9500,
         12300
       ],
       "중고생": [
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
@@ -3002,7 +2544,6 @@
         5
       ],
       "irregularDays": [
-        4,
         7
       ]
     }
@@ -3034,13 +2575,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3054,16 +2589,14 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
+        4,
         6,
         7
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -3092,13 +2625,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3115,7 +2642,6 @@
         5
       ],
       "irregularDays": [
-        4,
         7
       ]
     }
@@ -3145,13 +2671,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3196,13 +2716,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3214,7 +2728,12 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -3242,13 +2761,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3265,59 +2778,13 @@
         1,
         2,
         3,
+        4,
         5,
         7
       ],
       "irregularDays": [
-        4,
         6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24500
-      ],
-      "초등생": [
-        12300
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄"
-      ]
-    },
-    "routeId": "100-300",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -3345,13 +2812,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3363,7 +2824,12 @@
     },
     "routeId": "100-300",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -3391,13 +2857,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3439,13 +2899,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3493,13 +2947,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3530,32 +2978,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18900,
         24500
       ],
       "초등생": [
-        9500,
         12300
       ],
       "중고생": [
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
@@ -3598,13 +3036,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3650,13 +3082,47 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
       ]
+    },
+    "routeId": "100-300",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "300",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      120
     ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18900
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3696,13 +3162,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3744,13 +3204,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3792,13 +3246,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3846,13 +3294,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3867,6 +3309,46 @@
     "routeId": "100-300",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "300",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29400
+      ],
+      "초등생": [
+        14700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "심야프리미엄"
+      ]
+    },
+    "routeId": "100-300",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -3894,13 +3376,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
