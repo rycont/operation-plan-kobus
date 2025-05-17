@@ -173,10 +173,12 @@
     },
     "routeId": "801-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -323,7 +325,8 @@
       170
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)삼화고속"
     ],
     "departureTime": {
       "hour": 14,
@@ -354,11 +357,12 @@
     "routeId": "801-602",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        6
+      ],
       "irregularDays": [
         3,
         4,
-        6,
         7
       ]
     }
@@ -400,12 +404,7 @@
     },
     "routeId": "801-602",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -450,12 +449,12 @@
       "fixedDays": [
         1,
         2,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         3,
         4,
-        6,
         7
       ]
     }
@@ -593,10 +592,12 @@
     },
     "routeId": "801-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },

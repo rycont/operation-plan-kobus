@@ -116,12 +116,7 @@
     },
     "routeId": "812-400",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -202,46 +197,6 @@
     "routeId": "812-400",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "400",
-    "arrivalTerminalId": "812",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "속리산고속(주)"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 31
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11900
-      ],
-      "초등생": [
-        6000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "812-400",
-    "pattern": {
-      "type": "even-odd"
     }
   }
 ]
