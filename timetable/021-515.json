@@ -128,8 +128,7 @@
       220
     ],
     "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 9,
@@ -159,18 +158,7 @@
     },
     "routeId": "515-021",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -499,63 +487,11 @@
       220
     ],
     "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 17,
       "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        33800
-      ],
-      "초등생": [
-        16900
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "515-021",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "515",
-    "durationInMinutes": [
-      220
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -595,15 +531,15 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 40
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        43900
+        33800
       ],
       "초등생": [
-        22000
+        16900
       ],
       "중고생": [
         0
@@ -613,10 +549,10 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        28
       ],
       "busClass": [
-        "프리미엄"
+        "우등"
       ]
     },
     "routeId": "515-021",
