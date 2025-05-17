@@ -8,7 +8,6 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)"
     ],
@@ -49,8 +48,7 @@
         2,
         3,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -63,7 +61,6 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)한일고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -97,14 +94,14 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         2,
         3,
-        4
+        4,
+        7
       ]
     }
   },
@@ -241,9 +238,11 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -298,8 +297,7 @@
       ],
       "irregularDays": [
         1,
-        6,
-        7
+        6
       ]
     }
   },
@@ -380,9 +378,11 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -562,10 +562,12 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -628,7 +630,6 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -660,16 +661,15 @@
     "routeId": "824-700",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
         2,
         3,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -717,14 +717,14 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         2,
         3,
-        4
+        4,
+        7
       ]
     }
   },
@@ -927,49 +927,8 @@
         2,
         4,
         5,
-        6,
-        7
+        6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "824",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17400
-      ],
-      "초등생": [
-        8700
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "824-700",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1117,8 +1076,7 @@
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -1159,10 +1117,12 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -1210,10 +1170,12 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -1310,14 +1272,14 @@
       "type": "irregular",
       "fixedDays": [
         3,
-        4,
-        7
+        4
       ],
       "irregularDays": [
         1,
         2,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -1362,18 +1324,7 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1473,8 +1424,7 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
-      "금호익스프레스(주)"
+      "(주)한일고속"
     ],
     "departureTime": {
       "hour": 15,
@@ -1513,8 +1463,7 @@
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1555,52 +1504,14 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "824",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 16,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17400
-      ],
-      "초등생": [
-        8700
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "824-700",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1645,12 +1556,12 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
-        7
+        4
       ],
       "irregularDays": [
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -1755,7 +1666,6 @@
       "(주)동양고속",
       "(주)삼화고속",
       "(주)천일고속",
-      "(주)한일고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -1790,13 +1700,13 @@
       "fixedDays": [
         2,
         3,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -1881,14 +1791,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        7
+        2
       ],
       "irregularDays": [
         3,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -1935,10 +1845,12 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -2126,18 +2038,7 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        7
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
