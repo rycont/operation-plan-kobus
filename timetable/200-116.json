@@ -401,10 +401,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        6
       ],
       "irregularDays": [
-        6,
         7
       ]
     }
@@ -416,8 +416,7 @@
       170
     ],
     "operator": [
-      "(주)동부고속",
-      "(주)중앙고속"
+      "(주)동부고속"
     ],
     "departureTime": {
       "hour": 17,
@@ -447,12 +446,7 @@
     },
     "routeId": "116-200",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
