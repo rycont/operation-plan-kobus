@@ -180,58 +180,7 @@
     },
     "routeId": "032-200",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "200",
-    "arrivalTerminalId": "032",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 51
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22800
-      ],
-      "초등생": [
-        11400
-      ],
-      "중고생": [
-        16000
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "032-200",
-    "pattern": {
-      "type": "even-odd"
+      "type": "everyday"
     }
   },
   {

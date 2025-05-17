@@ -24,13 +24,7 @@
         11600
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -71,13 +65,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -118,13 +106,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -165,13 +147,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -211,13 +187,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -258,13 +228,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -304,13 +268,7 @@
         11600
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -351,13 +309,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -371,7 +323,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         7
       ],
       "irregularDays": [
@@ -379,6 +330,7 @@
         2,
         3,
         4,
+        5,
         6
       ]
     }
@@ -390,7 +342,8 @@
       130
     ],
     "operator": [
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 17,
@@ -408,13 +361,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -426,7 +373,18 @@
     },
     "routeId": "316-515",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        1
+      ],
+      "irregularDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -454,13 +412,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -482,7 +434,8 @@
       130
     ],
     "operator": [
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 19,
@@ -500,13 +453,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -518,7 +465,18 @@
     },
     "routeId": "316-515",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   }
 ]

@@ -99,7 +99,6 @@
       175
     ],
     "operator": [
-      "(주)한일고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -130,18 +129,7 @@
     },
     "routeId": "400-700",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -183,6 +171,46 @@
     "routeId": "400-700",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "700",
+    "arrivalTerminalId": "400",
+    "durationInMinutes": [
+      175
+    ],
+    "operator": [
+      "(주)한일고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        29500
+      ],
+      "초등생": [
+        14800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "400-700",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
