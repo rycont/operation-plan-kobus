@@ -39,12 +39,13 @@
     "routeId": "316-602",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        6
+      ],
       "irregularDays": [
         2,
         4,
         5,
-        6,
         7
       ]
     }
@@ -92,15 +93,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        6
+        7
       ]
     }
   },
@@ -155,7 +156,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 7,
@@ -190,12 +191,12 @@
         1,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
         4,
-        6
+        7
       ]
     }
   },
@@ -244,12 +245,12 @@
         1,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
         4,
-        6
+        7
       ]
     }
   },
@@ -262,7 +263,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 7,
@@ -387,13 +389,13 @@
       "fixedDays": [
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -439,10 +441,10 @@
         2,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -455,7 +457,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 8,
@@ -487,15 +490,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -506,8 +509,7 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
-      "(주)천일고속"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 8,
@@ -537,10 +539,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -589,11 +588,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        6
+        7
       ]
     }
   },
@@ -604,7 +603,6 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -635,10 +633,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -693,8 +688,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 9,
@@ -730,11 +724,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        6
+        7
       ]
     }
   },
@@ -747,7 +741,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 9,
@@ -783,11 +778,11 @@
         2,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         4,
-        6
+        7
       ]
     }
   },
@@ -798,8 +793,7 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
-      "금호익스프레스(주)"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 9,
@@ -829,10 +823,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -872,14 +863,12 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
-        4
-      ],
-      "irregularDays": [
+        4,
         6
       ]
     }
@@ -971,13 +960,13 @@
       "fixedDays": [
         2,
         5,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
         4,
-        6
+        7
       ]
     }
   },
@@ -988,7 +977,6 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -1019,10 +1007,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1077,7 +1062,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 10,
@@ -1109,15 +1095,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -1175,8 +1161,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 10,
@@ -1216,7 +1201,6 @@
       65
     ],
     "operator": [
-      "(주)중앙고속",
       "(주)천일고속"
     ],
     "departureTime": {
@@ -1247,10 +1231,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1299,11 +1280,11 @@
         2,
         3,
         4,
-        7
+        6
       ],
       "irregularDays": [
         5,
-        6
+        7
       ]
     }
   },
@@ -1317,7 +1298,8 @@
       "(주)동양고속",
       "(주)삼화고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 11,
@@ -1392,10 +1374,10 @@
         1,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1443,13 +1425,13 @@
       "fixedDays": [
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         1,
         2,
         4,
-        6
+        7
       ]
     }
   },
@@ -1462,7 +1444,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 11,
@@ -1494,15 +1476,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -1513,7 +1495,8 @@
       65
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 11,
@@ -1543,7 +1526,10 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1642,51 +1628,12 @@
       65
     ],
     "operator": [
+      "(주)동양고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 12,
       "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1714,113 +1661,6 @@
     "pattern": {
       "type": "specific-day",
       "days": [
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)삼화고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6700,
-        9900
-      ],
-      "초등생": [
-        3400,
-        5000
-      ],
-      "중고생": [
-        0,
-        5400
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28,
-        45
-      ],
-      "busClass": [
-        "고속",
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
         6
       ]
     }
@@ -1832,285 +1672,15 @@
       65
     ],
     "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
       "(주)천일고속"
     ],
     "departureTime": {
       "hour": 12,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)삼화고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6700,
-        9900
-      ],
-      "초등생": [
-        3400,
-        5000
-      ],
-      "중고생": [
-        0,
-        5400
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "고속",
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        3,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 13,
       "minute": 20
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        6700,
-        9900
-      ],
-      "초등생": [
-        3400,
-        5000
-      ],
-      "중고생": [
-        0,
-        5400
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28,
-        45
-      ],
-      "busClass": [
-        "고속",
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
         9900
       ],
       "초등생": [
@@ -2135,511 +1705,941 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        3,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        7
-      ],
-      "irregularDays": [
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6700
-      ],
-      "초등생": [
-        3400
-      ],
-      "중고생": [
-        5400
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)삼화고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        5,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        7
-      ],
-      "irregularDays": [
-        2,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6700,
-        9900
-      ],
-      "초등생": [
-        3400,
-        5000
-      ],
-      "중고생": [
-        0,
-        5400
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28,
-        45
-      ],
-      "busClass": [
-        "고속",
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)삼화고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        4
-      ],
-      "irregularDays": [
-        1,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)동양고속",
-      "(주)중앙고속",
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        7
-      ],
-      "irregularDays": [
-        1,
-        6
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "602",
-    "arrivalTerminalId": "316",
-    "durationInMinutes": [
-      65
-    ],
-    "operator": [
-      "(주)천일고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9900
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "316-602",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
         3,
         4,
         5
       ],
       "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)삼화고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700,
+        9900
+      ],
+      "초등생": [
+        3400,
+        5000
+      ],
+      "중고생": [
+        0,
+        5400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        45
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        2,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)삼화고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700,
+        9900
+      ],
+      "초등생": [
+        3400,
+        5000
+      ],
+      "중고생": [
+        0,
+        5400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)중앙고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700,
+        9900
+      ],
+      "초등생": [
+        3400,
+        5000
+      ],
+      "중고생": [
+        0,
+        5400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        45
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 35
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 45
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "irregularDays": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700
+      ],
+      "초등생": [
+        3400
+      ],
+      "중고생": [
+        5400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)삼화고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        2,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        6
+      ],
+      "irregularDays": [
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6700,
+        9900
+      ],
+      "초등생": [
+        3400,
+        5000
+      ],
+      "중고생": [
+        0,
+        5400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        45
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)삼화고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        4
+      ],
+      "irregularDays": [
+        1,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)동양고속",
+      "(주)중앙고속",
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 25
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "602",
+    "arrivalTerminalId": "316",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "316-602",
+    "pattern": {
+      "type": "specific-day",
+      "days": [
+        1,
+        3,
+        4,
+        5,
         6
       ]
     }
@@ -2730,12 +2730,12 @@
         1,
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -2781,13 +2781,12 @@
       "fixedDays": [
         1,
         3,
-        4
+        4,
+        6
       ],
       "irregularDays": [
         2,
-        5,
-        6,
-        7
+        5
       ]
     }
   },
@@ -2835,13 +2834,13 @@
       "fixedDays": [
         1,
         4,
-        7
+        6
       ],
       "irregularDays": [
         2,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -2938,12 +2937,12 @@
         1,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
         4,
-        6
+        7
       ]
     }
   },
@@ -3070,9 +3069,11 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -3161,15 +3162,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -3183,8 +3184,7 @@
       "(주)동양고속",
       "(주)삼화고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -3261,12 +3261,12 @@
         1,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         2,
         4,
-        6
+        7
       ]
     }
   },
@@ -3277,8 +3277,7 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
-      "(주)천일고속"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -3308,10 +3307,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -3323,7 +3319,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -3405,13 +3402,13 @@
       "fixedDays": [
         2,
         4,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
         5,
-        6
+        7
       ]
     }
   },
@@ -3422,7 +3419,6 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -3453,10 +3449,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -3505,11 +3498,11 @@
         3,
         4,
         5,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        6
+        7
       ]
     }
   },
@@ -3563,8 +3556,7 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
-      "금호익스프레스(주)"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -3594,10 +3586,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -3657,8 +3646,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -3738,13 +3726,13 @@
       "fixedDays": [
         2,
         4,
-        5,
-        7
+        5
       ],
       "irregularDays": [
         1,
         3,
-        6
+        6,
+        7
       ]
     }
   },
@@ -3755,7 +3743,6 @@
       65
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -3786,10 +3773,7 @@
     },
     "routeId": "316-602",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -3801,7 +3785,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 20,
@@ -3837,11 +3822,11 @@
         2,
         3,
         5,
-        7
+        6
       ],
       "irregularDays": [
         4,
-        6
+        7
       ]
     }
   },
@@ -3889,13 +3874,13 @@
       "fixedDays": [
         2,
         5,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
         4,
-        6
+        7
       ]
     }
   },

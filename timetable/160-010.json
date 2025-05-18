@@ -24,13 +24,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -70,13 +64,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -116,13 +104,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -134,7 +116,15 @@
     },
     "routeId": "010-160",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   },
   {
@@ -162,13 +152,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -181,52 +165,6 @@
     "routeId": "010-160",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "160",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "010-160",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -254,13 +192,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -300,13 +232,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -319,52 +245,6 @@
     "routeId": "010-160",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "160",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "010-160",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -392,13 +272,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -438,13 +312,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -457,52 +325,6 @@
     "routeId": "010-160",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "160",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "010-160",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -530,13 +352,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -576,13 +392,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -595,52 +405,6 @@
     "routeId": "010-160",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "160",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "010-160",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -668,13 +432,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -714,13 +472,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -733,52 +485,6 @@
     "routeId": "010-160",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "160",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "010-160",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -806,13 +512,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -852,13 +552,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -871,52 +565,6 @@
     "routeId": "010-160",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "160",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      60
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        6300
-      ],
-      "초등생": [
-        3200
-      ],
-      "중고생": [
-        4400
-      ]
-    },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "010-160",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -944,13 +592,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -990,13 +632,7 @@
         4800
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1036,13 +672,7 @@
         5700
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
