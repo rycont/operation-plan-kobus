@@ -42,12 +42,12 @@
         3,
         4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        7
       ]
     }
   },
@@ -98,8 +98,7 @@
       ],
       "irregularDays": [
         1,
-        6,
-        7
+        6
       ]
     }
   },
@@ -192,9 +191,11 @@
     },
     "routeId": "100-813",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -242,53 +243,13 @@
         1,
         2,
         3,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         4,
-        5
+        5,
+        7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "813",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24800
-      ],
-      "초등생": [
-        12400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "100-813",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -334,12 +295,12 @@
         1,
         2,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         3,
-        4
+        4,
+        7
       ]
     }
   }

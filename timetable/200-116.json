@@ -78,10 +78,12 @@
     },
     "routeId": "116-200",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -171,10 +173,12 @@
     },
     "routeId": "116-200",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -281,46 +285,6 @@
       170
     ],
     "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 11
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        26600
-      ],
-      "초등생": [
-        13300
-      ],
-      "중고생": [
-        21300
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "116-200",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "200",
-    "arrivalTerminalId": "116",
-    "durationInMinutes": [
-      170
-    ],
-    "operator": [
       "(주)동부고속",
       "(주)중앙고속"
     ],
@@ -416,46 +380,6 @@
       170
     ],
     "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 31
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        26600
-      ],
-      "초등생": [
-        13300
-      ],
-      "중고생": [
-        21300
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "116-200",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "200",
-    "arrivalTerminalId": "116",
-    "durationInMinutes": [
-      170
-    ],
-    "operator": [
       "(주)동부고속",
       "(주)중앙고속"
     ],
@@ -534,10 +458,12 @@
     },
     "routeId": "116-200",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }

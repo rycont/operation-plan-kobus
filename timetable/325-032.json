@@ -36,9 +36,11 @@
     },
     "routeId": "032-325",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -209,9 +211,11 @@
     },
     "routeId": "032-325",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -257,13 +261,15 @@
     },
     "routeId": "032-325",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
