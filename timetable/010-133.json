@@ -76,7 +76,18 @@
     },
     "routeId": "133-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -290,6 +301,46 @@
     ],
     "departureTime": {
       "hour": 9,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "133-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "133",
+    "durationInMinutes": [
+      47
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 9,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -358,10 +409,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -484,10 +535,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -608,7 +659,18 @@
     },
     "routeId": "133-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -909,6 +971,46 @@
     ],
     "departureTime": {
       "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "133-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "133",
+    "durationInMinutes": [
+      47
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -1017,10 +1119,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1150,10 +1252,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1274,7 +1376,18 @@
     },
     "routeId": "133-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -1623,6 +1736,46 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5100
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "133-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "133",
+    "durationInMinutes": [
+      47
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
       "hour": 20,
       "minute": 0
     },
@@ -1730,7 +1883,10 @@
     },
     "routeId": "133-010",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
@@ -1850,7 +2006,10 @@
     },
     "routeId": "133-010",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
