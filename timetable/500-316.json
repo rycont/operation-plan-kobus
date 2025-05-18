@@ -84,7 +84,18 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -251,13 +262,11 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -309,8 +318,7 @@
     ],
     "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
-      "속리산고속(주)"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 7,
@@ -340,12 +348,10 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -387,13 +393,11 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -537,9 +541,9 @@
       110
     ],
     "operator": [
-      "(주)대원고속",
       "(주)한일고속",
-      "금호익스프레스(주)"
+      "금호익스프레스(주)",
+      "속리산고속(주)"
     ],
     "departureTime": {
       "hour": 8,
@@ -572,10 +576,10 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -616,12 +620,10 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -662,13 +664,11 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -808,9 +808,9 @@
       110
     ],
     "operator": [
+      "(주)대원고속",
       "(주)삼화고속",
       "(주)중앙고속",
-      "금호익스프레스(주)",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -932,13 +932,13 @@
       "fixedDays": [
         2,
         5,
+        6,
         7
       ],
       "irregularDays": [
         1,
         3,
-        4,
-        6
+        4
       ]
     }
   },
@@ -1024,10 +1024,10 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1078,8 +1078,8 @@
       110
     ],
     "operator": [
-      "(주)대원고속",
-      "금호익스프레스(주)"
+      "금호익스프레스(주)",
+      "속리산고속(주)"
     ],
     "departureTime": {
       "hour": 12,
@@ -1088,10 +1088,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18700
+        18700,
+        24300
       ],
       "초등생": [
-        9400
+        9400,
+        12200
       ],
       "중고생": [
         0
@@ -1101,21 +1103,21 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        21,
         28
       ],
       "busClass": [
-        "우등"
+        "우등",
+        "프리미엄"
       ]
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -1159,10 +1161,10 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1252,11 +1254,9 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6
       ]
     }
@@ -1301,7 +1301,18 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -1351,6 +1362,7 @@
       110
     ],
     "operator": [
+      "(주)대원고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -1390,12 +1402,10 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -1438,7 +1448,18 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -1492,13 +1513,13 @@
       "fixedDays": [
         3,
         5,
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        4,
-        6
+        4
       ]
     }
   },
@@ -1512,7 +1533,7 @@
       "(주)대원고속",
       "(주)삼화고속",
       "(주)한일고속",
-      "속리산고속(주)"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 15,
@@ -1545,10 +1566,10 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1763,13 +1784,11 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -1818,7 +1837,18 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -1828,8 +1858,8 @@
       110
     ],
     "operator": [
-      "(주)대원고속",
-      "금호익스프레스(주)"
+      "금호익스프레스(주)",
+      "속리산고속(주)"
     ],
     "departureTime": {
       "hour": 16,
@@ -1861,10 +1891,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -1991,13 +2021,11 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -2081,10 +2109,10 @@
       "type": "irregular",
       "fixedDays": [
         5,
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -2148,7 +2176,7 @@
       110
     ],
     "operator": [
-      "금호익스프레스(주)",
+      "(주)대원고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -2181,10 +2209,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        7
+        6
       ],
       "irregularDays": [
-        6
+        7
       ]
     }
   },
@@ -2308,7 +2336,18 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -2358,8 +2397,7 @@
       110
     ],
     "operator": [
-      "(주)대원고속",
-      "속리산고속(주)"
+      "(주)대원고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -2368,12 +2406,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        18700,
-        24300
+        18700
       ],
       "초등생": [
-        9400,
-        12200
+        9400
       ],
       "중고생": [
         0
@@ -2383,22 +2419,19 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "우등",
-        "프리미엄"
+        "우등"
       ]
     },
     "routeId": "316-500",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
-        6
+        6,
+        7
       ]
     }
   },

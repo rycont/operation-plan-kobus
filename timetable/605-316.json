@@ -26,13 +26,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -45,11 +39,13 @@
     "routeId": "316-605",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        6
+      ],
       "irregularDays": [
         2,
+        4,
         5,
-        6,
         7
       ]
     }
@@ -83,13 +79,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -103,15 +93,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        4
+        7
       ]
     }
   },
@@ -142,13 +132,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -172,8 +156,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 7,
@@ -191,13 +174,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -214,12 +191,12 @@
         1,
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        4
+        4,
+        7
       ]
     }
   },
@@ -251,13 +228,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -274,11 +245,12 @@
         1,
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        2
+        2,
+        4,
+        7
       ]
     }
   },
@@ -291,7 +263,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 8,
@@ -309,13 +282,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -361,13 +328,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -412,13 +373,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -433,14 +388,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        5,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
         1,
         3,
-        4
+        5,
+        7
       ]
     }
   },
@@ -469,13 +424,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -490,12 +439,12 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        4
+        7
       ]
     }
   },
@@ -527,13 +476,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -547,15 +490,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -566,8 +509,7 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
-      "(주)천일고속"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 8,
@@ -585,13 +527,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -603,10 +539,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -618,6 +551,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -636,13 +570,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -658,13 +586,13 @@
       "fixedDays": [
         1,
         3,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        4
+        7
       ]
     }
   },
@@ -675,7 +603,6 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -694,13 +621,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -712,10 +633,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -746,13 +664,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -776,8 +688,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 9,
@@ -795,13 +706,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -817,13 +722,13 @@
       "fixedDays": [
         1,
         3,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        4
+        7
       ]
     }
   },
@@ -836,7 +741,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 9,
@@ -854,13 +760,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -872,7 +772,18 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
@@ -882,8 +793,7 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
-      "금호익스프레스(주)"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 9,
@@ -901,13 +811,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -919,10 +823,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -950,13 +851,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -968,15 +863,13 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
+        4,
         6
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -1008,13 +901,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1057,13 +944,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1079,12 +960,13 @@
       "fixedDays": [
         2,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        3
+        3,
+        4,
+        7
       ]
     }
   },
@@ -1095,7 +977,6 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -1114,13 +995,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1132,10 +1007,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1166,13 +1038,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1215,13 +1081,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1235,15 +1095,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
-        5,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        4
+        5,
+        7
       ]
     }
   },
@@ -1275,13 +1135,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1307,8 +1161,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 10,
@@ -1326,13 +1179,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1354,7 +1201,6 @@
       55
     ],
     "operator": [
-      "(주)중앙고속",
       "(주)천일고속"
     ],
     "departureTime": {
@@ -1373,13 +1219,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1391,10 +1231,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1425,13 +1262,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1448,12 +1279,12 @@
         1,
         2,
         3,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -1467,7 +1298,8 @@
       "(주)동양고속",
       "(주)삼화고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 11,
@@ -1485,13 +1317,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1531,13 +1357,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1549,12 +1369,14 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         3,
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -1587,13 +1409,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1609,12 +1425,13 @@
       "fixedDays": [
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        4,
+        7
       ]
     }
   },
@@ -1627,7 +1444,6 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -1646,13 +1462,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1666,15 +1476,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
-        5,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        4
+        5,
+        7
       ]
     }
   },
@@ -1686,7 +1496,7 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)천일고속"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 12,
@@ -1704,13 +1514,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1759,13 +1563,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1790,8 +1588,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 12,
@@ -1809,13 +1606,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1856,13 +1647,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1905,13 +1690,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -1927,11 +1706,11 @@
       "fixedDays": [
         2,
         3,
-        5,
-        7
+        4,
+        5
       ],
       "irregularDays": [
-        4
+        7
       ]
     }
   },
@@ -1967,13 +1746,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2018,13 +1791,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2041,12 +1808,12 @@
         1,
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        4
+        4,
+        7
       ]
     }
   },
@@ -2058,7 +1825,7 @@
     ],
     "operator": [
       "(주)동양고속",
-      "금호익스프레스(주)"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 12,
@@ -2076,13 +1843,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2127,13 +1888,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2180,13 +1935,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2211,8 +1960,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -2230,13 +1978,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2251,14 +1993,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
-        4
+        7
       ]
     }
   },
@@ -2269,8 +2011,8 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -2288,13 +2030,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2340,13 +2076,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2372,7 +2102,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 13,
@@ -2390,13 +2121,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2410,15 +2135,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        4
+        7
       ]
     }
   },
@@ -2449,13 +2174,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2467,7 +2186,18 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "irregularDays": [
+        5,
+        7
+      ]
     }
   },
   {
@@ -2496,13 +2226,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2524,8 +2248,8 @@
       55
     ],
     "operator": [
+      "(주)동양고속",
       "(주)삼화고속",
-      "(주)중앙고속",
       "(주)천일고속"
     ],
     "departureTime": {
@@ -2544,13 +2268,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2567,11 +2285,12 @@
         1,
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        2
+        2,
+        4,
+        7
       ]
     }
   },
@@ -2603,13 +2322,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2625,13 +2338,13 @@
       "fixedDays": [
         1,
         3,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -2666,13 +2379,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2717,13 +2424,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2764,13 +2465,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2785,11 +2480,12 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        6
+        4
       ],
       "irregularDays": [
         1,
-        4,
+        5,
+        6,
         7
       ]
     }
@@ -2822,13 +2518,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2844,13 +2534,13 @@
       "fixedDays": [
         2,
         3,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        4
+        7
       ]
     }
   },
@@ -2863,8 +2553,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 15,
@@ -2882,13 +2571,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2904,13 +2587,13 @@
       "fixedDays": [
         2,
         3,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        4
+        7
       ]
     }
   },
@@ -2939,13 +2622,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -2957,15 +2634,13 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         3,
+        4,
         5,
         6
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -2996,13 +2671,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3044,13 +2713,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3066,13 +2729,13 @@
       "fixedDays": [
         1,
         2,
-        5,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
         3,
-        4
+        5,
+        7
       ]
     }
   },
@@ -3102,13 +2765,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3124,13 +2781,12 @@
       "fixedDays": [
         1,
         3,
-        5,
+        4,
         6
       ],
       "irregularDays": [
         2,
-        4,
-        7
+        5
       ]
     }
   },
@@ -3162,13 +2818,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3183,14 +2833,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
         2,
         3,
-        4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -3225,13 +2875,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3276,13 +2920,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3299,12 +2937,12 @@
         1,
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
-        4
+        4,
+        7
       ]
     }
   },
@@ -3337,13 +2975,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3367,8 +2999,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 17,
@@ -3386,13 +3017,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3432,13 +3057,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3450,9 +3069,11 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -3484,13 +3105,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3533,13 +3148,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3553,15 +3162,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
-        1,
         3,
-        4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -3575,8 +3184,7 @@
       "(주)동양고속",
       "(주)삼화고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -3594,13 +3202,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3642,13 +3244,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3665,11 +3261,12 @@
         1,
         3,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
-        2
+        2,
+        4,
+        7
       ]
     }
   },
@@ -3680,8 +3277,7 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
-      "(주)천일고속"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -3699,13 +3295,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3717,10 +3307,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -3732,7 +3319,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -3753,13 +3341,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3804,13 +3386,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3825,14 +3401,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        5,
-        6,
-        7
+        4,
+        6
       ],
       "irregularDays": [
         1,
         3,
-        4
+        5,
+        7
       ]
     }
   },
@@ -3843,7 +3419,6 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -3862,13 +3437,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3880,10 +3449,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -3896,8 +3462,7 @@
       "(주)동양고속",
       "(주)삼화고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -3915,13 +3480,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -3937,13 +3496,13 @@
       "fixedDays": [
         2,
         3,
+        4,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        4
+        7
       ]
     }
   },
@@ -3956,6 +3515,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -3974,13 +3534,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4002,8 +3556,7 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
-      "금호익스프레스(주)"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -4021,13 +3574,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4039,10 +3586,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -4076,13 +3620,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4108,8 +3646,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -4130,13 +3667,7 @@
         5400
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4179,13 +3710,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4200,14 +3725,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        6,
-        7
+        4,
+        5
       ],
       "irregularDays": [
         1,
         3,
-        4,
-        5
+        6,
+        7
       ]
     }
   },
@@ -4218,7 +3743,6 @@
       55
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -4237,13 +3761,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4255,10 +3773,7 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -4270,7 +3785,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 20,
@@ -4288,13 +3804,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4306,7 +3816,18 @@
     },
     "routeId": "316-605",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
@@ -4337,13 +3858,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
@@ -4359,12 +3874,13 @@
       "fixedDays": [
         2,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
-        3
+        3,
+        4,
+        7
       ]
     }
   },
@@ -4395,13 +3911,7 @@
         0
       ]
     },
-    "stops": [
-      [
-        {
-          "name": ""
-        }
-      ]
-    ],
+    "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
