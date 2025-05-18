@@ -53,8 +53,7 @@
     ],
     "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
-      "속리산고속(주)"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 7,
@@ -84,9 +83,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -151,7 +152,6 @@
       150
     ],
     "operator": [
-      "(주)대원고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -183,9 +183,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -251,7 +253,6 @@
     ],
     "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -282,9 +283,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -336,13 +339,13 @@
       "fixedDays": [
         2,
         5,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
-        4
+        4,
+        7
       ]
     }
   },
@@ -353,7 +356,6 @@
       150
     ],
     "operator": [
-      "(주)대원고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -389,9 +391,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -458,48 +462,7 @@
       150
     ],
     "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22800
-      ],
-      "초등생": [
-        11400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "310-500",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "310",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -535,9 +498,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -606,8 +571,7 @@
     ],
     "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
-      "속리산고속(주)"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 15,
@@ -637,9 +601,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -704,7 +670,6 @@
       150
     ],
     "operator": [
-      "(주)대원고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -736,9 +701,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -804,7 +771,6 @@
     ],
     "operator": [
       "(주)대원고속",
-      "금호익스프레스(주)",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -835,9 +801,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -849,8 +817,7 @@
       150
     ],
     "operator": [
-      "(주)대원고속",
-      "속리산고속(주)"
+      "(주)대원고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -859,12 +826,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800,
-        29600
+        22800
       ],
       "초등생": [
-        11400,
-        14800
+        11400
       ],
       "중고생": [
         0
@@ -874,22 +839,19 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "우등",
-        "프리미엄"
+        "우등"
       ]
     },
     "routeId": "310-500",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -953,7 +915,6 @@
       150
     ],
     "operator": [
-      "(주)대원고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -989,9 +950,11 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
