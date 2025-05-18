@@ -76,10 +76,12 @@
     },
     "routeId": "315-111",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -200,9 +202,11 @@
     },
     "routeId": "315-111",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -324,10 +328,12 @@
     },
     "routeId": "315-111",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        1
       ]
     }
   }
