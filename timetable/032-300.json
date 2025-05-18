@@ -178,46 +178,6 @@
       120
     ],
     "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "300-032",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "032",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
       "(주)대원고속",
       "(주)동양고속",
       "(주)중앙고속",
@@ -464,9 +424,11 @@
     },
     "routeId": "300-032",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -1024,51 +986,13 @@
     },
     "routeId": "300-032",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "032",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "300-032",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1113,46 +1037,6 @@
     "routeId": "300-032",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "032",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "300-032",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {

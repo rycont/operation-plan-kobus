@@ -327,9 +327,11 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -455,11 +457,10 @@
     "routeId": "010-343",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -623,10 +624,7 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -837,9 +835,11 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6,
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -1171,11 +1171,10 @@
     "routeId": "010-343",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
-        6
+        6,
+        7
       ]
     }
   },
