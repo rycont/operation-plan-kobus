@@ -39,15 +39,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
-        7
+        5
       ],
       "irregularDays": [
         1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ]
     }
   },
@@ -89,7 +89,18 @@
     },
     "routeId": "500-801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -132,12 +143,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        7
+        2
       ],
       "irregularDays": [
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -179,7 +190,18 @@
     },
     "routeId": "500-801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -224,13 +246,13 @@
       "fixedDays": [
         2,
         4,
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         3,
-        5
+        5,
+        7
       ]
     }
   },
@@ -274,13 +296,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
-        7
+        6
       ],
       "irregularDays": [
         3,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -324,15 +346,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        7
+        3
       ],
       "irregularDays": [
         1,
         2,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -559,15 +581,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
-        7
+        4
       ],
       "irregularDays": [
         1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -611,12 +633,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
-        7
+        1
       ],
       "irregularDays": [
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -658,7 +680,18 @@
     },
     "routeId": "500-801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -701,11 +734,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
-        7
+        5
       ],
       "irregularDays": [
-        6
+        6,
+        7
       ]
     }
   },
@@ -747,7 +780,18 @@
     },
     "routeId": "500-801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -790,15 +834,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
-        7
+        2
       ],
       "irregularDays": [
         1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -840,7 +884,18 @@
     },
     "routeId": "500-801",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
     }
   },
   {
@@ -883,15 +938,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
-        7
+        6
       ],
       "irregularDays": [
         1,
         2,
         3,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -935,14 +990,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
-        7
+        6
       ],
       "irregularDays": [
         2,
         3,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -986,11 +1041,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        7
+        3
       ],
       "irregularDays": [
-        5
+        5,
+        7
       ]
     }
   },
@@ -1084,6 +1139,46 @@
         5,
         6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "801",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 21,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22900
+      ],
+      "초등생": [
+        11500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-801",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
