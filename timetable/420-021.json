@@ -137,46 +137,6 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "021-420",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "departureTime": {
-      "hour": 7,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -560,46 +520,6 @@
         6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "420",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)대원고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13200
-      ],
-      "초등생": [
-        6600
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "021-420",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1046,7 +966,12 @@
     },
     "routeId": "021-420",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -1889,7 +1814,12 @@
     },
     "routeId": "021-420",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        7
+      ]
     }
   },
   {
