@@ -196,10 +196,7 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -218,30 +215,38 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        7700
+        7700,
+        10000
       ],
       "초등생": [
-        3900
+        3900,
+        5000
       ],
       "중고생": [
-        6200
+        6200,
+        8000
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         44
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -327,11 +332,9 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
       ]
     }
@@ -456,9 +459,8 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
       ]
@@ -624,7 +626,10 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {
@@ -835,11 +840,9 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
       ]
     }
@@ -1170,9 +1173,8 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
       ]
@@ -1712,6 +1714,46 @@
     "routeId": "010-343",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "343",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      75
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        8000
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-343",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
