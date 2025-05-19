@@ -206,10 +206,7 @@
     },
     "routeId": "010-449",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -296,12 +293,14 @@
     },
     "routeId": "010-449",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -512,12 +511,14 @@
     },
     "routeId": "010-449",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -689,13 +690,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -782,13 +783,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -875,13 +876,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -1012,12 +1013,14 @@
     },
     "routeId": "010-449",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1190,12 +1193,14 @@
     },
     "routeId": "010-449",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1285,13 +1290,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -1333,12 +1338,14 @@
     },
     "routeId": "010-449",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
