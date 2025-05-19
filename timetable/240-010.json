@@ -36,10 +36,7 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -119,10 +116,7 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -164,10 +158,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         6
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -209,13 +203,15 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -328,11 +324,9 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12400,
         16100
       ],
       "초등생": [
-        6200,
         8100
       ],
       "중고생": [
@@ -343,11 +337,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
@@ -358,7 +350,6 @@
         6
       ],
       "irregularDays": [
-        1,
         7
       ]
     }
@@ -406,13 +397,15 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -559,46 +552,6 @@
       90
     ],
     "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12400
-      ],
-      "초등생": [
-        6200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-240",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "240",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -674,10 +627,7 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -798,10 +748,7 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -843,10 +790,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         6
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -896,13 +843,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         6
       ]
     }
@@ -1266,7 +1213,6 @@
         6
       ],
       "irregularDays": [
-        1,
         7
       ]
     }
@@ -1311,10 +1257,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         6
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -1399,13 +1345,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         6
       ],
       "irregularDays": [
+        1,
         7
       ]
     }
@@ -1494,12 +1440,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1588,12 +1536,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1849,12 +1799,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1942,12 +1894,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -2128,12 +2082,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -2544,12 +2500,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -2812,12 +2770,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -2999,12 +2959,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -3092,12 +3054,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -3225,12 +3189,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -3404,12 +3370,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -3947,12 +3915,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4041,12 +4011,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4269,12 +4241,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4362,12 +4336,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4455,12 +4431,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4548,12 +4526,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4641,12 +4621,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -4872,12 +4854,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -5189,12 +5173,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -5370,12 +5356,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -5556,12 +5544,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -5736,12 +5726,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -5921,12 +5913,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -6107,12 +6101,14 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
