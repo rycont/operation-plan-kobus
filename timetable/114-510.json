@@ -38,5 +38,52 @@
     "pattern": {
       "type": "everyday"
     }
+  },
+  {
+    "departureTerminalId": "114",
+    "arrivalTerminalId": "510",
+    "durationInMinutes": [
+      270
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        34200
+      ],
+      "초등생": [
+        17100
+      ],
+      "중고생": [
+        27400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "510-114",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
   }
 ]
