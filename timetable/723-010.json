@@ -583,14 +583,11 @@
     },
     "routeId": "010-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -895,41 +892,33 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        34500,
         44800
       ],
       "초등생": [
-        17300,
         22400
       ],
       "중고생": [
-        0,
-        27600
+        0
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
     "routeId": "010-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
