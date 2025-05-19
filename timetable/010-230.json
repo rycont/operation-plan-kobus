@@ -519,9 +519,13 @@
     },
     "routeId": "230-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        5,
+        7
       ]
     }
   },
@@ -642,9 +646,13 @@
     },
     "routeId": "230-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        5,
+        7
       ]
     }
   },

@@ -615,13 +615,15 @@
     },
     "routeId": "010-132",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -782,13 +784,15 @@
     },
     "routeId": "010-132",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
