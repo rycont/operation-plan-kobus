@@ -177,13 +177,15 @@
     },
     "routeId": "032-722",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         6
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },

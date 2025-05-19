@@ -47,7 +47,8 @@
       260
     ],
     "operator": [
-      "광신고속"
+      "광신고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 0,
@@ -79,12 +80,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         4,
         6
       ],
       "irregularDays": [
-        5
+        1,
+        5,
+        7
       ]
     }
   },
@@ -330,12 +332,7 @@
     },
     "routeId": "117-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        4
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -547,7 +544,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        1,
         4,
         5
       ]
@@ -801,7 +797,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        1,
         4,
         5,
         6
