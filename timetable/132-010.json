@@ -36,13 +36,61 @@
     },
     "routeId": "010-132",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
+      "type": "irregular",
+      "fixedDays": [
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "132",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4900
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-132",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        7
       ]
     }
   },
@@ -375,7 +423,18 @@
     },
     "routeId": "010-132",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {
@@ -617,13 +676,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5
       ],
       "irregularDays": [
-        1
+        1,
+        2
       ]
     }
   },
@@ -665,6 +724,52 @@
     "routeId": "010-132",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "132",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4900
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-132",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {
@@ -786,13 +891,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5
       ],
       "irregularDays": [
-        1
+        1,
+        2
       ]
     }
   },
@@ -1045,7 +1150,18 @@
     },
     "routeId": "010-132",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {
@@ -1339,6 +1455,52 @@
     ],
     "departureTime": {
       "hour": 17,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4900
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-132",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "132",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 17,
       "minute": 50
     },
     "isTemporaryRoute": false,
@@ -1617,7 +1779,18 @@
     },
     "routeId": "010-132",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {

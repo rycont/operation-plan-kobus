@@ -76,14 +76,12 @@
     },
     "routeId": "723-111",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }

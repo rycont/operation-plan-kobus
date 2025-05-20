@@ -424,28 +424,38 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        10700
+        10700,
+        14000
       ],
       "초등생": [
-        5400
+        5400,
+        7000
       ],
       "중고생": [
-        8600
+        8600,
+        11200
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "010-354",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        4,
+        5
+      ]
     }
   },
   {
@@ -776,6 +786,46 @@
     "routeId": "010-354",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "354",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14000
+      ],
+      "초등생": [
+        7000
+      ],
+      "중고생": [
+        11200
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-354",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
