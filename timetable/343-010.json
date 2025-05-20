@@ -1500,13 +1500,15 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
         3,
         4,
         5
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -1753,7 +1755,10 @@
     },
     "routeId": "010-343",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        7
+      ]
     }
   },
   {

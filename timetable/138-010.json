@@ -10,6 +10,52 @@
     ],
     "departureTime": {
       "hour": 6,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6900
+      ],
+      "초등생": [
+        3500
+      ],
+      "중고생": [
+        4800
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-138",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "138",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
       "minute": 35
     },
     "isTemporaryRoute": false,
@@ -328,7 +374,18 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {
@@ -409,6 +466,52 @@
     "routeId": "010-138",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "138",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6900
+      ],
+      "초등생": [
+        3500
+      ],
+      "중고생": [
+        4800
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-138",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {
@@ -826,7 +929,18 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        7
+      ]
     }
   },
   {
