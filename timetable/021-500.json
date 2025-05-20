@@ -2747,12 +2747,14 @@
     },
     "routeId": "500-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
-        3,
         4,
         6
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
