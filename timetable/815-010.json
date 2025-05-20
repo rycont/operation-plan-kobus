@@ -91,7 +91,18 @@
     },
     "routeId": "010-815",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2
+      ]
     }
   },
   {
@@ -388,13 +399,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
         3,
         4,
         5,
         6
       ],
       "irregularDays": [
+        2,
         7
       ]
     }
@@ -438,7 +449,18 @@
     },
     "routeId": "010-815",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2
+      ]
     }
   },
   {
@@ -449,7 +471,8 @@
     ],
     "operator": [
       "(주)천일고속",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -479,7 +502,18 @@
     },
     "routeId": "010-815",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -490,7 +524,8 @@
     ],
     "operator": [
       "(주)천일고속",
-      "(주)한일고속"
+      "(주)한일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 19,
@@ -520,7 +555,18 @@
     },
     "routeId": "010-815",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
