@@ -543,30 +543,38 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        34500,
         44800
       ],
       "초등생": [
+        17300,
         22400
       ],
       "중고생": [
-        0
+        0,
+        27600
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
     "routeId": "010-722",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
