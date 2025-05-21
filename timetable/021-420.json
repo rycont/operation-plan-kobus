@@ -36,14 +36,17 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -84,10 +87,7 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -595,14 +595,17 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -643,10 +646,7 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -691,7 +691,6 @@
         1,
         3,
         4,
-        5,
         6,
         7
       ],
@@ -823,16 +822,13 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         4,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -1414,14 +1410,17 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -1462,10 +1461,7 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        3
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1671,16 +1667,13 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         4,
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
