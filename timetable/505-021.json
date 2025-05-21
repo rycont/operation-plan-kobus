@@ -239,18 +239,7 @@
     },
     "routeId": "021-505",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -377,18 +366,7 @@
     },
     "routeId": "021-505",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -468,18 +446,7 @@
     },
     "routeId": "021-505",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -572,6 +539,46 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
+      "hour": 14,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36000
+      ],
+      "초등생": [
+        18000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-505",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "505",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 0
     },
@@ -599,18 +606,47 @@
     },
     "routeId": "021-505",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5,
-        6
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "505",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      230
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36000
       ],
-      "irregularDays": [
-        1,
-        2,
-        7
+      "초등생": [
+        18000
+      ],
+      "중고생": [
+        0
       ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-505",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -730,18 +766,7 @@
     },
     "routeId": "021-505",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
