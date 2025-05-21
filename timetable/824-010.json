@@ -1491,12 +1491,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         5
       ],
       "irregularDays": [
         1,
         2,
+        3,
         6,
         7
       ]
@@ -1830,6 +1830,7 @@
       "irregularDays": [
         1,
         2,
+        3,
         5,
         6,
         7
@@ -1917,18 +1918,7 @@
     },
     "routeId": "010-824",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        3
-      ],
-      "irregularDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -2100,11 +2090,12 @@
     "routeId": "010-824",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        3
+      ],
       "irregularDays": [
         1,
         2,
-        3,
         4,
         5,
         6,
@@ -2301,7 +2292,6 @@
       ],
       "irregularDays": [
         1,
-        3,
         4,
         5,
         6,
@@ -2462,8 +2452,7 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
-      "(주)한일고속"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 21,
@@ -2499,7 +2488,6 @@
         7
       ],
       "irregularDays": [
-        3,
         4,
         5,
         6
