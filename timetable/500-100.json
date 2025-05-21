@@ -128,12 +128,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         4
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        3
       ]
     }
   },
@@ -224,12 +224,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         4
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        3
       ]
     }
   },
@@ -320,12 +320,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3
+        4
       ],
       "irregularDays": [
         1,
         2,
-        4
+        3
       ]
     }
   },
@@ -550,12 +550,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         4
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        3
       ]
     }
   },
@@ -648,58 +648,7 @@
     },
     "routeId": "100-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 12,
-      "minute": 51
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32800
-      ],
-      "초등생": [
-        16400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "100-500",
-    "pattern": {
-      "type": "even-odd"
+      "type": "everyday"
     }
   },
   {
@@ -927,12 +876,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         4
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        3
       ]
     }
   },
@@ -1024,13 +973,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         2,
+        3,
         7
       ]
     }
@@ -1122,12 +1071,11 @@
     "routeId": "100-500",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        3
-      ],
+      "fixedDays": [],
       "irregularDays": [
         1,
-        2
+        2,
+        3
       ]
     }
   },
@@ -1305,12 +1253,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
         4
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        3
       ]
     }
   },
@@ -1365,7 +1313,6 @@
       "irregularDays": [
         1,
         2,
-        3,
         7
       ]
     }
