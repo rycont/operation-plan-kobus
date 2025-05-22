@@ -345,7 +345,18 @@
     },
     "routeId": "021-316",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4
+      ]
     }
   },
   {
@@ -391,12 +402,13 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         6,
         7
       ],
       "irregularDays": [
         1,
+        3,
+        4,
         5
       ]
     }
@@ -450,7 +462,6 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -484,13 +495,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6
       ],
       "irregularDays": [
         2,
-        3,
+        4,
         7
       ]
     }
@@ -622,14 +633,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -675,12 +686,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         5,
         7
       ],
       "irregularDays": [
         2,
+        3,
+        4,
         6
       ]
     }
@@ -730,6 +742,7 @@
       "irregularDays": [
         1,
         2,
+        3,
         4,
         5,
         6
@@ -775,7 +788,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6
       ],
@@ -783,6 +795,7 @@
         1,
         2,
         3,
+        4,
         7
       ]
     }
@@ -878,8 +891,7 @@
       ],
       "irregularDays": [
         1,
-        3,
-        4
+        3
       ]
     }
   },
@@ -968,7 +980,7 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        3,
         5,
         6,
         7
@@ -976,7 +988,7 @@
       "irregularDays": [
         1,
         2,
-        3
+        4
       ]
     }
   },
@@ -1064,14 +1076,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -1118,13 +1130,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        3,
+        4
       ]
     }
   },
@@ -1213,14 +1226,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        3,
         6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
+        4,
         5
       ]
     }
@@ -1268,11 +1281,11 @@
       "fixedDays": [
         1,
         2,
-        4,
+        3,
         6
       ],
       "irregularDays": [
-        3,
+        4,
         5,
         7
       ]
@@ -1320,14 +1333,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -1551,15 +1564,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        2,
-        3,
-        4
+        2
       ]
     }
   },
@@ -1606,14 +1618,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        3,
+        4
       ]
     }
   },
@@ -1658,14 +1670,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         5,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        4,
         6
       ]
     }
@@ -1713,11 +1724,12 @@
       "fixedDays": [
         1,
         2,
-        4,
         6,
         7
       ],
       "irregularDays": [
+        3,
+        4,
         5
       ]
     }
@@ -1986,12 +1998,12 @@
       "fixedDays": [
         1,
         2,
-        4,
+        3,
         5,
         6
       ],
       "irregularDays": [
-        3,
+        4,
         7
       ]
     }
@@ -2039,14 +2051,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
-        4
+        2
       ]
     }
   },
@@ -2177,14 +2188,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        3,
+        4
       ]
     }
   },
@@ -2271,13 +2282,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        3,
+        4
       ]
     }
   },
@@ -2492,14 +2504,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -2679,14 +2691,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        4
       ]
     }
   },
@@ -2729,7 +2741,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6
       ],
@@ -2737,6 +2748,7 @@
         1,
         2,
         3,
+        4,
         7
       ]
     }
@@ -2750,6 +2762,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -2783,14 +2796,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        4
       ]
     }
   },
@@ -2879,14 +2892,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        4
       ]
     }
   },
@@ -3010,7 +3023,18 @@
     },
     "routeId": "021-316",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4
+      ]
     }
   },
   {
@@ -3061,8 +3085,7 @@
         7
       ],
       "irregularDays": [
-        3,
-        4
+        3
       ]
     }
   },
@@ -3115,12 +3138,12 @@
       "fixedDays": [
         1,
         2,
-        4,
+        3,
         6,
         7
       ],
       "irregularDays": [
-        3,
+        4,
         5
       ]
     }
@@ -3208,14 +3231,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -3350,18 +3373,7 @@
     },
     "routeId": "021-316",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3,
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -3449,7 +3461,18 @@
     },
     "routeId": "021-316",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3,
+        4
+      ]
     }
   },
   {
@@ -3535,13 +3558,13 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
+        3,
         5,
         6
       ],
       "irregularDays": [
         1,
-        3,
+        4,
         7
       ]
     }
@@ -3589,14 +3612,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -3642,14 +3665,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
-        3,
-        4
+        2
       ]
     }
   },
@@ -3695,14 +3717,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        4
       ]
     }
   },
@@ -3715,8 +3737,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -3796,14 +3817,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -3890,14 +3911,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        3,
+        4
       ]
     }
   },
@@ -3942,10 +3963,10 @@
       "fixedDays": [
         1,
         2,
-        4
+        3
       ],
       "irregularDays": [
-        3
+        4
       ]
     }
   },
@@ -3992,12 +4013,13 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         6,
         7
       ],
       "irregularDays": [
         1,
+        3,
+        4,
         5
       ]
     }
@@ -4043,14 +4065,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         5,
         6
       ],
       "irregularDays": [
         1,
         2,
-        3,
-        4,
         7
       ]
     }
@@ -4108,7 +4129,6 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -4142,13 +4162,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6
       ],
       "irregularDays": [
         2,
-        3,
+        4,
         7
       ]
     }
@@ -4196,14 +4216,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -4337,14 +4357,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        4
       ]
     }
   },
@@ -4385,14 +4405,17 @@
     },
     "routeId": "021-316",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        3,
+        4
       ]
     }
   },
@@ -4479,14 +4502,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
+        3,
         6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        3,
+        4,
         5
       ]
     }
@@ -4618,14 +4641,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
+        3,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        4
       ]
     }
   },
@@ -4712,13 +4735,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        3,
+        4
       ]
     }
   },
@@ -4763,10 +4787,10 @@
       "fixedDays": [
         1,
         2,
-        4
+        3
       ],
       "irregularDays": [
-        3
+        4
       ]
     }
   }
