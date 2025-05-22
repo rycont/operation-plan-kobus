@@ -86,7 +86,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6
       ],
@@ -94,6 +93,7 @@
         1,
         2,
         3,
+        4,
         7
       ]
     }
@@ -1020,12 +1020,10 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
     }
@@ -1157,12 +1155,10 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
     }
@@ -1296,18 +1292,7 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1443,18 +1428,7 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1512,8 +1486,7 @@
       ],
       "irregularDays": [
         2,
-        3,
-        4
+        3
       ]
     }
   },
@@ -1833,15 +1806,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
         3,
-        7
+        4
       ]
     }
   },
@@ -1971,10 +1944,11 @@
     "routeId": "316-500",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
+      "fixedDays": [
         1,
-        2,
+        2
+      ],
+      "irregularDays": [
         3
       ]
     }
@@ -2101,12 +2075,10 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
     }
@@ -2156,13 +2128,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5
       ],
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -2335,14 +2307,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
+        3,
         4,
         5,
         6
       ],
       "irregularDays": [
         1,
-        2,
-        3,
         7
       ]
     }

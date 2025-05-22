@@ -457,12 +457,10 @@
     },
     "routeId": "316-503",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
     }
@@ -679,18 +677,7 @@
     },
     "routeId": "316-503",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -967,6 +954,7 @@
       100
     ],
     "operator": [
+      "(주)삼화고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -976,12 +964,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12500
+        12500,
+        18700
       ],
       "초등생": [
-        6300
+        6300,
+        9400
       ],
       "중고생": [
+        0,
         10000
       ]
     },
@@ -989,10 +980,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "316-503",
@@ -1122,7 +1115,12 @@
     },
     "routeId": "316-503",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
@@ -1247,12 +1245,10 @@
     },
     "routeId": "316-503",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
     }
