@@ -1264,6 +1264,7 @@
         1,
         2,
         3,
+        4,
         6,
         7
       ]
@@ -1603,18 +1604,7 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        4
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1743,13 +1733,13 @@
       "type": "irregular",
       "fixedDays": [
         3,
+        4,
         6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        4,
         5
       ]
     }
@@ -1838,7 +1828,18 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        4
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1938,7 +1939,6 @@
       "irregularDays": [
         1,
         2,
-        4,
         5,
         6,
         7
@@ -2078,11 +2078,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        4
       ],
       "irregularDays": [
         1,
-        4,
         5,
         6,
         7
@@ -2140,7 +2140,6 @@
       "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "경남여객"
     ],
     "departureTime": {
@@ -2182,7 +2181,8 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "(주)한일고속"
     ],
     "departureTime": {
       "hour": 19,
@@ -2215,10 +2215,10 @@
       "type": "irregular",
       "fixedDays": [
         2,
+        4,
         7
       ],
       "irregularDays": [
-        4,
         5,
         6
       ]
