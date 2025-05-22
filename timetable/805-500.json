@@ -39,7 +39,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6,
         7
@@ -47,7 +46,8 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -93,13 +93,13 @@
       "fixedDays": [
         2,
         3,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        4
       ]
     }
   },
@@ -246,13 +246,13 @@
       "fixedDays": [
         1,
         3,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2
+        2,
+        4
       ]
     }
   },
@@ -296,13 +296,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        3
+        3,
+        4
       ]
     }
   },
@@ -347,14 +347,14 @@
       "type": "irregular",
       "fixedDays": [
         3,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        2
+        2,
+        4
       ]
     }
   },
@@ -501,14 +501,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -654,14 +654,11 @@
     },
     "routeId": "500-805",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         5,
         7
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
@@ -707,13 +704,13 @@
       "fixedDays": [
         1,
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        3
+        3,
+        4
       ]
     }
   },
@@ -805,13 +802,13 @@
       "fixedDays": [
         2,
         3,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
-        1
+        1,
+        4
       ]
     }
   },
@@ -856,14 +853,14 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         1,
-        3
+        3,
+        4
       ]
     }
   },
@@ -917,6 +914,46 @@
         1,
         2
       ]
+    }
+  },
+  {
+    "departureTerminalId": "805",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22900
+      ],
+      "초등생": [
+        11500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-805",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1011,7 +1048,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6,
         7
@@ -1019,7 +1055,8 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -1200,14 +1237,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -1292,14 +1329,14 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        4,
         5,
         6,
         7
       ],
       "irregularDays": [
         2,
-        3
+        3,
+        4
       ]
     }
   }

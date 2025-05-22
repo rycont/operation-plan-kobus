@@ -730,9 +730,11 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        27800,
         36100
       ],
       "초등생": [
+        13900,
         18100
       ],
       "중고생": [
@@ -743,20 +745,25 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
     "routeId": "500-110",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
