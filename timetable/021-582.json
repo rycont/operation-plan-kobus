@@ -405,10 +405,12 @@
     },
     "routeId": "582-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
