@@ -278,10 +278,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6
       ],
       "irregularDays": [
+        5,
         7
       ]
     }
@@ -404,6 +404,46 @@
     "routeId": "512-703",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "703",
+    "arrivalTerminalId": "512",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21900
+      ],
+      "초등생": [
+        11000
+      ],
+      "중고생": [
+        17500
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "512-703",
+    "pattern": {
+      "type": "even-odd"
     }
   }
 ]
