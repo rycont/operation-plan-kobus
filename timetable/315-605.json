@@ -41,12 +41,13 @@
       "fixedDays": [
         1,
         3,
-        5
+        5,
+        7
       ],
       "irregularDays": [
         2,
-        6,
-        7
+        4,
+        6
       ]
     }
   },
@@ -180,12 +181,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         6
       ],
       "irregularDays": [
         1,
-        2,
+        5,
         7
       ]
     }
@@ -276,12 +278,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         4,
-        5,
         6
       ],
       "irregularDays": [
-        3,
+        2,
+        5,
         7
       ]
     }
@@ -373,14 +376,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        5,
+        7
       ],
       "irregularDays": [
         3,
         4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -471,14 +474,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         2,
         4,
         6
       ],
       "irregularDays": [
-        1,
         3,
-        5
+        5,
+        7
       ]
     }
   },
@@ -573,11 +577,57 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        3
       ],
       "irregularDays": [
+        1,
         2,
-        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "315",
+    "arrivalTerminalId": "605",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "605-315",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
         7
       ]
     }
@@ -619,11 +669,9 @@
     },
     "routeId": "605-315",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         7
       ]
     }
@@ -719,15 +767,56 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        4,
+        5,
         6,
         7
       ],
       "irregularDays": [
         1,
         2,
-        4,
-        5
+        3
       ]
+    }
+  },
+  {
+    "departureTerminalId": "315",
+    "arrivalTerminalId": "605",
+    "durationInMinutes": [
+      55
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9900
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "605-315",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -817,12 +906,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        3,
-        5
+        1,
+        3
       ],
       "irregularDays": [
-        1,
         4,
+        5,
         6,
         7
       ]
@@ -913,12 +1002,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         3,
         5,
         7
       ],
       "irregularDays": [
-        2,
+        1,
         4,
         6
       ]
@@ -965,13 +1055,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        4,
         6
       ],
       "irregularDays": [
         2,
-        3,
-        4,
-        5
+        3
       ]
     }
   },
@@ -1064,12 +1153,13 @@
       "fixedDays": [
         1,
         3,
-        5
+        5,
+        7
       ],
       "irregularDays": [
         2,
-        6,
-        7
+        4,
+        6
       ]
     }
   },
@@ -1203,12 +1293,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        2,
         4,
         6
       ],
       "irregularDays": [
         1,
-        2,
+        5,
         7
       ]
     }
@@ -1299,12 +1390,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        3,
         4,
-        5,
         6
       ],
       "irregularDays": [
-        3,
+        2,
+        5,
         7
       ]
     }
@@ -1396,14 +1488,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        5,
+        7
       ],
       "irregularDays": [
         3,
         4,
-        5,
-        6,
-        7
+        6
       ]
     }
   },
