@@ -330,6 +330,46 @@
       225
     ],
     "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        44800
+      ],
+      "초등생": [
+        22400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "010-722",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "722",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      225
+    ],
+    "operator": [
       "(주)동양고속",
       "(주)중앙고속"
     ],
@@ -2046,12 +2086,9 @@
     },
     "routeId": "010-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -3090,8 +3127,7 @@
       225
     ],
     "operator": [
-      "(주)동양고속",
-      "(주)중앙고속"
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 17,
@@ -3121,14 +3157,11 @@
     },
     "routeId": "010-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -3450,12 +3483,9 @@
     },
     "routeId": "010-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
