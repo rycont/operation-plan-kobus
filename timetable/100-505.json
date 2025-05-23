@@ -156,11 +156,9 @@
     },
     "routeId": "505-100",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        6,
         7
       ]
     }
