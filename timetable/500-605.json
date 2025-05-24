@@ -236,10 +236,7 @@
     },
     "routeId": "605-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -293,46 +290,6 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 2
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11500
-      ],
-      "초등생": [
-        5800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "605-500",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "605",
-    "durationInMinutes": [
-      70
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 10,
       "minute": 32
     },
     "isTemporaryRoute": false,
@@ -360,10 +317,9 @@
     "routeId": "605-500",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
+        6,
         7
       ]
     }
@@ -406,46 +362,6 @@
     "routeId": "605-500",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "605",
-    "durationInMinutes": [
-      70
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 11,
-      "minute": 11
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        11500
-      ],
-      "초등생": [
-        5800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "605-500",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -807,11 +723,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
         7
       ],
       "irregularDays": [
-        5
+        5,
+        6
       ]
     }
   },
@@ -1014,11 +930,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6,
         7
       ],
       "irregularDays": [
-        5
+        5,
+        6
       ]
     }
   },
