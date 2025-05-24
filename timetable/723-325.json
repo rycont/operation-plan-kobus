@@ -744,16 +744,14 @@
     },
     "routeId": "325-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
-        4
+        4,
+        6,
+        7
       ]
     }
   },
@@ -1065,12 +1063,10 @@
     },
     "routeId": "325-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
       ]
     }
@@ -1386,7 +1382,8 @@
       85
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 14,
@@ -1416,9 +1413,8 @@
     },
     "routeId": "325-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
@@ -1968,12 +1964,9 @@
     },
     "routeId": "325-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },

@@ -78,13 +78,12 @@
     "routeId": "325-722",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        6
-      ],
+      "fixedDays": [],
       "irregularDays": [
         2,
         3,
-        5
+        5,
+        6
       ]
     }
   },
@@ -208,12 +207,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -295,13 +292,11 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -530,12 +525,12 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        5
       ],
       "irregularDays": [
         2,
-        4,
-        5
+        4
       ]
     }
   },
@@ -760,11 +755,9 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         5
       ]
     }
@@ -868,11 +861,9 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         5
       ]
     }
@@ -915,16 +906,14 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6,
-        7
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
-        4
+        4,
+        6,
+        7
       ]
     }
   },
@@ -1026,7 +1015,8 @@
       90
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 11,
@@ -1056,7 +1046,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -1187,7 +1180,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -1323,12 +1319,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
       ]
     }
@@ -1497,13 +1491,11 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -1514,7 +1506,8 @@
       90
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -1544,7 +1537,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -1645,6 +1641,7 @@
       90
     ],
     "operator": [
+      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -1675,7 +1672,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -1734,7 +1734,8 @@
       90
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 14,
@@ -1764,9 +1765,8 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
@@ -1873,6 +1873,7 @@
       90
     ],
     "operator": [
+      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -1903,7 +1904,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -1960,7 +1964,8 @@
       90
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 15,
@@ -1990,7 +1995,10 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        5
+      ]
     }
   },
   {
@@ -2215,15 +2223,13 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
+        5,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -2323,7 +2329,8 @@
       90
     ],
     "operator": [
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 16,
@@ -2353,11 +2360,9 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
+      "type": "specific-day",
+      "days": [
+        5
       ]
     }
   },
@@ -2496,12 +2501,13 @@
     "routeId": "325-722",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
+      "fixedDays": [
+        5
+      ],
       "irregularDays": [
         1,
         3,
-        4,
-        5
+        4
       ]
     }
   },
@@ -2596,14 +2602,12 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
@@ -2645,18 +2649,7 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        6
-      ],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2708,7 +2701,8 @@
     ],
     "operator": [
       "(주)대원고속",
-      "(주)동양고속"
+      "(주)동양고속",
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -2916,14 +2910,12 @@
     },
     "routeId": "325-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        5
       ]
     }
   },
