@@ -363,11 +363,11 @@
         1,
         2,
         3,
-        4,
-        6
+        4
       ],
       "irregularDays": [
         5,
+        6,
         7
       ]
     }
@@ -413,6 +413,7 @@
       "fixedDays": [],
       "irregularDays": [
         5,
+        6,
         7
       ]
     }
@@ -952,6 +953,46 @@
     "routeId": "602-100",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "602",
+    "durationInMinutes": [
+      165
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24100
+      ],
+      "초등생": [
+        12100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "602-100",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {

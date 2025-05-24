@@ -84,7 +84,18 @@
     },
     "routeId": "032-300",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
     }
   },
   {
@@ -248,46 +259,6 @@
       120
     ],
     "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18100
-      ],
-      "초등생": [
-        9100
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "032-300",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "032",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
       "(주)대원고속",
       "(주)동양고속",
       "(주)중앙고속",
@@ -438,51 +409,10 @@
       120
     ],
     "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12400
-      ],
-      "초등생": [
-        6200
-      ],
-      "중고생": [
-        9900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "032-300",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "300",
-    "arrivalTerminalId": "032",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
       "(주)대원고속",
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "(주)한일고속"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 10,
@@ -789,7 +719,18 @@
     },
     "routeId": "032-300",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "irregularDays": [
+        6
+      ]
     }
   },
   {
@@ -1106,8 +1047,7 @@
       "(주)대원고속",
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "(주)한일고속"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 18,
