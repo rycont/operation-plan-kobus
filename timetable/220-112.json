@@ -134,7 +134,58 @@
     },
     "routeId": "112-220",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "220",
+    "arrivalTerminalId": "112",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 11
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        35800
+      ],
+      "초등생": [
+        17900
+      ],
+      "중고생": [
+        28600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "112-220",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
