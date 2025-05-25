@@ -712,46 +712,6 @@
       "(주)동부고속"
     ],
     "departureTime": {
-      "hour": 15,
-      "minute": 20
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17100
-      ],
-      "초등생": [
-        8600
-      ],
-      "중고생": [
-        13700
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "450-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "450",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
       "hour": 16,
       "minute": 20
     },
@@ -1122,15 +1082,12 @@
     },
     "routeId": "450-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        7
       ]
     }
   },
