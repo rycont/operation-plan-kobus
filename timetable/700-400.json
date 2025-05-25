@@ -6,6 +6,7 @@
       175
     ],
     "operator": [
+      "(주)한일고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -36,7 +37,18 @@
     },
     "routeId": "400-700",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        6
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
     }
   },
   {
@@ -120,15 +132,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        5,
+        6,
         7
       ],
       "irregularDays": [
         1,
         2,
         3,
-        4,
-        5,
-        6
+        4
       ]
     }
   },
@@ -180,6 +192,7 @@
       175
     ],
     "operator": [
+      "(주)한일고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -210,7 +223,18 @@
     },
     "routeId": "400-700",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   },
   {
