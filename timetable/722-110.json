@@ -80,12 +80,7 @@
     },
     "routeId": "110-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -195,11 +190,9 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31600,
         41000
       ],
       "초등생": [
-        15800,
         20500
       ],
       "중고생": [
@@ -210,22 +203,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
     "routeId": "110-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -296,12 +282,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31600,
-        41000
+        31600
       ],
       "초등생": [
-        15800,
-        20500
+        15800
       ],
       "중고생": [
         0
@@ -311,22 +295,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
-        "우등",
-        "프리미엄"
+        "우등"
       ]
     },
     "routeId": "110-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -432,51 +409,6 @@
     "departureTime": {
       "hour": 13,
       "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31600
-      ],
-      "초등생": [
-        15800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "110-722",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "722",
-    "arrivalTerminalId": "110",
-    "durationInMinutes": [
-      225
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -593,8 +525,7 @@
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -705,55 +636,6 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31600,
-        41000
-      ],
-      "초등생": [
-        15800,
-        20500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21,
-        28
-      ],
-      "busClass": [
-        "우등",
-        "프리미엄"
-      ]
-    },
-    "routeId": "110-722",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "722",
-    "arrivalTerminalId": "110",
-    "durationInMinutes": [
-      225
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
         31600
       ],
       "초등생": [
@@ -789,7 +671,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 10
+      "minute": 0
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -855,12 +737,7 @@
     },
     "routeId": "110-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -930,11 +807,9 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        31600,
         41000
       ],
       "초등생": [
-        15800,
         20500
       ],
       "중고생": [
@@ -945,22 +820,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
-        28
+        21
       ],
       "busClass": [
-        "우등",
         "프리미엄"
       ]
     },
     "routeId": "110-722",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        7
-      ]
+      "type": "even-odd"
     }
   }
 ]
