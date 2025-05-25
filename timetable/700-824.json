@@ -334,12 +334,12 @@
         1,
         2,
         3,
-        4
+        4,
+        7
       ],
       "irregularDays": [
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -939,6 +939,46 @@
       100
     ],
     "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17400
+      ],
+      "초등생": [
+        8700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "824-700",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "700",
+    "arrivalTerminalId": "824",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
@@ -1257,7 +1297,18 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
@@ -1303,13 +1354,13 @@
       "fixedDays": [
         1,
         4,
-        5,
-        7
+        5
       ],
       "irregularDays": [
         2,
         3,
-        6
+        6,
+        7
       ]
     }
   },
@@ -1413,46 +1464,6 @@
         3,
         4
       ]
-    }
-  },
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "824",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17400
-      ],
-      "초등생": [
-        8700
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "824-700",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1592,7 +1603,12 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -1643,8 +1659,7 @@
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1729,14 +1744,14 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        7
       ],
       "irregularDays": [
         1,
         2,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -1848,8 +1863,7 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
-      "(주)한일고속"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 17,
@@ -1887,8 +1901,7 @@
       "irregularDays": [
         1,
         2,
-        3,
-        7
+        3
       ]
     }
   },
@@ -1951,7 +1964,8 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "(주)한일고속"
     ],
     "departureTime": {
       "hour": 17,
@@ -1984,12 +1998,12 @@
       "type": "irregular",
       "fixedDays": [
         3,
-        5
+        5,
+        7
       ],
       "irregularDays": [
         1,
-        2,
-        7
+        2
       ]
     }
   },
@@ -2047,46 +2061,6 @@
       100
     ],
     "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17400
-      ],
-      "초등생": [
-        8700
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "824-700",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "700",
-    "arrivalTerminalId": "824",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
       "(주)동양고속",
       "(주)중앙고속",
       "(주)한일고속"
@@ -2126,8 +2100,7 @@
         6
       ],
       "irregularDays": [
-        1,
-        7
+        1
       ]
     }
   },
@@ -2255,11 +2228,13 @@
     },
     "routeId": "824-700",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
         4,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
     }
