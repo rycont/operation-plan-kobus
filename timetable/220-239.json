@@ -86,6 +86,7 @@
       105
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속"
     ],
     "departureTime": {
@@ -116,7 +117,12 @@
     },
     "routeId": "239-220",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -566,6 +572,46 @@
       105
     ],
     "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16000
+      ],
+      "초등생": [
+        8000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "239-220",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "220",
+    "arrivalTerminalId": "239",
+    "durationInMinutes": [
+      105
+    ],
+    "operator": [
       "(주)동부고속"
     ],
     "departureTime": {
@@ -686,6 +732,7 @@
       105
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속"
     ],
     "departureTime": {
@@ -716,7 +763,12 @@
     },
     "routeId": "239-220",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {

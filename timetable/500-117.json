@@ -81,13 +81,13 @@
       "type": "irregular",
       "fixedDays": [
         4,
-        5,
-        7
+        5
       ],
       "irregularDays": [
         1,
         2,
-        6
+        6,
+        7
       ]
     }
   },
@@ -682,8 +682,7 @@
         1,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1999,46 +1998,6 @@
     "routeId": "117-500",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "117",
-    "durationInMinutes": [
-      260
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        39900
-      ],
-      "초등생": [
-        20000
-      ],
-      "중고생": [
-        31900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "117-500",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
