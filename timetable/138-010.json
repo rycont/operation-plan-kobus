@@ -38,10 +38,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -167,7 +167,11 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -239,7 +243,8 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44
+        44,
+        45
       ],
       "busClass": [
         "고속"
@@ -247,7 +252,11 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -370,7 +379,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -498,10 +506,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         7
       ],
       "irregularDays": [
-        1,
         2,
         3,
         4,
@@ -627,7 +635,11 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -707,7 +719,11 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -827,7 +843,11 @@
     },
     "routeId": "010-138",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -910,7 +930,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        1,
         2,
         3,
         4,
