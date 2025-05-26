@@ -255,8 +255,7 @@
       90
     ],
     "operator": [
-      "(주)중앙고속",
-      "속리산고속(주)"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 6,
@@ -286,13 +285,10 @@
     },
     "routeId": "010-400",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -613,46 +609,6 @@
     ],
     "departureTime": {
       "hour": 7,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13300
-      ],
-      "초등생": [
-        6700
-      ],
-      "중고생": [
-        10600
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-400",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "400",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "속리산고속(주)"
-    ],
-    "departureTime": {
-      "hour": 7,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -815,46 +771,6 @@
     "routeId": "010-400",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "400",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        13300
-      ],
-      "초등생": [
-        6700
-      ],
-      "중고생": [
-        10600
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-400",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
