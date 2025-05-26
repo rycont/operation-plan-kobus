@@ -78,7 +78,58 @@
     },
     "routeId": "010-735",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "고려여객자동차(주)"
+    ],
+    "departureTime": {
+      "hour": 6,
+      "minute": 1
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-735",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -159,7 +210,58 @@
     },
     "routeId": "010-735",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "735",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      280
+    ],
+    "operator": [
+      "고려여객자동차(주)"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 41
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39400
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-735",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
