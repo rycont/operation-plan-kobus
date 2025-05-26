@@ -42,15 +42,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        1,
+        5
       ]
     }
   },
@@ -63,7 +63,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -146,15 +145,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -203,15 +202,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -222,7 +221,6 @@
       100
     ],
     "operator": [
-      "(주)삼화고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -253,10 +251,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -268,6 +263,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)",
@@ -301,18 +297,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -324,6 +309,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -360,15 +346,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -379,8 +365,7 @@
       100
     ],
     "operator": [
-      "(주)한일고속",
-      "속리산고속(주)"
+      "(주)한일고속"
     ],
     "departureTime": {
       "hour": 6,
@@ -410,10 +395,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -467,7 +449,6 @@
       100
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -498,10 +479,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -511,7 +489,6 @@
       100
     ],
     "operator": [
-      "(주)중앙고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -542,10 +519,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -555,6 +529,7 @@
       100
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
@@ -592,15 +567,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -613,7 +588,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -650,15 +624,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        7
+        1,
+        2
       ]
     }
   },
@@ -705,16 +679,13 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -760,7 +731,18 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        4
+      ]
     }
   },
   {
@@ -853,15 +835,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        4
+        4,
+        7
       ],
       "irregularDays": [
+        1,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -906,14 +888,17 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -959,7 +944,18 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        1,
+        3
+      ]
     }
   },
   {
@@ -1005,16 +1001,13 @@
     },
     "routeId": "358-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -1028,6 +1021,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -1064,15 +1058,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -1085,7 +1079,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)",
@@ -1210,15 +1203,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        1,
+        5
       ]
     }
   },
@@ -1265,14 +1258,17 @@
     },
     "routeId": "358-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -1319,15 +1315,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        4,
-        7
+        1,
+        4
       ]
     }
   },
@@ -1342,7 +1338,6 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -1376,15 +1371,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        7
+        1,
+        2
       ]
     }
   },
@@ -1431,14 +1426,17 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -1452,6 +1450,7 @@
       "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -1528,7 +1527,18 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -1574,15 +1584,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        1,
+        6
       ]
     }
   },
@@ -1631,13 +1641,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         6,
         7
       ]
@@ -1652,6 +1662,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -1686,18 +1697,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -1745,15 +1745,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1800,15 +1800,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -1866,7 +1866,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -1903,15 +1902,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        7
+        1,
+        2
       ]
     }
   },
@@ -1959,15 +1958,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        4,
-        7
+        1,
+        4
       ]
     }
   },
@@ -1981,7 +1980,6 @@
       "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -2105,15 +2103,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        4
+        4,
+        7
       ],
       "irregularDays": [
+        1,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -2159,16 +2157,13 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -2263,13 +2258,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         6,
         7
       ]
@@ -2282,9 +2277,9 @@
       100
     ],
     "operator": [
-      "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
@@ -2319,15 +2314,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        1,
+        6
       ]
     }
   },
@@ -2374,15 +2369,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        1,
+        5
       ]
     }
   },
@@ -2431,15 +2426,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -2452,7 +2447,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -2497,7 +2491,6 @@
       100
     ],
     "operator": [
-      "(주)삼화고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -2528,10 +2521,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -2579,15 +2569,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -2600,8 +2590,7 @@
     "operator": [
       "(주)중앙고속",
       "(주)한일고속",
-      "금호익스프레스(주)",
-      "속리산고속(주)"
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 13,
@@ -2632,10 +2621,9 @@
     "routeId": "352-010",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        1
-      ],
+      "fixedDays": [],
       "irregularDays": [
+        1,
         4,
         5
       ]
@@ -2650,6 +2638,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)",
@@ -2683,18 +2672,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -2704,7 +2682,6 @@
       100
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -2735,10 +2712,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -2830,15 +2804,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -2850,7 +2824,6 @@
     ],
     "operator": [
       "(주)동부고속",
-      "(주)중앙고속",
       "속리산고속(주)"
     ],
     "departureTime": {
@@ -2882,10 +2855,9 @@
     "routeId": "352-010",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        1
-      ],
+      "fixedDays": [],
       "irregularDays": [
+        1,
         4,
         5
       ]
@@ -2898,6 +2870,7 @@
       100
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
@@ -2935,15 +2908,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -2990,16 +2963,13 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -3185,15 +3155,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        4
+        4,
+        7
       ],
       "irregularDays": [
+        1,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -3206,6 +3176,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -3242,15 +3213,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -3340,14 +3311,17 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -3405,6 +3379,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -3441,15 +3416,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
+        2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -3462,7 +3437,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -3499,15 +3473,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        7
+        1,
+        2
       ]
     }
   },
@@ -3555,15 +3529,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        1,
+        5
       ]
     }
   },
@@ -3610,15 +3584,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        4,
-        7
+        1,
+        4
       ]
     }
   },
@@ -3631,7 +3605,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)",
@@ -3711,14 +3684,17 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -3809,16 +3785,13 @@
     },
     "routeId": "358-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -3834,7 +3807,6 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -3868,15 +3840,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        7
+        1,
+        2
       ]
     }
   },
@@ -3890,6 +3862,7 @@
       "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -3966,7 +3939,18 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "irregularDays": [
+        1,
+        7
+      ]
     }
   },
   {
@@ -4014,15 +3998,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -4069,15 +4053,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        1,
+        6
       ]
     }
   },
@@ -4124,14 +4108,17 @@
     },
     "routeId": "358-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -4144,6 +4131,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -4178,18 +4166,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -4235,15 +4212,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -4301,7 +4278,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -4338,15 +4314,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        2,
-        7
+        1,
+        2
       ]
     }
   },
@@ -4395,13 +4371,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         6,
         7
       ]
@@ -4451,15 +4427,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        4,
-        7
+        1,
+        4
       ]
     }
   },
@@ -4473,7 +4449,6 @@
       "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -4594,16 +4569,13 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -4698,13 +4670,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
         5
       ],
       "irregularDays": [
+        1,
         6,
         7
       ]
@@ -4755,15 +4727,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        4
+        4,
+        7
       ],
       "irregularDays": [
+        1,
         5,
-        6,
-        7
+        6
       ]
     }
   },
@@ -4774,9 +4746,9 @@
       100
     ],
     "operator": [
-      "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
@@ -4811,15 +4783,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        1,
+        6
       ]
     }
   },
@@ -4866,15 +4838,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        1,
+        5
       ]
     }
   },
@@ -4887,7 +4859,6 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
-      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
@@ -4970,15 +4941,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -4991,6 +4962,7 @@
     "operator": [
       "(주)동부고속",
       "(주)동양고속",
+      "(주)삼화고속",
       "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)",
@@ -5024,18 +4996,7 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        2,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -5083,15 +5044,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -5146,6 +5107,7 @@
       100
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
@@ -5183,15 +5145,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         4,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        3,
-        7
+        1,
+        3
       ]
     }
   },
@@ -5282,16 +5244,13 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         2,
         3,
         4,
         5,
-        6
-      ],
-      "irregularDays": [
-        1,
+        6,
         7
       ]
     }
@@ -5386,15 +5345,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         5,
-        6
+        6,
+        7
       ],
       "irregularDays": [
+        1,
         3,
-        4,
-        7
+        4
       ]
     }
   },
@@ -5439,14 +5398,17 @@
     },
     "routeId": "352-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        1,
+        7
       ]
     }
   },
@@ -5539,15 +5501,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
         4,
-        6
+        6,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        1,
+        5
       ]
     }
   },
@@ -5596,15 +5558,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         2,
         3,
-        4
+        4,
+        7
       ],
       "irregularDays": [
+        1,
         5,
-        6,
-        7
+        6
       ]
     }
   }
