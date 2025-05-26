@@ -99,8 +99,7 @@
       95
     ],
     "operator": [
-      "(주)동부고속",
-      "(주)중앙고속"
+      "(주)동부고속"
     ],
     "departureTime": {
       "hour": 7,
@@ -215,13 +214,10 @@
     },
     "routeId": "010-246",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
