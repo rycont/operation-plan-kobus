@@ -46,6 +46,46 @@
       120
     ],
     "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 5,
+      "minute": 56
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16900
+      ],
+      "초등생": [
+        8500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-305",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "305",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
@@ -82,13 +122,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
         3,
         4,
         5,
         6
       ],
       "irregularDays": [
+        2,
         7
       ]
     }
@@ -103,7 +143,6 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -493,7 +532,6 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -772,8 +810,8 @@
       120
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -911,7 +949,6 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -942,12 +979,15 @@
     },
     "routeId": "010-305",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -1105,6 +1145,7 @@
     ],
     "operator": [
       "(주)동양고속",
+      "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)"
@@ -1430,13 +1471,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
         3,
         4,
         6,
         7
       ],
       "irregularDays": [
+        2,
         5
       ]
     }
@@ -1451,7 +1492,6 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -1580,6 +1620,46 @@
       "irregularDays": [
         1
       ]
+    }
+  },
+  {
+    "departureTerminalId": "305",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 21
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        16900
+      ],
+      "초등생": [
+        8500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-305",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1834,7 +1914,6 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -1975,8 +2054,8 @@
       120
     ],
     "operator": [
-      "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -2072,7 +2151,6 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)천일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -2268,6 +2346,7 @@
     ],
     "operator": [
       "(주)동양고속",
+      "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)"
@@ -2548,7 +2627,18 @@
     },
     "routeId": "010-305",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2
+      ]
     }
   },
   {
@@ -2561,7 +2651,6 @@
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
