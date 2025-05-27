@@ -1,77 +1,27 @@
 [
   {
-    "departureTerminalId": "520",
-    "arrivalTerminalId": "117",
+    "departureTerminalId": "505",
+    "arrivalTerminalId": "352",
     "durationInMinutes": [
-      325
+      215
     ],
     "operator": [
       "금호익스프레스(주)"
     ],
     "departureTime": {
-      "hour": 0,
-      "minute": 30
+      "hour": 8,
+      "minute": 5
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        55400
+        31000
       ],
       "초등생": [
-        27700
+        15500
       ],
       "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "심야우등"
-      ]
-    },
-    "routeId": "117-520",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "520",
-    "arrivalTerminalId": "117",
-    "durationInMinutes": [
-      325
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        46200
-      ],
-      "초등생": [
-        23100
-      ],
-      "중고생": [
-        37000
+        24800
       ]
     },
     "stops": [],
@@ -84,7 +34,47 @@
         "우등"
       ]
     },
-    "routeId": "117-520",
+    "routeId": "352-505",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "505",
+    "arrivalTerminalId": "352",
+    "durationInMinutes": [
+      215
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31000
+      ],
+      "초등생": [
+        15500
+      ],
+      "중고생": [
+        24800
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "352-505",
     "pattern": {
       "type": "everyday"
     }
