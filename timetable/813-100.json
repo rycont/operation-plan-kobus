@@ -240,14 +240,59 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
         5,
         6,
         7
       ],
       "irregularDays": [
+        2,
         3,
         4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "813",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24800
+      ],
+      "초등생": [
+        12400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "100-813",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
       ]
     }
   },
