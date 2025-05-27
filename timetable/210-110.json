@@ -148,13 +148,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
         3,
         4,
         5,
         7
       ],
       "irregularDays": [
+        2,
         6
       ]
     }
@@ -166,7 +166,8 @@
       195
     ],
     "operator": [
-      "(주)동부고속"
+      "(주)동부고속",
+      "(주)동양고속"
     ],
     "departureTime": {
       "hour": 10,
@@ -196,7 +197,12 @@
     },
     "routeId": "110-210",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        2,
+        6
+      ]
     }
   },
   {
@@ -244,7 +250,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         3,
         4,
         5,
@@ -252,6 +257,7 @@
       ],
       "irregularDays": [
         1,
+        2,
         7
       ]
     }
@@ -303,6 +309,7 @@
       195
     ],
     "operator": [
+      "(주)동부고속",
       "(주)동양고속"
     ],
     "departureTime": {
@@ -333,7 +340,12 @@
     },
     "routeId": "110-210",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        2
+      ]
     }
   },
   {
