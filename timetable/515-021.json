@@ -455,7 +455,8 @@
       220
     ],
     "operator": [
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 16,
@@ -485,7 +486,18 @@
     },
     "routeId": "021-515",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        3
+      ],
+      "irregularDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -569,13 +581,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         5,
         6,
         7
       ],
       "irregularDays": [
-        2,
         4
       ]
     }
