@@ -80,11 +80,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4,
         5
       ],
       "irregularDays": [
         2,
+        3,
         6,
         7
       ]
@@ -171,6 +173,7 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
+        1,
         4,
         5
       ]
@@ -469,6 +472,46 @@
       240
     ],
     "operator": [
+      "광신고속"
+    ],
+    "departureTime": {
+      "hour": 1,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        47800
+      ],
+      "초등생": [
+        23900
+      ],
+      "중고생": [
+        38200
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "105-500",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "105",
+    "durationInMinutes": [
+      240
+    ],
+    "operator": [
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -678,9 +721,11 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
+        2,
         3,
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -766,6 +811,7 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
+        1,
         4,
         5,
         6
@@ -856,6 +902,7 @@
         5
       ],
       "irregularDays": [
+        2,
         4
       ]
     }
@@ -938,7 +985,14 @@
     },
     "routeId": "105-500",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        2,
+        3,
+        5,
+        7
+      ]
     }
   },
   {
