@@ -83,7 +83,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        2,
         3,
         4,
         5,
@@ -210,11 +209,13 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        2,
+      "type": "irregular",
+      "fixedDays": [
         3,
         4
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -923,7 +924,6 @@
         7
       ],
       "irregularDays": [
-        2,
         4
       ]
     }
@@ -1432,13 +1432,11 @@
     "fare": {
       "어른": [
         12500,
-        18700,
-        24300
+        18700
       ],
       "초등생": [
         6300,
-        9400,
-        12200
+        9400
       ],
       "중고생": [
         0,
@@ -1449,13 +1447,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21,
         28
       ],
       "busClass": [
         "고속",
-        "우등",
-        "프리미엄"
+        "우등"
       ]
     },
     "routeId": "316-500",
@@ -1467,7 +1463,6 @@
         7
       ],
       "irregularDays": [
-        2,
         3
       ]
     }
@@ -1556,12 +1551,14 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
         3,
         4
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -1786,7 +1783,6 @@
         7
       ],
       "irregularDays": [
-        2,
         3,
         4
       ]
@@ -1910,11 +1906,13 @@
     },
     "routeId": "316-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
         3
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -2094,7 +2092,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        2,
         3,
         4,
         5
