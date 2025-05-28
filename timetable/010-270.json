@@ -1116,7 +1116,12 @@
     },
     "routeId": "270-010",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -1236,7 +1241,12 @@
     },
     "routeId": "270-010",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -1876,6 +1886,46 @@
     "departureTime": {
       "hour": 22,
       "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        23800
+      ],
+      "초등생": [
+        11900
+      ],
+      "중고생": [
+        16700
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "270-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "270",
+    "durationInMinutes": [
+      120
+    ],
+    "operator": [
+      "(주)동부고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
