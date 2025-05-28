@@ -92,6 +92,46 @@
       255
     ],
     "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36400
+      ],
+      "초등생": [
+        18200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "509-021",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "509",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
       "(주)천일고속",
       "금호익스프레스(주)"
     ],
@@ -774,6 +814,52 @@
         2,
         3,
         4
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "509",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "(주)천일고속",
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36400
+      ],
+      "초등생": [
+        18200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "509-021",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        4,
+        5
       ]
     }
   },
