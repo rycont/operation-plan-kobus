@@ -89,6 +89,46 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
+      "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        20600
+      ],
+      "초등생": [
+        10300
+      ],
+      "중고생": [
+        16500
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "352-500",
+    "pattern": {
+      "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "352",
+    "durationInMinutes": [
+      165
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
       "hour": 15,
       "minute": 15
     },
@@ -171,7 +211,8 @@
       "irregularDays": [
         1,
         2,
-        3
+        3,
+        4
       ]
     }
   },
