@@ -719,7 +719,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -1300,6 +1299,7 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
+        5,
         6,
         7
       ]
@@ -1910,7 +1910,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        4,
         5,
         6
       ]
@@ -2302,28 +2301,38 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        6800
+        6800,
+        8900
       ],
       "초등생": [
-        3400
+        3400,
+        4500
       ],
       "중고생": [
-        5400
+        5400,
+        7100
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "010-310",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
+      ]
     }
   },
   {
@@ -3138,7 +3147,12 @@
     },
     "routeId": "010-310",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6
+      ]
     }
   },
   {
@@ -3875,6 +3889,46 @@
     "routeId": "010-310",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "310",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      60
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 5
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        8900
+      ],
+      "초등생": [
+        4500
+      ],
+      "중고생": [
+        7100
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "010-310",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
