@@ -95,12 +95,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        24400,
         33500
       ],
       "초등생": [
+        12200,
         16800
       ],
       "중고생": [
+        17100,
         23500
       ]
     },
@@ -108,26 +111,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
     "routeId": "840-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        2
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -352,12 +346,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        24400,
         33500
       ],
       "초등생": [
+        12200,
         16800
       ],
       "중고생": [
+        17100,
         23500
       ]
     },
@@ -365,26 +362,17 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
     "routeId": "840-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        3
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -609,12 +597,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        24400,
         33500
       ],
       "초등생": [
+        12200,
         16800
       ],
       "중고생": [
+        17100,
         23500
       ]
     },
@@ -622,9 +613,11 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "우등",
         "프리미엄"
       ]
     },
@@ -642,6 +635,46 @@
       "irregularDays": [
         2
       ]
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "840",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(주)경기고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 51
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24400
+      ],
+      "초등생": [
+        12200
+      ],
+      "중고생": [
+        17100
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "840-010",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
