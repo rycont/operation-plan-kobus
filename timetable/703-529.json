@@ -116,18 +116,7 @@
     },
     "routeId": "529-703",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        4
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -247,14 +236,11 @@
     },
     "routeId": "529-703",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         6,
         7
-      ],
-      "irregularDays": [
-        4,
-        5
       ]
     }
   },
@@ -375,14 +361,11 @@
     },
     "routeId": "529-703",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
         6,
         7
-      ],
-      "irregularDays": [
-        4
       ]
     }
   },
