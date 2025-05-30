@@ -1067,7 +1067,6 @@
       "fixedDays": [],
       "irregularDays": [
         2,
-        5,
         6
       ]
     }
@@ -1084,46 +1083,6 @@
     "departureTime": {
       "hour": 14,
       "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19900
-      ],
-      "초등생": [
-        10000
-      ],
-      "중고생": [
-        13900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-270",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "270",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 10
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1229,11 +1188,13 @@
     },
     "routeId": "010-270",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -1536,12 +1497,7 @@
     },
     "routeId": "010-270",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1838,7 +1794,6 @@
         6
       ],
       "irregularDays": [
-        5,
         7
       ]
     }
