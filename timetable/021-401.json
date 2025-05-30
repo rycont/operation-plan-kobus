@@ -49,46 +49,6 @@
       "새서울고속"
     ],
     "departureTime": {
-      "hour": 7,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "401-021",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "401",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
       "hour": 8,
       "minute": 30
     },
@@ -660,7 +620,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -668,7 +627,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -831,7 +791,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -839,7 +798,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -880,11 +840,13 @@
     },
     "routeId": "401-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -927,7 +889,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -935,7 +896,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -979,7 +941,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1024,7 +985,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1032,7 +992,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1160,7 +1121,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1168,7 +1128,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1252,7 +1213,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1297,7 +1257,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1305,7 +1264,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1394,7 +1354,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1480,7 +1439,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1525,7 +1483,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1533,7 +1490,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1622,7 +1580,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1708,7 +1665,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1753,7 +1709,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -1761,7 +1716,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -1848,46 +1804,6 @@
         6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "401",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "401-021",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -2140,7 +2056,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -2226,7 +2141,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -2312,7 +2226,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -2358,7 +2271,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -2403,7 +2315,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -2411,7 +2322,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   },
@@ -2458,46 +2370,6 @@
         6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "401",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "401-021",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -2580,7 +2452,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -2625,46 +2496,6 @@
     "routeId": "401-021",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "021",
-    "arrivalTerminalId": "401",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "새서울고속"
-    ],
-    "departureTime": {
-      "hour": 21,
-      "minute": 45
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12800
-      ],
-      "초등생": [
-        6400
-      ],
-      "중고생": [
-        10200
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "401-021",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -2791,7 +2622,6 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5,
         6,
         7
       ],
@@ -2799,7 +2629,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   }
