@@ -2184,15 +2184,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        6100,
         7900
       ],
       "초등생": [
-        3100,
         4000
       ],
       "중고생": [
-        4300,
         5500
       ]
     },
@@ -2200,11 +2197,9 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
@@ -3047,8 +3042,7 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
-        45
+        44
       ],
       "busClass": [
         "심야고속"
@@ -3056,12 +3050,7 @@
     },
     "routeId": "180-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {

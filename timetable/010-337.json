@@ -450,46 +450,6 @@
     ],
     "departureTime": {
       "hour": 14,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        8100
-      ],
-      "초등생": [
-        4100
-      ],
-      "중고생": [
-        6500
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "337-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "337",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 14,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -731,46 +691,6 @@
     "departureTime": {
       "hour": 17,
       "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10600
-      ],
-      "초등생": [
-        5300
-      ],
-      "중고생": [
-        8500
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "337-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "337",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1108,7 +1028,6 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
         45
       ],
       "busClass": [
@@ -1117,12 +1036,7 @@
     },
     "routeId": "337-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1221,15 +1135,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9700,
         12700
       ],
       "초등생": [
-        4900,
         6400
       ],
       "중고생": [
-        7800,
         10200
       ]
     },
@@ -1237,22 +1148,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        44
+        28
       ],
       "busClass": [
-        "심야고속",
         "심야우등"
       ]
     },
     "routeId": "337-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
