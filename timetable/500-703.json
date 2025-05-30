@@ -330,6 +330,51 @@
     ],
     "departureTime": {
       "hour": 8,
+      "minute": 13
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25900
+      ],
+      "초등생": [
+        13000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "703-500",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "703",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 23
     },
     "isTemporaryRoute": false,
@@ -658,7 +703,8 @@
       "fixedDays": [],
       "irregularDays": [
         5,
-        6
+        6,
+        7
       ]
     }
   },
@@ -700,6 +746,46 @@
     "routeId": "703-500",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "703",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 43
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25900
+      ],
+      "초등생": [
+        13000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "703-500",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1326,46 +1412,6 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
-      "hour": 17,
-      "minute": 53
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25900
-      ],
-      "초등생": [
-        13000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "703-500",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "703",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
       "hour": 18,
       "minute": 0
     },
@@ -1407,87 +1453,7 @@
     ],
     "departureTime": {
       "hour": 18,
-      "minute": 33
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25900
-      ],
-      "초등생": [
-        13000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "703-500",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "703",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
       "minute": 43
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25900
-      ],
-      "초등생": [
-        13000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "703-500",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "703",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 53
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1599,46 +1565,6 @@
         4,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "703",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 53
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        25900
-      ],
-      "초등생": [
-        13000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "703-500",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
