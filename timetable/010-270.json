@@ -533,10 +533,7 @@
     },
     "routeId": "270-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -616,11 +613,13 @@
     },
     "routeId": "270-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -711,7 +710,6 @@
       120
     ],
     "operator": [
-      "(주)동부고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -745,7 +743,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -957,7 +954,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1417,46 +1413,6 @@
         6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "270",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19900
-      ],
-      "초등생": [
-        10000
-      ],
-      "중고생": [
-        13900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "270-010",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1712,46 +1668,6 @@
       120
     ],
     "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19900
-      ],
-      "초등생": [
-        10000
-      ],
-      "중고생": [
-        13900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "270-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "270",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -1950,46 +1866,6 @@
       "irregularDays": [
         5
       ]
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "270",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        19900
-      ],
-      "초등생": [
-        10000
-      ],
-      "중고생": [
-        13900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "270-010",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -2236,10 +2112,7 @@
     },
     "routeId": "270-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "even-odd"
     }
   },
   {
