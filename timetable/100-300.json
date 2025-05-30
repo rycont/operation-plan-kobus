@@ -799,9 +799,12 @@
     },
     "routeId": "300-100",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -1174,27 +1177,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900,
         18900
       ],
       "초등생": [
-        6500,
         9500
       ],
       "중고생": [
-        0,
-        10300
+        0
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
@@ -2579,27 +2577,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900,
         18900
       ],
       "초등생": [
-        6500,
         9500
       ],
       "중고생": [
-        0,
-        10300
+        0
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
