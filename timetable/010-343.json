@@ -419,6 +419,46 @@
     ],
     "departureTime": {
       "hour": 11,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        10000
+      ],
+      "초등생": [
+        5000
+      ],
+      "중고생": [
+        8000
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "343-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "343",
+    "durationInMinutes": [
+      75
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 11,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -606,46 +646,6 @@
     "routeId": "343-010",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "343",
-    "durationInMinutes": [
-      75
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        7700
-      ],
-      "초등생": [
-        3900
-      ],
-      "중고생": [
-        6200
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "343-010",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -940,46 +940,6 @@
     "departureTime": {
       "hour": 17,
       "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        10000
-      ],
-      "초등생": [
-        5000
-      ],
-      "중고생": [
-        8000
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "343-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "343",
-    "durationInMinutes": [
-      75
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 17,
-      "minute": 30
     },
     "isTemporaryRoute": false,
     "fare": {
@@ -1357,7 +1317,6 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        44,
         45
       ],
       "busClass": [
@@ -1366,12 +1325,7 @@
     },
     "routeId": "343-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1470,15 +1424,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9200,
         12000
       ],
       "초등생": [
-        4600,
         6000
       ],
       "중고생": [
-        7400,
         9600
       ]
     },
@@ -1486,22 +1437,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        44
+        28
       ],
       "busClass": [
-        "심야고속",
         "심야우등"
       ]
     },
     "routeId": "343-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
