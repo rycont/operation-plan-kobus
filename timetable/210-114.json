@@ -255,12 +255,12 @@
       "fixedDays": [
         3,
         4,
-        5,
         6
       ],
       "irregularDays": [
         1,
         2,
+        5,
         7
       ]
     }
@@ -347,7 +347,8 @@
       "fixedDays": [],
       "irregularDays": [
         1,
-        2
+        2,
+        5
       ]
     }
   },
@@ -398,12 +399,12 @@
       "fixedDays": [
         2,
         3,
-        5,
         6
       ],
       "irregularDays": [
         1,
         4,
+        5,
         7
       ]
     }
@@ -451,6 +452,7 @@
       "irregularDays": [
         1,
         4,
+        5,
         7
       ]
     }
@@ -501,15 +503,55 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        2,
-        5
+        2
       ],
       "irregularDays": [
         3,
         4,
+        5,
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "210",
+    "arrivalTerminalId": "114",
+    "durationInMinutes": [
+      185
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 26
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        31800
+      ],
+      "초등생": [
+        15900
+      ],
+      "중고생": [
+        25400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "프리미엄"
+      ]
+    },
+    "routeId": "114-210",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
