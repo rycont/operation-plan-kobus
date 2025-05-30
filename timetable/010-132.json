@@ -76,12 +76,7 @@
     },
     "routeId": "132-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -327,10 +322,10 @@
         2,
         3,
         4,
+        5,
         7
       ],
       "irregularDays": [
-        5,
         6
       ]
     }
@@ -660,12 +655,7 @@
     },
     "routeId": "132-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1000,10 +990,10 @@
         2,
         3,
         4,
+        5,
         7
       ],
       "irregularDays": [
-        5,
         6
       ]
     }
@@ -1382,12 +1372,7 @@
     },
     "routeId": "132-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1643,8 +1628,7 @@
         4
       ],
       "irregularDays": [
-        2,
-        5
+        2
       ]
     }
   },
@@ -1771,10 +1755,10 @@
         2,
         3,
         4,
+        5,
         7
       ],
       "irregularDays": [
-        5,
         6
       ]
     }
@@ -1817,6 +1801,46 @@
     "routeId": "132-010",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "132",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        4900
+      ],
+      "초등생": [
+        2500
+      ],
+      "중고생": [
+        3400
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "132-010",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
