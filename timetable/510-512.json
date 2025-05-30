@@ -49,6 +49,51 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
+      "hour": 8,
+      "minute": 26
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        6100
+      ],
+      "초등생": [
+        3100
+      ],
+      "중고생": [
+        4900
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "512-510",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "510",
+    "arrivalTerminalId": "512",
+    "durationInMinutes": [
+      30
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
       "hour": 9,
       "minute": 0
     },
@@ -157,10 +202,9 @@
     "routeId": "512-510",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        5
-      ],
+      "fixedDays": [],
       "irregularDays": [
+        5,
         6
       ]
     }
