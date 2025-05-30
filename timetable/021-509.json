@@ -824,8 +824,7 @@
       255
     ],
     "operator": [
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 18,
@@ -855,12 +854,7 @@
     },
     "routeId": "509-021",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        4,
-        5
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1133,6 +1127,46 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "509",
+    "durationInMinutes": [
+      255
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        56700
+      ],
+      "초등생": [
+        28400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        21
+      ],
+      "busClass": [
+        "심야프리미엄"
+      ]
+    },
+    "routeId": "509-021",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
