@@ -735,10 +735,7 @@
     },
     "routeId": "230-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -899,11 +896,13 @@
     },
     "routeId": "230-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -994,7 +993,6 @@
       140
     ],
     "operator": [
-      "(주)동부고속",
       "(주)중앙고속"
     ],
     "departureTime": {
@@ -1028,7 +1026,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1320,7 +1317,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        5,
         6,
         7
       ]
@@ -1404,6 +1400,46 @@
     "routeId": "230-010",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "230",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22300
+      ],
+      "초등생": [
+        11200
+      ],
+      "중고생": [
+        15600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "230-010",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1913,46 +1949,6 @@
       "(주)동부고속"
     ],
     "departureTime": {
-      "hour": 14,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22300
-      ],
-      "초등생": [
-        11200
-      ],
-      "중고생": [
-        15600
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "230-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "230",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
       "hour": 15,
       "minute": 0
     },
@@ -2107,6 +2103,46 @@
     "routeId": "230-010",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "230",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22300
+      ],
+      "초등생": [
+        11200
+      ],
+      "중고생": [
+        15600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "230-010",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2307,46 +2343,6 @@
     "routeId": "230-010",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "230",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 15
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22300
-      ],
-      "초등생": [
-        11200
-      ],
-      "중고생": [
-        15600
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "230-010",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -2597,46 +2593,6 @@
       140
     ],
     "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17200
-      ],
-      "초등생": [
-        8600
-      ],
-      "중고생": [
-        12000
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "230-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "230",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
       "(주)동부고속",
       "(주)중앙고속"
     ],
@@ -2728,46 +2684,6 @@
     ],
     "departureTime": {
       "hour": 20,
-      "minute": 25
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22300
-      ],
-      "초등생": [
-        11200
-      ],
-      "중고생": [
-        15600
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "230-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "230",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 20,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -2795,46 +2711,6 @@
     "routeId": "230-010",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "230",
-    "durationInMinutes": [
-      140
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 20,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        17200
-      ],
-      "초등생": [
-        8600
-      ],
-      "중고생": [
-        12000
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        44
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "230-010",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -3163,10 +3039,7 @@
     },
     "routeId": "230-010",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5
-      ]
+      "type": "even-odd"
     }
   },
   {

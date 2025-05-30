@@ -1110,38 +1110,28 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        5300,
-        6900
+        5300
       ],
       "초등생": [
-        2700,
-        3500
+        2700
       ],
       "중고생": [
-        3700,
-        4800
+        3700
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
         44
       ],
       "busClass": [
-        "고속",
-        "우등"
+        "고속"
       ]
     },
     "routeId": "010-175",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        5,
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
