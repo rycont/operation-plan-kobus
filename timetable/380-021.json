@@ -95,15 +95,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        13500,
         17600
       ],
       "초등생": [
-        6800,
         8800
       ],
       "중고생": [
-        10800,
         14100
       ]
     },
@@ -114,13 +111,52 @@
         28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
     "routeId": "021-380",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "380",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      140
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        17600
+      ],
+      "초등생": [
+        8800
+      ],
+      "중고생": [
+        14100
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-380",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
