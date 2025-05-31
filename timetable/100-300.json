@@ -347,54 +347,12 @@
     },
     "routeId": "300-100",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 1
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18900
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "300-100",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -446,8 +404,7 @@
         4
       ],
       "irregularDays": [
-        5,
-        6
+        5
       ]
     }
   },
@@ -536,46 +493,6 @@
       "days": [
         5
       ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "300",
-    "durationInMinutes": [
-      120
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        18900
-      ],
-      "초등생": [
-        9500
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "300-100",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -712,9 +629,12 @@
     },
     "routeId": "300-100",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5
+      ],
+      "irregularDays": [
+        7
       ]
     }
   },
@@ -799,12 +719,9 @@
     },
     "routeId": "300-100",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -1224,27 +1141,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900,
         18900
       ],
       "초등생": [
-        6500,
         9500
       ],
       "중고생": [
-        0,
-        10300
+        0
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
@@ -2482,27 +2394,22 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900,
         18900
       ],
       "초등생": [
-        6500,
         9500
       ],
       "중고생": [
-        0,
-        10300
+        0
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
