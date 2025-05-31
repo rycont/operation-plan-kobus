@@ -415,11 +415,9 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500,
         13800
       ],
       "초등생": [
-        4800,
         6900
       ],
       "중고생": [
@@ -430,22 +428,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
     "routeId": "021-393",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -584,12 +575,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500,
-        13800
+        9500
       ],
       "초등생": [
-        4800,
-        6900
+        4800
       ],
       "중고생": [
         0
@@ -599,22 +588,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
         45
       ],
       "busClass": [
-        "고속",
-        "우등"
+        "고속"
       ]
     },
     "routeId": "021-393",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1633,11 +1615,9 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500,
         13800
       ],
       "초등생": [
-        4800,
         6900
       ],
       "중고생": [
@@ -1648,22 +1628,15 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
-        45
+        28
       ],
       "busClass": [
-        "고속",
         "우등"
       ]
     },
     "routeId": "021-393",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1744,46 +1717,6 @@
     "routeId": "021-393",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "393",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      100
-    ],
-    "operator": [
-      "(주)충남고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 10
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        9500
-      ],
-      "초등생": [
-        4800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        45
-      ],
-      "busClass": [
-        "고속"
-      ]
-    },
-    "routeId": "021-393",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
