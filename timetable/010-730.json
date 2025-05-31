@@ -869,7 +869,8 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        54200
+        54200,
+        60200
       ],
       "초등생": [
         30100
@@ -890,7 +891,12 @@
     },
     "routeId": "730-010",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
