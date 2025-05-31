@@ -808,8 +808,7 @@
       200
     ],
     "operator": [
-      "(주)중앙고속",
-      "금호익스프레스(주)"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 6,
@@ -818,15 +817,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        20800,
-        30800
+        20800
       ],
       "초등생": [
-        10400,
-        15400
+        10400
       ],
       "중고생": [
-        0,
         16600
       ]
     },
@@ -834,26 +830,21 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28,
         45
       ],
       "busClass": [
-        "고속",
-        "우등"
+        "고속"
       ]
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         1,
         2,
         3,
         4,
         5
-      ],
-      "irregularDays": [
-        6
       ]
     }
   },
@@ -1559,13 +1550,15 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
-        6,
         7
+      ],
+      "irregularDays": [
+        6
       ]
     }
   },
@@ -1765,46 +1758,6 @@
         1,
         6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "021",
-    "durationInMinutes": [
-      200
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 6
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        40000
-      ],
-      "초등생": [
-        20000
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        21
-      ],
-      "busClass": [
-        "프리미엄"
-      ]
-    },
-    "routeId": "021-500",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {

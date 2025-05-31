@@ -305,6 +305,7 @@
       190
     ],
     "operator": [
+      "(주)삼화고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -335,12 +336,15 @@
     },
     "routeId": "700-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },

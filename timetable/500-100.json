@@ -372,6 +372,46 @@
       210
     ],
     "operator": [
+      "(주)한일고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 21
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32800
+      ],
+      "초등생": [
+        16400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "100-500",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
       "(주)삼화고속"
     ],
     "departureTime": {
@@ -671,54 +711,12 @@
     },
     "routeId": "100-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
+        6,
         7
-      ],
-      "irregularDays": [
-        6
       ]
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "100",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(주)한일고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 21
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32800
-      ],
-      "초등생": [
-        16400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "100-500",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -899,6 +897,46 @@
         3,
         4
       ]
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32800
+      ],
+      "초등생": [
+        16400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "100-500",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1443,12 +1481,54 @@
     },
     "routeId": "100-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
-        6,
+        6
+      ],
+      "irregularDays": [
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
+      "(주)한일고속"
+    ],
+    "departureTime": {
+      "hour": 23,
+      "minute": 1
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39300
+      ],
+      "초등생": [
+        19700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "100-500",
+    "pattern": {
+      "type": "even-odd"
     }
   }
 ]
