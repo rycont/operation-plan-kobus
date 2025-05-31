@@ -384,12 +384,7 @@
     },
     "routeId": "823-010",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -439,7 +434,8 @@
       "irregularDays": [
         3,
         4,
-        5
+        5,
+        6
       ]
     }
   },
@@ -531,6 +527,46 @@
     "routeId": "823-010",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "823",
+    "durationInMinutes": [
+      125
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22300
+      ],
+      "초등생": [
+        11200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "823-010",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -813,13 +849,13 @@
       "type": "irregular",
       "fixedDays": [
         1,
-        5
+        5,
+        6
       ],
       "irregularDays": [
         2,
         3,
         4,
-        6,
         7
       ]
     }
@@ -865,15 +901,15 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        6
+        6,
+        7
       ],
       "irregularDays": [
         1,
         2,
         3,
         4,
-        5,
-        7
+        5
       ]
     }
   },
@@ -1054,8 +1090,7 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
-      "(주)한일고속"
+      "(주)중앙고속"
     ],
     "departureTime": {
       "hour": 13,
@@ -1093,7 +1128,6 @@
       "irregularDays": [
         1,
         2,
-        6,
         7
       ]
     }
@@ -1331,48 +1365,9 @@
       125
     ],
     "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22300
-      ],
-      "초등생": [
-        11200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "823-010",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "010",
-    "arrivalTerminalId": "823",
-    "durationInMinutes": [
-      125
-    ],
-    "operator": [
       "(주)동양고속",
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "(주)한일고속"
     ],
     "departureTime": {
       "hour": 15,
@@ -1405,11 +1400,11 @@
       "type": "irregular",
       "fixedDays": [
         2,
-        4
+        4,
+        6
       ],
       "irregularDays": [
         1,
-        6,
         7
       ]
     }
@@ -1547,7 +1542,6 @@
         5
       ],
       "irregularDays": [
-        6,
         7
       ]
     }
@@ -1647,6 +1641,7 @@
       125
     ],
     "operator": [
+      "(주)동양고속",
       "(주)천일고속",
       "(주)한일고속"
     ],
