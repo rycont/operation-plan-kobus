@@ -799,10 +799,7 @@
     },
     "routeId": "722-324",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -1247,13 +1244,13 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2
+        2,
+        6
       ],
       "irregularDays": [
         1,
         3,
-        4,
-        6
+        4
       ]
     }
   },
@@ -2324,10 +2321,7 @@
     },
     "routeId": "722-324",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        6
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -2873,7 +2867,10 @@
     },
     "routeId": "722-324",
     "pattern": {
-      "type": "even-odd"
+      "type": "specific-day",
+      "days": [
+        6
+      ]
     }
   },
   {
