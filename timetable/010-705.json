@@ -859,6 +859,46 @@
       235
     ],
     "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 19,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        36300
+      ],
+      "초등생": [
+        18200
+      ],
+      "중고생": [
+        29000
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "705-010",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "010",
+    "arrivalTerminalId": "705",
+    "durationInMinutes": [
+      235
+    ],
+    "operator": [
       "(주)동양고속"
     ],
     "departureTime": {
@@ -1050,7 +1090,12 @@
     },
     "routeId": "705-010",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        4,
+        7
+      ]
     }
   },
   {
