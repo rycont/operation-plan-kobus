@@ -124,12 +124,14 @@
     },
     "routeId": "500-100",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
-        2,
         3,
         4
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },
@@ -608,6 +610,46 @@
       210
     ],
     "operator": [
+      "(주)한일고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 1
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        32800
+      ],
+      "초등생": [
+        16400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-100",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      210
+    ],
+    "operator": [
       "(주)삼화고속",
       "(주)한일고속"
     ],
@@ -815,12 +857,14 @@
     },
     "routeId": "500-100",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
-        3,
         4
+      ],
+      "irregularDays": [
+        3
       ]
     }
   },
@@ -862,54 +906,12 @@
     },
     "routeId": "500-100",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "100",
-    "arrivalTerminalId": "500",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(주)한일고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 22
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        32800
-      ],
-      "초등생": [
-        16400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "500-100",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -1268,7 +1270,18 @@
     },
     "routeId": "500-100",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2
+      ]
     }
   },
   {
