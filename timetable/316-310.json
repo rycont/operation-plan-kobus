@@ -15,10 +15,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -55,10 +55,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -95,10 +95,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -175,10 +175,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -215,10 +215,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -255,10 +255,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -276,14 +276,17 @@
     },
     "routeId": "310-316",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        7
       ]
     }
   },
@@ -303,10 +306,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0
@@ -324,10 +327,7 @@
     },
     "routeId": "310-316",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -346,10 +346,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        4100
+        3500
       ],
       "초등생": [
-        2100
+        1800
       ],
       "중고생": [
         0

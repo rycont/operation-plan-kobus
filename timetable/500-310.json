@@ -15,10 +15,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -55,10 +55,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -95,10 +95,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -135,10 +135,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        29600
+        28000
       ],
       "초등생": [
-        14800
+        14000
       ],
       "중고생": [
         0
@@ -175,10 +175,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -215,10 +215,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -237,46 +237,6 @@
     "routeId": "310-500",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "310",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "속리산고속(주)"
-    ],
-    "departureTime": {
-      "hour": 14,
-      "minute": 30
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22800
-      ],
-      "초등생": [
-        11400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "310-500",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -295,10 +255,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -316,14 +276,17 @@
     },
     "routeId": "310-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4,
         5,
         6
+      ],
+      "irregularDays": [
+        7
       ]
     }
   },
@@ -343,53 +306,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "310-500",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "500",
-    "arrivalTerminalId": "310",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "금호익스프레스(주)"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        22800
-      ],
-      "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -426,10 +346,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22800
+        22200
       ],
       "초등생": [
-        11400
+        11100
       ],
       "중고생": [
         0
@@ -466,10 +386,10 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        29600
+        28000
       ],
       "초등생": [
-        14800
+        14000
       ],
       "중고생": [
         0
