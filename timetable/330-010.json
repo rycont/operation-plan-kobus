@@ -251,58 +251,7 @@
     },
     "routeId": "010-330",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "330",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 15,
-      "minute": 1
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        20400
-      ],
-      "초등생": [
-        10200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-330",
-    "pattern": {
-      "type": "even-odd"
+      "type": "everyday"
     }
   },
   {
@@ -343,46 +292,6 @@
     "routeId": "010-330",
     "pattern": {
       "type": "everyday"
-    }
-  },
-  {
-    "departureTerminalId": "330",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      150
-    ],
-    "operator": [
-      "(주)삼화고속"
-    ],
-    "departureTime": {
-      "hour": 18,
-      "minute": 0
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        20400
-      ],
-      "초등생": [
-        10200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-330",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
