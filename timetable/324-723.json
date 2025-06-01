@@ -476,12 +476,9 @@
     },
     "routeId": "723-324",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5
-      ],
-      "irregularDays": [
-        7
       ]
     }
   },
@@ -1477,7 +1474,13 @@
     },
     "routeId": "723-324",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {

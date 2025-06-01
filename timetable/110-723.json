@@ -40,9 +40,11 @@
     },
     "routeId": "723-110",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -185,9 +187,11 @@
     },
     "routeId": "723-110",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -287,49 +291,6 @@
       "type": "specific-day",
       "days": [
         5,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "110",
-    "arrivalTerminalId": "723",
-    "durationInMinutes": [
-      215
-    ],
-    "operator": [
-      "(주)동양고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 40
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        31600
-      ],
-      "초등생": [
-        15800
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "723-110",
-    "pattern": {
-      "type": "specific-day",
-      "days": [
         7
       ]
     }
@@ -655,9 +616,11 @@
     },
     "routeId": "723-110",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
@@ -703,9 +666,11 @@
     },
     "routeId": "723-110",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        5,
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
         7
       ]
     }
