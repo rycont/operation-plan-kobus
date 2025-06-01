@@ -224,11 +224,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1
+        1,
+        7
       ],
       "irregularDays": [
-        5,
-        7
+        5
       ]
     }
   },
@@ -1279,7 +1279,13 @@
     },
     "routeId": "325-723",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {
@@ -2297,11 +2303,9 @@
     },
     "routeId": "325-723",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        5
-      ],
-      "irregularDays": [
+      "type": "specific-day",
+      "days": [
+        5,
         7
       ]
     }
