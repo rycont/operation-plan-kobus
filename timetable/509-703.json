@@ -362,11 +362,10 @@
     "routeId": "703-509",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [
-        7
-      ],
+      "fixedDays": [],
       "irregularDays": [
-        5
+        5,
+        7
       ]
     }
   },
@@ -447,10 +446,7 @@
     },
     "routeId": "703-509",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -530,10 +526,7 @@
     },
     "routeId": "703-509",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
