@@ -478,6 +478,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -947,7 +948,18 @@
     },
     "routeId": "300-010",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
     }
   },
   {

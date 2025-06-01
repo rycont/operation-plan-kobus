@@ -37,64 +37,7 @@
     },
     "routeId": "116-202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "irregularDays": [
-        1,
-        7
-      ]
-    }
-  },
-  {
-    "departureTerminalId": "202",
-    "arrivalTerminalId": "116",
-    "durationInMinutes": [
-      155
-    ],
-    "operator": [
-      "(주)동부고속",
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 26
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24900
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        19900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "116-202",
-    "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        1,
-        7
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -135,54 +78,12 @@
     },
     "routeId": "116-202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         5,
-        6
-      ],
-      "irregularDays": [
+        6,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "202",
-    "arrivalTerminalId": "116",
-    "durationInMinutes": [
-      155
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 9,
-      "minute": 26
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24900
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        19900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "116-202",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -223,55 +124,13 @@
     },
     "routeId": "116-202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
-    }
-  },
-  {
-    "departureTerminalId": "202",
-    "arrivalTerminalId": "116",
-    "durationInMinutes": [
-      155
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 10,
-      "minute": 26
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24900
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        19900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "116-202",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -358,55 +217,13 @@
     },
     "routeId": "116-202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         2,
         3,
         4
-      ],
-      "irregularDays": [
-        1
       ]
-    }
-  },
-  {
-    "departureTerminalId": "202",
-    "arrivalTerminalId": "116",
-    "durationInMinutes": [
-      155
-    ],
-    "operator": [
-      "(주)중앙고속"
-    ],
-    "departureTime": {
-      "hour": 13,
-      "minute": 26
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        24900
-      ],
-      "초등생": [
-        12500
-      ],
-      "중고생": [
-        19900
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "116-202",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
@@ -584,11 +401,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        6
       ]
     }
   },
@@ -629,12 +446,7 @@
     },
     "routeId": "116-202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -766,11 +578,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        5
+        5,
+        7
       ],
       "irregularDays": [
-        6,
-        7
+        6
       ]
     }
   },
@@ -811,12 +623,7 @@
     },
     "routeId": "116-202",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        6,
-        7
-      ]
+      "type": "even-odd"
     }
   }
 ]
