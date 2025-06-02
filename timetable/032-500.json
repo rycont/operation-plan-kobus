@@ -49,6 +49,46 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
+      "hour": 7,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33300
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-032",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "032",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
       "hour": 8,
       "minute": 30
     },
@@ -100,12 +140,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        22500
+        22500,
+        33300
       ],
       "초등생": [
-        11300
+        11300,
+        16700
       ],
       "중고생": [
+        0,
         18000
       ]
     },
@@ -116,17 +159,21 @@
         28
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "500-032",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3,
         4
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -173,6 +220,46 @@
         6,
         7
       ]
+    }
+  },
+  {
+    "departureTerminalId": "032",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33300
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-032",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -621,6 +708,46 @@
         3,
         4
       ]
+    }
+  },
+  {
+    "departureTerminalId": "032",
+    "arrivalTerminalId": "500",
+    "durationInMinutes": [
+      220
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        33300
+      ],
+      "초등생": [
+        16700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "500-032",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
