@@ -130,18 +130,18 @@
     ],
     "departureTime": {
       "hour": 10,
-      "minute": 45
+      "minute": 46
     },
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        21500
+        14700
       ],
       "초등생": [
-        10800
+        7400
       ],
       "중고생": [
-        15100
+        11800
       ]
     },
     "stops": [],
@@ -151,12 +151,18 @@
         28
       ],
       "busClass": [
-        "우등"
+        "고속"
       ]
     },
     "routeId": "021-616",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        2,
+        3,
+        4
+      ]
     }
   },
   {
