@@ -3663,13 +3663,11 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
+        1,
         5,
         6
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },

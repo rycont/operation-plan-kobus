@@ -116,18 +116,7 @@
     },
     "routeId": "529-703",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "irregularDays": [
-        1
-      ]
+      "type": "everyday"
     }
   },
   {
@@ -207,7 +196,18 @@
     },
     "routeId": "529-703",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "irregularDays": [
+        5
+      ]
     }
   },
   {
@@ -249,6 +249,7 @@
     "pattern": {
       "type": "specific-day",
       "days": [
+        1,
         5,
         6,
         7
