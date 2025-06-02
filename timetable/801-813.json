@@ -280,7 +280,7 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)천일고속",
+      "(주)중앙고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -839,7 +839,6 @@
     "operator": [
       "(주)동양고속",
       "(주)천일고속",
-      "(주)한일고속",
       "금호익스프레스(주)",
       "속리산고속(주)"
     ],
@@ -883,6 +882,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)한일고속",
       "금호익스프레스(주)"
     ],
     "departureTime": {
@@ -915,11 +915,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         3,
         6
       ],
       "irregularDays": [
-        1,
         2,
         4,
         5,
@@ -935,7 +935,6 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
       "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)"
@@ -970,11 +969,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        1,
         3,
         6
       ],
       "irregularDays": [
+        1,
         2,
         4,
         5,
@@ -1161,10 +1160,10 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        1,
         4
       ],
       "irregularDays": [
-        1,
         2,
         3,
         5,
@@ -1325,6 +1324,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
+      "(주)천일고속",
       "(주)한일고속",
       "금호익스프레스(주)"
     ],
@@ -1611,6 +1611,51 @@
         4,
         5,
         6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "801",
+    "arrivalTerminalId": "813",
+    "durationInMinutes": [
+      65
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        7300
+      ],
+      "초등생": [
+        3700
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "813-801",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        6,
+        7
       ]
     }
   },
