@@ -1131,8 +1131,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 9,
@@ -1342,6 +1341,7 @@
     ],
     "operator": [
       "(주)동양고속",
+      "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)"
     ],
@@ -1417,6 +1417,46 @@
     "routeId": "602-021",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "602",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 55
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        22000
+      ],
+      "초등생": [
+        11000
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "602-021",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1514,7 +1554,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 11,
@@ -2548,7 +2589,6 @@
     ],
     "operator": [
       "(주)동양고속",
-      "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)"
     ],
@@ -4070,8 +4110,7 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속",
-      "금호익스프레스(주)"
+      "(주)천일고속"
     ],
     "departureTime": {
       "hour": 20,
@@ -4321,6 +4360,7 @@
     ],
     "operator": [
       "(주)동양고속",
+      "(주)중앙고속",
       "(주)천일고속",
       "금호익스프레스(주)"
     ],
@@ -4531,6 +4571,46 @@
       160
     ],
     "operator": [
+      "(주)천일고속"
+    ],
+    "departureTime": {
+      "hour": 22,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        26400
+      ],
+      "초등생": [
+        13200
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "심야우등"
+      ]
+    },
+    "routeId": "602-021",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "602",
+    "durationInMinutes": [
+      160
+    ],
+    "operator": [
       "(주)동양고속",
       "(주)중앙고속",
       "(주)천일고속",
@@ -4576,7 +4656,8 @@
     "operator": [
       "(주)동양고속",
       "(주)중앙고속",
-      "(주)천일고속"
+      "(주)천일고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 23,
