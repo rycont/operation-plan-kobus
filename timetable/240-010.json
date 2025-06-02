@@ -884,13 +884,10 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         6,
         7
-      ],
-      "irregularDays": [
-        1
       ]
     }
   },
@@ -991,46 +988,6 @@
       90
     ],
     "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 8,
-      "minute": 50
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        12400
-      ],
-      "초등생": [
-        6200
-      ],
-      "중고생": [
-        0
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "010-240",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "240",
-    "arrivalTerminalId": "010",
-    "durationInMinutes": [
-      90
-    ],
-    "operator": [
       "(주)동부고속",
       "(주)중앙고속"
     ],
@@ -1107,10 +1064,13 @@
     },
     "routeId": "010-240",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        2
       ]
     }
   },

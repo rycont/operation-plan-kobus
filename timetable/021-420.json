@@ -616,14 +616,16 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
@@ -1314,14 +1316,16 @@
     },
     "routeId": "420-021",
     "pattern": {
-      "type": "specific-day",
-      "days": [
-        1,
+      "type": "irregular",
+      "fixedDays": [
         2,
         4,
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        1
       ]
     }
   },
