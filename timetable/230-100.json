@@ -164,7 +164,58 @@
     },
     "routeId": "100-230",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        2
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "230",
+    "arrivalTerminalId": "100",
+    "durationInMinutes": [
+      180
+    ],
+    "operator": [
+      "(주)대원고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 11
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        25600
+      ],
+      "초등생": [
+        12800
+      ],
+      "중고생": [
+        20500
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "100-230",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
