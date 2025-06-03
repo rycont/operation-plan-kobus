@@ -5591,7 +5591,8 @@
         6
       ],
       "irregularDays": [
-        4
+        4,
+        7
       ]
     }
   },
@@ -6104,10 +6105,13 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6
+      ],
+      "irregularDays": [
+        7
       ]
     }
   },
