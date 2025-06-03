@@ -159,11 +159,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -248,11 +248,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -377,11 +377,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -426,11 +426,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -884,7 +884,6 @@
         7
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -927,6 +926,46 @@
     "routeId": "010-174",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -985,12 +1024,15 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        5200,
         6700
       ],
       "초등생": [
+        2600,
         3400
       ],
       "중고생": [
+        3600,
         4700
       ]
     },
@@ -998,20 +1040,26 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        44
       ],
       "busClass": [
+        "고속",
         "우등"
       ]
     },
     "routeId": "010-174",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        2,
+      "fixedDays": [
         3,
         4
+      ],
+      "irregularDays": [
+        1,
+        2,
+        5,
+        6
       ]
     }
   },
@@ -1053,6 +1101,46 @@
     "routeId": "010-174",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1295,11 +1383,11 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -1520,6 +1608,46 @@
       "(주)동양고속"
     ],
     "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
       "hour": 13,
       "minute": 0
     },
@@ -1601,6 +1729,46 @@
     ],
     "departureTime": {
       "hour": 13,
+      "minute": 20
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -1628,6 +1796,46 @@
     "routeId": "010-174",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 13,
+      "minute": 40
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1753,7 +1961,6 @@
         7
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -1921,7 +2128,6 @@
         7
       ],
       "irregularDays": [
-        2,
         5
       ]
     }
@@ -2702,6 +2908,46 @@
       "(주)동양고속"
     ],
     "departureTime": {
+      "hour": 19,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
       "hour": 20,
       "minute": 0
     },
@@ -2730,6 +2976,46 @@
     "routeId": "010-174",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2810,6 +3096,46 @@
     "routeId": "010-174",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "174",
+    "arrivalTerminalId": "010",
+    "durationInMinutes": [
+      45
+    ],
+    "operator": [
+      "(주)동양고속"
+    ],
+    "departureTime": {
+      "hour": 20,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        5200
+      ],
+      "초등생": [
+        2600
+      ],
+      "중고생": [
+        3600
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        44
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "010-174",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
