@@ -129,6 +129,110 @@
       "금호익스프레스(주)"
     ],
     "departureTime": {
+      "hour": 10,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14700,
+        21500
+      ],
+      "초등생": [
+        7400,
+        10800
+      ],
+      "중고생": [
+        11800,
+        17200
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "021-615",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        5
+      ],
+      "irregularDays": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "615",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      155
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 10,
+      "minute": 31
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        14700
+      ],
+      "초등생": [
+        7400
+      ],
+      "중고생": [
+        11800
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "021-615",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [
+        2
+      ],
+      "irregularDays": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "615",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      155
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
       "hour": 12,
       "minute": 55
     },
@@ -157,6 +261,46 @@
     "routeId": "021-615",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "615",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      155
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 14,
+      "minute": 0
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        21500
+      ],
+      "초등생": [
+        10800
+      ],
+      "중고생": [
+        17200
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-615",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {

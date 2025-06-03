@@ -1116,11 +1116,14 @@
     },
     "routeId": "100-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         2,
         3
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
