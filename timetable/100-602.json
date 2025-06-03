@@ -269,6 +269,46 @@
       165
     ],
     "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24100
+      ],
+      "초등생": [
+        12100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "602-100",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "602",
+    "durationInMinutes": [
+      165
+    ],
+    "operator": [
       "(주)삼화고속",
       "(주)천일고속"
     ],
@@ -396,11 +436,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
-        2,
         7
       ],
       "irregularDays": [
         1,
+        2,
         3,
         4,
         5,
@@ -542,12 +582,12 @@
       "type": "irregular",
       "fixedDays": [
         1,
+        2,
         3,
         4,
         6
       ],
       "irregularDays": [
-        2,
         5,
         7
       ]
@@ -590,12 +630,7 @@
     },
     "routeId": "602-100",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        2,
-        7
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -686,6 +721,46 @@
     "routeId": "602-100",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "100",
+    "arrivalTerminalId": "602",
+    "durationInMinutes": [
+      165
+    ],
+    "operator": [
+      "(주)삼화고속"
+    ],
+    "departureTime": {
+      "hour": 15,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24100
+      ],
+      "초등생": [
+        12100
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "602-100",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
