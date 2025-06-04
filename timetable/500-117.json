@@ -77,12 +77,16 @@
     "routeId": "117-500",
     "pattern": {
       "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
+      "fixedDays": [
         1,
+        2,
         3,
         4,
         5
+      ],
+      "irregularDays": [
+        6,
+        7
       ]
     }
   },
@@ -166,6 +170,8 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
+        2,
+        3,
         4,
         5
       ]
@@ -528,7 +534,13 @@
     },
     "routeId": "117-500",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        3,
+        4,
+        7
+      ]
     }
   },
   {
@@ -862,7 +874,8 @@
       "fixedDays": [],
       "irregularDays": [
         4,
-        5
+        5,
+        7
       ]
     }
   },
@@ -1026,7 +1039,6 @@
       "type": "irregular",
       "fixedDays": [],
       "irregularDays": [
-        3,
         4,
         5
       ]
@@ -1563,6 +1575,46 @@
     ],
     "departureTime": {
       "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "117-500",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "117",
+    "durationInMinutes": [
+      260
+    ],
+    "operator": [
+      "광신고속"
+    ],
+    "departureTime": {
+      "hour": 9,
       "minute": 30
     },
     "isTemporaryRoute": false,
@@ -1643,6 +1695,46 @@
     ],
     "departureTime": {
       "hour": 10,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "117-500",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "117",
+    "durationInMinutes": [
+      260
+    ],
+    "operator": [
+      "광신고속"
+    ],
+    "departureTime": {
+      "hour": 10,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -1803,6 +1895,46 @@
     ],
     "departureTime": {
       "hour": 11,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "117-500",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "117",
+    "durationInMinutes": [
+      260
+    ],
+    "operator": [
+      "광신고속"
+    ],
+    "departureTime": {
+      "hour": 11,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -1950,6 +2082,46 @@
     "routeId": "117-500",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "117",
+    "durationInMinutes": [
+      260
+    ],
+    "operator": [
+      "광신고속"
+    ],
+    "departureTime": {
+      "hour": 12,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        39900
+      ],
+      "초등생": [
+        20000
+      ],
+      "중고생": [
+        31900
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "117-500",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
