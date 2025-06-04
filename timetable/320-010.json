@@ -1498,7 +1498,15 @@
     },
     "routeId": "010-320",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        3
+      ],
+      "irregularDays": [
+        4
+      ]
     }
   }
 ]
