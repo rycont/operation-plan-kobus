@@ -561,6 +561,7 @@
       255
     ],
     "operator": [
+      "(주)중앙고속",
       "(주)천일고속"
     ],
     "departureTime": {
@@ -570,32 +571,40 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        26800,
         40000
       ],
       "초등생": [
+        13400,
         20000
       ],
       "중고생": [
-        0
+        0,
+        21400
       ]
     },
     "stops": [],
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        28
+        28,
+        45
       ],
       "busClass": [
+        "고속",
         "우등"
       ]
     },
     "routeId": "700-032",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   }

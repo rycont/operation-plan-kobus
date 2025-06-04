@@ -90,6 +90,46 @@
     ],
     "departureTime": {
       "hour": 12,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        24400
+      ],
+      "초등생": [
+        12200
+      ],
+      "중고생": [
+        19500
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-620",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "620",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      165
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 12,
       "minute": 30
     },
     "isTemporaryRoute": false,
