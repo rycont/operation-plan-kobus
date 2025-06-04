@@ -15,10 +15,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9400
+        9400,
+        13800
       ],
       "초등생": [
-        4700
+        4700,
+        6900
       ],
       "중고생": [
         0
@@ -28,10 +30,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "300-312",
@@ -116,7 +120,58 @@
     },
     "routeId": "300-312",
     "pattern": {
-      "type": "everyday"
+      "type": "irregular",
+      "fixedDays": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "irregularDays": [
+        3
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "312",
+    "arrivalTerminalId": "300",
+    "durationInMinutes": [
+      90
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "300-312",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
