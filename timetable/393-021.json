@@ -250,6 +250,51 @@
     ],
     "departureTime": {
       "hour": 8,
+      "minute": 4
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "한양고속"
+    ],
+    "departureTime": {
+      "hour": 8,
       "minute": 5
     },
     "isTemporaryRoute": false,
@@ -277,6 +322,46 @@
     "routeId": "021-393",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 8,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -397,6 +482,56 @@
     "routeId": "021-393",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 9,
+      "minute": 19
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500,
+        13800
+      ],
+      "초등생": [
+        4800,
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        45
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -529,6 +664,52 @@
       "(주)충남고속"
     ],
     "departureTime": {
+      "hour": 9,
+      "minute": 59
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
       "hour": 10,
       "minute": 0
     },
@@ -575,10 +756,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500
+        9500,
+        13800
       ],
       "초등생": [
-        4800
+        4800,
+        6900
       ],
       "중고생": [
         0
@@ -588,10 +771,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "021-393",
@@ -695,10 +880,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500
+        9500,
+        13800
       ],
       "초등생": [
-        4800
+        4800,
+        6900
       ],
       "중고생": [
         0
@@ -708,10 +895,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "021-393",
@@ -1330,6 +1519,46 @@
     ],
     "departureTime": {
       "hour": 16,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500
+      ],
+      "초등생": [
+        4800
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        45
+      ],
+      "busClass": [
+        "고속"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
       "minute": 20
     },
     "isTemporaryRoute": false,
@@ -1375,10 +1604,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500
+        9500,
+        13800
       ],
       "초등생": [
-        4800
+        4800,
+        6900
       ],
       "중고생": [
         0
@@ -1388,15 +1619,67 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "021-393",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 16,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500,
+        13800
+      ],
+      "초등생": [
+        4800,
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        45
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6,
+        7
+      ]
     }
   },
   {
@@ -1490,6 +1773,56 @@
     ],
     "departureTime": {
       "hour": 17,
+      "minute": 30
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        9500,
+        13800
+      ],
+      "초등생": [
+        4800,
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28,
+        45
+      ],
+      "busClass": [
+        "고속",
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 17,
       "minute": 40
     },
     "isTemporaryRoute": false,
@@ -1557,6 +1890,51 @@
     "routeId": "021-393",
     "pattern": {
       "type": "everyday"
+    }
+  },
+  {
+    "departureTerminalId": "393",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      100
+    ],
+    "operator": [
+      "(주)충남고속"
+    ],
+    "departureTime": {
+      "hour": 18,
+      "minute": 10
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        13800
+      ],
+      "초등생": [
+        6900
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-393",
+    "pattern": {
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        5,
+        6
+      ]
     }
   },
   {
@@ -1775,10 +2153,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500
+        9500,
+        13800
       ],
       "초등생": [
-        4800
+        4800,
+        6900
       ],
       "중고생": [
         0
@@ -1788,10 +2168,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "021-393",
@@ -1855,10 +2237,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        9500
+        9500,
+        13800
       ],
       "초등생": [
-        4800
+        4800,
+        6900
       ],
       "중고생": [
         0
@@ -1868,10 +2252,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "021-393",
