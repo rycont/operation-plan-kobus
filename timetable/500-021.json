@@ -83,9 +83,12 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -475,6 +478,46 @@
       "irregularDays": [
         4
       ]
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "금호익스프레스(주)"
+    ],
+    "departureTime": {
+      "hour": 5,
+      "minute": 15
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        30800
+      ],
+      "초등생": [
+        15400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-500",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -1385,6 +1428,46 @@
         5,
         6
       ]
+    }
+  },
+  {
+    "departureTerminalId": "500",
+    "arrivalTerminalId": "021",
+    "durationInMinutes": [
+      200
+    ],
+    "operator": [
+      "(주)중앙고속"
+    ],
+    "departureTime": {
+      "hour": 7,
+      "minute": 26
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        30800
+      ],
+      "초등생": [
+        15400
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "021-500",
+    "pattern": {
+      "type": "even-odd"
     }
   },
   {
@@ -2031,12 +2114,15 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         6
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -3216,10 +3302,13 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -3571,9 +3660,12 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -3926,9 +4018,12 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -4826,10 +4921,13 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -4929,7 +5027,8 @@
         6
       ],
       "irregularDays": [
-        4
+        4,
+        7
       ]
     }
   },
@@ -5014,11 +5113,14 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1,
         5,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -5059,11 +5161,14 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -5633,11 +5738,14 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -5768,12 +5876,15 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         2,
         3,
         4,
         6
+      ],
+      "irregularDays": [
+        7
       ]
     }
   },
@@ -5934,7 +6045,8 @@
       200
     ],
     "operator": [
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 16,
@@ -5964,9 +6076,12 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         1
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -7057,7 +7172,8 @@
       200
     ],
     "operator": [
-      "(주)중앙고속"
+      "(주)중앙고속",
+      "금호익스프레스(주)"
     ],
     "departureTime": {
       "hour": 18,
@@ -7087,9 +7203,12 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -7829,11 +7948,14 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         6,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
@@ -8360,10 +8482,13 @@
     },
     "routeId": "021-500",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         5,
         7
+      ],
+      "irregularDays": [
+        4
       ]
     }
   },
