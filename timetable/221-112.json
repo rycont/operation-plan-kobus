@@ -6,46 +6,6 @@
       210
     ],
     "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 7,
-      "minute": 35
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27200
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21800
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "112-221",
-    "pattern": {
-      "type": "even-odd"
-    }
-  },
-  {
-    "departureTerminalId": "221",
-    "arrivalTerminalId": "112",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
       "(주)동부고속",
       "(주)동양고속"
     ],
@@ -169,11 +129,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         6
       ],
       "irregularDays": [
         2,
-        3,
         7
       ]
     }
@@ -268,6 +228,7 @@
       ],
       "irregularDays": [
         1,
+        3,
         5,
         6
       ]
@@ -280,8 +241,7 @@
       210
     ],
     "operator": [
-      "(주)동부고속",
-      "(주)동양고속"
+      "(주)동부고속"
     ],
     "departureTime": {
       "hour": 16,
@@ -311,12 +271,7 @@
     },
     "routeId": "112-221",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [],
-      "irregularDays": [
-        3,
-        4
-      ]
+      "type": "even-odd"
     }
   },
   {
@@ -367,46 +322,6 @@
         5,
         7
       ]
-    }
-  },
-  {
-    "departureTerminalId": "221",
-    "arrivalTerminalId": "112",
-    "durationInMinutes": [
-      210
-    ],
-    "operator": [
-      "(주)동부고속"
-    ],
-    "departureTime": {
-      "hour": 19,
-      "minute": 5
-    },
-    "isTemporaryRoute": false,
-    "fare": {
-      "어른": [
-        27200
-      ],
-      "초등생": [
-        13600
-      ],
-      "중고생": [
-        21800
-      ]
-    },
-    "stops": [],
-    "type": "bus",
-    "extra": {
-      "seatsAmount": [
-        28
-      ],
-      "busClass": [
-        "우등"
-      ]
-    },
-    "routeId": "112-221",
-    "pattern": {
-      "type": "even-odd"
     }
   },
   {
