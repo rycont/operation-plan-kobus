@@ -55,9 +55,11 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
+        59100,
         76800
       ],
       "초등생": [
+        29600,
         38400
       ],
       "중고생": [
@@ -68,15 +70,24 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
-        21
+        21,
+        28
       ],
       "busClass": [
+        "심야우등",
         "심야프리미엄"
       ]
     },
     "routeId": "117-735",
     "pattern": {
-      "type": "even-odd"
+      "type": "irregular",
+      "fixedDays": [],
+      "irregularDays": [
+        1,
+        4,
+        5,
+        6
+      ]
     }
   },
   {
