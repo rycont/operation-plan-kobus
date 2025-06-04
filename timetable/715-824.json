@@ -116,10 +116,13 @@
     },
     "routeId": "824-715",
     "pattern": {
-      "type": "specific-day",
-      "days": [
+      "type": "irregular",
+      "fixedDays": [
         6,
         7
+      ],
+      "irregularDays": [
+        5
       ]
     }
   },
@@ -249,13 +252,10 @@
     },
     "routeId": "824-715",
     "pattern": {
-      "type": "irregular",
-      "fixedDays": [
+      "type": "specific-day",
+      "days": [
         4,
         7
-      ],
-      "irregularDays": [
-        3
       ]
     }
   },
@@ -343,11 +343,11 @@
     "pattern": {
       "type": "irregular",
       "fixedDays": [
+        3,
         6
       ],
       "irregularDays": [
-        2,
-        3
+        2
       ]
     }
   },
