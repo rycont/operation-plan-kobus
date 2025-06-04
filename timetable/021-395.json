@@ -15,10 +15,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900
+        12900,
+        18900
       ],
       "초등생": [
-        6500
+        6500,
+        9500
       ],
       "중고생": [
         0
@@ -28,10 +30,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "395-021",
@@ -289,6 +293,46 @@
       "한양고속"
     ],
     "departureTime": {
+      "hour": 11,
+      "minute": 50
+    },
+    "isTemporaryRoute": false,
+    "fare": {
+      "어른": [
+        18900
+      ],
+      "초등생": [
+        9500
+      ],
+      "중고생": [
+        0
+      ]
+    },
+    "stops": [],
+    "type": "bus",
+    "extra": {
+      "seatsAmount": [
+        28
+      ],
+      "busClass": [
+        "우등"
+      ]
+    },
+    "routeId": "395-021",
+    "pattern": {
+      "type": "even-odd"
+    }
+  },
+  {
+    "departureTerminalId": "021",
+    "arrivalTerminalId": "395",
+    "durationInMinutes": [
+      130
+    ],
+    "operator": [
+      "한양고속"
+    ],
+    "departureTime": {
       "hour": 12,
       "minute": 5
     },
@@ -495,10 +539,12 @@
     "isTemporaryRoute": false,
     "fare": {
       "어른": [
-        12900
+        12900,
+        18900
       ],
       "초등생": [
-        6500
+        6500,
+        9500
       ],
       "중고생": [
         0
@@ -508,10 +554,12 @@
     "type": "bus",
     "extra": {
       "seatsAmount": [
+        28,
         45
       ],
       "busClass": [
-        "고속"
+        "고속",
+        "우등"
       ]
     },
     "routeId": "395-021",
